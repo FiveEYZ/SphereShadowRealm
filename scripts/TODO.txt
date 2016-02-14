@@ -1,14 +1,4 @@
 need to see if it works properly
 
 
-test repo auto update
-
-cmon lets see that update
-
-more updates!
-
-moremore
-
-i give up soon
-
-sigh
+ok lets try another php script
