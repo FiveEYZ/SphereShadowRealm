@@ -5,7 +5,7 @@ NAME=Warrior
 TYPE=t_telepad
 
 ON=@STEP
-if (<src.body> == c_man)
+if (<src.body> == c_man) || (<src.body> == c_woman)
 	src.skillclass=Class_human_warrior
 endif
 
