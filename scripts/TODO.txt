@@ -1,7 +1,23 @@
-need to see if it works proper
+-Class/race System
 
+-Crafting System
+--Crafting Materials
 
-as it should do now
+-World Spawning
+--Dungeons
+--Towns
+--Outside world
 
+-Loot Tables
 
-:D
+-Guild system remake
+--Add officer tab
+--Add guild color
+
+-Look over skill functions
+
+-Make world .mul files to match the server lore
+
+-Make a website
+
+-Look over the housing system and make changes accordingly
