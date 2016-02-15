@@ -42,4 +42,6 @@
 
 -Script Travel Mages
 
+-Define the rp rules for the server
+
 
