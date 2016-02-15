@@ -1,10 +1,4 @@
-need to see if it works properly
+need to see if it works proper
 
 
-ok lets try another php script
-
-cmon now!
-
-more more more
-
-:O
+as it should do now
