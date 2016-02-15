@@ -1,7 +1,23 @@
 -Class/race System
+--Decide what races to have
+---Decide Stat caps and race traits for races
 
+--Decide What classes to have
+---Decide invidual skill caps for said classes
+----Decide what things to be locked for diffrent classes (ex Archer can only wear leather-chain mail mages only leather-studeed leather)
+
+--Script races and classes
+--Write class/race lore and posting it on the website
+ 
 -Crafting System
---Crafting Materials
+--Blacksmithing
+--Tailoring
+--Carpentry
+--Alchemy
+--Inscription
+--Poisoning
+--Mining
+--Lumbering
 
 -World Spawning
 --Dungeons
@@ -17,11 +33,12 @@
 -Look over skill functions
 
 -Make world .mul files to match the server lore
+--Design race towns
 
 -Make a website
 
 -Look over the housing system and make changes accordingly
 
--Write class/race lore and posting it on the website
+-Script Travel Mages
 
 
