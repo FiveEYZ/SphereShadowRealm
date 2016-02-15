@@ -42,6 +42,8 @@
 
 -Script Travel Mages
 
--Define the rp rules for the server
+-- Important!! Fighting, the right swing speed for monsters and players! = str-dex 
+
+-- remove text for hits , emersive
 
 
