@@ -1,0 +1,12 @@
+[ITEMDEF i_warrior_class]
+ID=i_rune_alchem_10
+DEFNAME=i_warrior_class
+NAME=Warrior
+TYPE=t_telepad
+
+ON=@STEP
+if (<src.body> == c_man)
+	src.skillclass=Class_human_warrior
+endif
+
+[EOF]
