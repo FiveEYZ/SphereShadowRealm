@@ -1226,7 +1226,7 @@ Throwing=100.0
 
 DEFNAME=Class_human_warrior
 NAME=undeclared
-EVENTS=e_human_warrior
+//EVENTS=e_human_warrior
 STATSUM=260
 SKILLSUM=10000.0
 STR=85
@@ -1299,7 +1299,7 @@ Throwing=100.0
 
 DEFNAME=Class_human_novice
 NAME=undeclared
-EVENTS=e_human_novice
+//EVENTS=e_human_novice
 STATSUM=260
 SKILLSUM=10000.0
 STR=85
@@ -1372,7 +1372,7 @@ Throwing=100.0
 
 DEFNAME=Class_human_crafter
 NAME=undeclared
-EVENTS=e_human_crafter
+//EVENTS=e_human_crafter
 STATSUM=260
 SKILLSUM=10000.0
 STR=85
@@ -1445,7 +1445,7 @@ Throwing=100.0
 
 DEFNAME=Class_human_archer
 NAME=undeclared
-EVENTS=e_human_archer
+//EVENTS=e_human_archer
 STATSUM=260
 SKILLSUM=10000.0
 STR=85
