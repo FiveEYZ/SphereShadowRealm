@@ -25,6 +25,7 @@
 --Outside world
 
 -Loot Tables
+--Clear the loot table of items we dont want on our server
 
 -Guild system remake
 --Add officer tab
