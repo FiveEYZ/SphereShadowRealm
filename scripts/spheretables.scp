@@ -13,56 +13,56 @@ VERSION=0.56
 [RESOURCES]
 // sphere.ini and spheretable.scp are automatic.
 // All the other scripts we want to load.
-scripts/sphere_defs.scp
-scripts/sphere_types.scp
-scripts/sphere_book.scp
-scripts/sphere_backward_compatibility.scp
-scripts/sphere_events_human.scp
-scripts/sphere_events_npcs.scp
-scripts/npcs/
-scripts/sphere_admin.scp
-scripts/sphere_dialog.scp
-scripts/items/sphere_item_resources.scp
-scripts/items/
-scripts/sphere_region.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_defs.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_types.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_book.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_backward_compatibility.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_events_human.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_events_npcs.scp
+C:/Dropbox/SphereShadowRealm/scripts/npcs/
+C:/Dropbox/SphereShadowRealm/scripts/sphere_admin.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_dialog.scp
+C:/Dropbox/SphereShadowRealm/scripts/items/sphere_item_resources.scp
+C:/Dropbox/SphereShadowRealm/scripts/items/
+C:/Dropbox/SphereShadowRealm/scripts/sphere_region.scp
 // -----------------------------------
 //          	Maps
 // -----------------------------------
-scripts/maps/sphere_map0.scp
-// scripts/maps/sphere_map0_ml.scp
-scripts/maps/sphere_map1.scp
-scripts/maps/sphere_map2.scp
-scripts/maps/sphere_map3.scp
-scripts/maps/sphere_map4.scp
-scripts/maps/sphere_map5.scp
-scripts/maps/sphere_map_points0.scp
-// scripts/maps/sphere_map_points0_ml.scp
-scripts/maps/sphere_map_points1.scp
-scripts/maps/sphere_map_points2.scp
-scripts/maps/sphere_map_points3.scp
-scripts/maps/sphere_map_points4.scp
-scripts/maps/sphere_map_points5.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map0.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map0_ml.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map1.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map2.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map3.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map4.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map5.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map_points0.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map_points0_ml.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map_points1.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map_points2.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map_points3.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map_points4.scp
+C:/Dropbox/SphereShadowRealm/scripts/maps/sphere_map_points5.scp
 // -----------------------------------
-scripts/sphere_menu.scp
-scripts/sphere_name.scp
-scripts/sphere_skillmenu.scp
-scripts/sphere_spawns.scp
-scripts/sphere_speech.scp
-scripts/sphere_skills.scp
-scripts/sphere_spells.scp
-scripts/sphere_newb.scp
-scripts/sphere_template.scp
-scripts/sphere_template_loot.scp
-scripts/sphere_template_vend.scp
-scripts/sphere_triggers.scp
-scripts/sphere_serv_triggers.scp
-scripts/speech/
+C:/Dropbox/SphereShadowRealm/scripts/sphere_menu.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_name.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_skillmenu.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_spawns.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_speech.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_skills.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_spells.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_newb.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_template.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_template_loot.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_template_vend.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_triggers.scp
+C:/Dropbox/SphereShadowRealm/scripts/sphere_serv_triggers.scp
+C:/Dropbox/SphereShadowRealm/scripts/speech/
 // -----------------------------------
 //          Stone system
 // -----------------------------------
-scripts/stones/
-scripts/stones/guilds/
-scripts/stones/towns/
+C:/Dropbox/SphereShadowRealm/scripts/stones/
+C:/Dropbox/SphereShadowRealm/scripts/stones/guilds/
+C:/Dropbox/SphereShadowRealm/scripts/stones/towns/
 // -----------------------------------
 // scripts/custom/
 
