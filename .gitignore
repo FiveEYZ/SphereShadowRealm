@@ -1,0 +1,10 @@
+*.dll
+*.mul
+accounts/sphereaccu.scp
+sphere_types.scp
+*.exe
+sphere_serv_triggers.scp
+sphere.pid
+sphere_msgs.scp
+sphereCrypt.ini
+sphere.dic
