@@ -21,3 +21,7 @@
 -Make a website
 
 -Look over the housing system and make changes accordingly
+
+-Write class/race lore and posting it on the website
+
+
