@@ -26,7 +26,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=4
 SKILLREQ=MAGERY 1.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 1]
 // NOTE: This spell at low levels is deadly and can stop a player from running at high level an annoyance at best
@@ -44,7 +44,7 @@ EFFECT=3,15
 DURATION=2*60.0,3*60.0
 MANAUSE=4
 SKILLREQ=MAGERY 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 2]
 DEFNAME=s_create_food
@@ -61,7 +61,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=4
 SKILLREQ=MAGERY 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 3]
 DEFNAME=s_feeblemind
@@ -78,7 +78,7 @@ EFFECT=5,10
 DURATION=2*60.0,3*60.0
 MANAUSE=4
 SKILLREQ=MAGERY 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 4]
 DEFNAME=s_heal
@@ -95,7 +95,7 @@ EFFECT=5,20
 DURATION=0.0
 MANAUSE=4
 SKILLREQ=MAGERY 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 5]
 DEFNAME=s_magic_arrow
@@ -112,7 +112,7 @@ EFFECT=5,15
 DURATION=0.0
 MANAUSE=4
 SKILLREQ=MAGERY 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 6]
 DEFNAME=s_night_sight
@@ -129,7 +129,7 @@ EFFECT=0
 DURATION=3*60.0,10*60.0
 MANAUSE=4
 SKILLREQ=MAGERY 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 7]
 DEFNAME=s_reactive_armor
@@ -146,7 +146,7 @@ EFFECT=10.0,60.0
 DURATION=3*60.0,5*60.0
 MANAUSE=4
 SKILLREQ=MAGERY 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 8]
 DEFNAME=s_weaken
@@ -163,7 +163,7 @@ EFFECT=5,30
 DURATION=2*60.0,3*60.0
 MANAUSE=4
 SKILLREQ=MAGERY 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 9]
 // Raise dex
@@ -181,7 +181,7 @@ EFFECT=5,20
 DURATION=2*60.0,3*60.0
 MANAUSE=6
 SKILLREQ=MAGERY 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 10]
 // Raise int.
@@ -199,7 +199,7 @@ EFFECT=5,20
 DURATION=2*60.0,3*60.0
 MANAUSE=6
 SKILLREQ=MAGERY 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 11]
 DEFNAME=s_cure
@@ -216,7 +216,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=6
 SKILLREQ=MAGERY 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 12]
 DEFNAME=s_harm
@@ -233,7 +233,7 @@ EFFECT=5,16
 DURATION=0.0
 MANAUSE=6
 SKILLREQ=MAGERY 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 13]
 DEFNAME=s_magic_trap
@@ -250,7 +250,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=6
 SKILLREQ=MAGERY 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 14]
 DEFNAME=s_magic_untrap
@@ -267,7 +267,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=6
 SKILLREQ=MAGERY 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 15]
 DEFNAME=s_protection
@@ -284,7 +284,7 @@ EFFECT=5,35
 DURATION=3*60.0,5*60.0
 MANAUSE=6
 SKILLREQ=MAGERY 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 16]
 DEFNAME=s_strength
@@ -301,7 +301,7 @@ EFFECT=5,15
 DURATION=2*60.0,3*60.0
 MANAUSE=6
 SKILLREQ=MAGERY 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 17]
 DEFNAME=s_bless
@@ -318,7 +318,7 @@ EFFECT=5,20
 DURATION=2*60.0,3*60.0
 MANAUSE=9
 SKILLREQ=MAGERY 30.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 18]
 DEFNAME=s_fireball
@@ -335,7 +335,7 @@ EFFECT=8,16
 DURATION=0.0
 MANAUSE=9
 SKILLREQ=MAGERY 30.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 19]
 DEFNAME=s_magic_lock
@@ -352,7 +352,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=9
 SKILLREQ=MAGERY 30.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 20]
 // NOTE: Does poison need a duration or are they stuck with it until cured ??
@@ -370,7 +370,7 @@ EFFECT=0	// 100,750
 DURATION=1.0,15.0
 MANAUSE=9
 SKILLREQ=MAGERY 30.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 21]
 DEFNAME=s_telekinesis
@@ -387,7 +387,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=9
 SKILLREQ=MAGERY 30.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 22]
 DEFNAME=s_teleport
@@ -404,7 +404,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=11
 SKILLREQ=MAGERY 30.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 23]
 DEFNAME=s_unlock
@@ -421,7 +421,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=9
 SKILLREQ=MAGERY 30.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 24]
 DEFNAME=s_wall_of_stone
@@ -438,7 +438,7 @@ EFFECT=0
 DURATION=2*60.0,4*60.0
 MANAUSE=9
 SKILLREQ=MAGERY 30.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 25]
 DEFNAME=s_archcure
@@ -455,7 +455,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=11
 SKILLREQ=MAGERY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 26]
 DEFNAME=s_archprotection
@@ -472,7 +472,7 @@ EFFECT=5,15
 DURATION=30.0,1000.0
 MANAUSE=11
 SKILLREQ=MAGERY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 27]
 DEFNAME=s_curse
@@ -489,7 +489,7 @@ EFFECT=5,15
 DURATION=10.0,60.0
 MANAUSE=11
 SKILLREQ=MAGERY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 28]
 DEFNAME=s_fire_field
@@ -506,7 +506,7 @@ EFFECT=2,12
 DURATION=2*60.0,4*60.0
 MANAUSE=11
 SKILLREQ=MAGERY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 29]
 DEFNAME=s_greater_heal
@@ -540,7 +540,7 @@ EFFECT=10,20
 DURATION=0.0
 MANAUSE=11
 SKILLREQ=MAGERY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 31]
 DEFNAME=s_mana_drain
@@ -557,7 +557,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=11
 SKILLREQ=MAGERY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 32]
 DEFNAME=s_recall
@@ -574,7 +574,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=11
 SKILLREQ=MAGERY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 33]
 // NOTE: Blade Spirits is a popular kill-all, basically a loot gatherer with little to no reprecusions to the player, keep summon time a bit low to counter that a bit.
@@ -592,7 +592,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=14
 SKILLREQ=MAGERY 50.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 34]
 DEFNAME=s_dispel_field
@@ -609,7 +609,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=14
 SKILLREQ=MAGERY 50.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 35]
 // NOTE: This spell is used primarily for roleplaying purposes or for avoiding being killed if red. The longer duration would not unbalance gameplay in any way I could see.
@@ -627,7 +627,7 @@ EFFECT=0
 DURATION=5*60.0,8*60.0
 MANAUSE=14
 SKILLREQ=MAGERY 50.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 36]
 // NOTE: This is a proactive type of protection that no one wants to see run out. Because of it's level and the amount of reagents I would think this spell last a bit longer in light of it only being a one time reflect as opposed to Reactive and protection. Should it have a duration at all or remain until dispel'ed or hit ???
@@ -645,7 +645,7 @@ EFFECT=0
 DURATION=4*60.0,8*60.0
 MANAUSE=14
 SKILLREQ=MAGERY 50.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 37]
 DEFNAME=s_mind_blast
@@ -662,7 +662,7 @@ EFFECT=5,20
 DURATION=0.0
 MANAUSE=14
 SKILLREQ=MAGERY 50.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 38]
 // keep min duration a bit low here, paralyze is a killer in the hands of PK's. A powerful PK only needs a sec to kill you anyways.
@@ -680,7 +680,7 @@ EFFECT=0
 DURATION=60.0,3*60.0
 MANAUSE=14
 SKILLREQ=MAGERY 50.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 39]
 DEFNAME=s_poison_field
@@ -697,7 +697,7 @@ EFFECT=5,50 // 50,500
 DURATION=2*60.0,4*60.0
 MANAUSE=14
 SKILLREQ=MAGERY 50.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 40]
 // NOTE: This spell is the mages first true form of combat at low levels. One of the main uses is summoning a horse to travel. Don't set to low.
@@ -715,7 +715,7 @@ EFFECT=0
 DURATION=3*60.0,5*60.0
 MANAUSE=14
 SKILLREQ=MAGERY 50.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 41]
 DEFNAME=s_dispel
@@ -732,7 +732,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=20
 SKILLREQ=MAGERY 60.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 42]
 DEFNAME=s_energy_bolt
@@ -749,7 +749,7 @@ EFFECT=10,45
 DURATION=0.0
 MANAUSE=20
 SKILLREQ=MAGERY 60.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 43]
 DEFNAME=s_explosion
@@ -766,7 +766,7 @@ EFFECT=15,35
 DURATION=0.0
 MANAUSE=20
 SKILLREQ=MAGERY 60.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 44]
 // NOTE: Used primarily to regain mana while fighting or cast helpful spells without incurring attack. Duration should reflect the non-offensive use of this spell
@@ -784,7 +784,7 @@ EFFECT=0
 DURATION=3*60.0,5*60.0
 MANAUSE=20
 SKILLREQ=MAGERY 60.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 ON=@Effect
  FLAGS &= ~statf_hidden
@@ -804,7 +804,7 @@ EFFECT=1,10
 DURATION=0.0
 MANAUSE=20
 SKILLREQ=MAGERY 60.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 46]
 DEFNAME=s_mass_curse
@@ -821,7 +821,7 @@ EFFECT=5,30
 DURATION=0.0
 MANAUSE=20
 SKILLREQ=MAGERY 60.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 47]
 DEFNAME=s_paralyzation_field
@@ -838,7 +838,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=20
 SKILLREQ=MAGERY 60.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 48]
 DEFNAME=s_reveal
@@ -855,7 +855,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=20
 SKILLREQ=MAGERY 60.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 49]
 DEFNAME=s_chain_lightning
@@ -872,7 +872,7 @@ EFFECT=10,20
 DURATION=0.0
 MANAUSE=40
 SKILLREQ=MAGERY 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 50]
 DEFNAME=s_energy_field
@@ -889,7 +889,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=40
 SKILLREQ=MAGERY 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 51]
 DEFNAME=s_flamestrike
@@ -906,7 +906,7 @@ EFFECT=25,50
 DURATION=0.0
 MANAUSE=40
 SKILLREQ=MAGERY 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 510]
 DEFNAME=s_flamestrike_scroll
@@ -923,7 +923,7 @@ EFFECT=25,50
 DURATION=0.0
 MANAUSE=0
 SKILLREQ=MAGERY 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 52]
 // NOTE: should be set to less then a minute?? Gate has been known to be the downfall of innocent travellers. Down-side would be for large groups. With that in mind, one minute should suffice.
@@ -941,7 +941,7 @@ EFFECT=0
 DURATION=60.0
 MANAUSE=40
 SKILLREQ=MAGERY 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 53]
 DEFNAME=s_mana_vampire
@@ -958,7 +958,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=40
 SKILLREQ=MAGERY 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 54]
 DEFNAME=s_mass_dispel
@@ -975,7 +975,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=40
 SKILLREQ=MAGERY 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 55]
 // NOTE: Does Meteor Swarm have a duration or does it just send out one blast of 'rocks' ??? IF a duration then certainly no more the 30secs IMO.
@@ -993,7 +993,7 @@ EFFECT=35,50
 DURATION=0.0
 MANAUSE=40
 SKILLREQ=MAGERY 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 56]
 DEFNAME=s_polymorph
@@ -1011,7 +1011,7 @@ DURATION=5*60.0,8*60.0
 MANAUSE=40
 SKILLREQ=MAGERY 70.0
 // NOTE: This is a Mages true form of attack/defence at higher levels. Due to the level I would suggest having decent levels to the duration. Have incognito and polymorph match in duration as they are often used in conjunction
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 57]
 DEFNAME=s_earthquake
@@ -1029,7 +1029,7 @@ DURATION=30.0
 MANAUSE=50
 SKILLREQ=MAGERY 80.0
 // NOTE: does Earthquake use a duration?? IF so, no more then 30secs. This spell is more like an irradiating wave thus should have a set distance/time it can be effective
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 58]
 DEFNAME=s_energy_vortex
@@ -1046,7 +1046,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=50
 SKILLREQ=MAGERY 80.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 59]
 DEFNAME=s_resurrection
@@ -1063,7 +1063,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=50
 SKILLREQ=MAGERY 80.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 60]
 DEFNAME=s_summon_elem_air
@@ -1080,7 +1080,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=50
 SKILLREQ=MAGERY 80.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 61]
 DEFNAME=s_summon_daemon
@@ -1097,7 +1097,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=50
 SKILLREQ=MAGERY 80.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 62]
 DEFNAME=s_summon_elem_earth
@@ -1114,7 +1114,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=50
 SKILLREQ=MAGERY 80.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 63]
 DEFNAME=s_summon_elem_fire
@@ -1131,7 +1131,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=50
 SKILLREQ=MAGERY 80.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 64]
 DEFNAME=s_summon_elem_water
@@ -1148,7 +1148,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=50
 SKILLREQ=MAGERY 80.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 65]
 DEFNAME=s_summon_undead
@@ -1165,7 +1165,7 @@ EFFECT=0
 DURATION=2*60.0,3*60.0
 MANAUSE=15
 SKILLREQ=MAGERY 30.0, NECROMANCY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 66]
 DEFNAME=s_animate_dead
@@ -1183,7 +1183,7 @@ DURATION=2*60.0,3*60.0
 MANAUSE=15
 // NOTE: This spell, in past testings, when used on a player corpse, would cause the loss of all players effects upon decay. I suggest code that when used on a player corpse and the player is in the area that it ressurects the player, retains the items, but leaves him controlled by the caster for the duration of the spell, like a pet  :)
 SKILLREQ=MAGERY 30.0, NECROMANCY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 67]
 DEFNAME=s_bone_armor
@@ -1200,7 +1200,7 @@ EFFECT=0
 DURATION=0.0
 MANAUSE=15
 SKILLREQ=MAGERY 30.0, NECROMANCY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 68]
 DEFNAME=s_light
@@ -1217,7 +1217,7 @@ EFFECT=0
 DURATION=3*60.0,5*60.0
 MANAUSE=15
 SKILLREQ=MAGERY 30.0, NECROMANCY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 69]
 DEFNAME=s_fire_bolt
@@ -1234,7 +1234,7 @@ EFFECT=30,50
 DURATION=0.0
 MANAUSE=15
 SKILLREQ=MAGERY 30.0, NECROMANCY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 70]
 DEFNAME=s_Hallucination
@@ -1251,7 +1251,7 @@ EFFECT=2,5
 DURATION=2*60.0,4*60.0
 MANAUSE=15
 SKILLREQ=MAGERY 30.0, NECROMANCY 40.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 // Potions are just spells that have and effect attached at the potion layer.
 // All spells and potion effects can be added to equipped items.
@@ -1416,7 +1416,7 @@ EFFECT=5,15
 DURATION=0.0
 MANAUSE=4
 SKILLREQ=MYSTICISM 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 679]
 // conjures healing stone to heal caster when used
@@ -1433,7 +1433,7 @@ EFFECT=5,20
 DURATION=0.0
 MANAUSE=4
 SKILLREQ=MYSTICISM 10.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 680]
 // dispels beneficial spell from target
@@ -1450,7 +1450,7 @@ EFFECT=3,15
 DURATION=0.0
 MANAUSE=6
 SKILLREQ=MYSTICISM 8.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 681]
 // enchants weapon with selected spell
@@ -1467,7 +1467,7 @@ EFFECT=3,15
 DURATION=45.0,60.0
 MANAUSE=6
 SKILLREQ=MYSTICISM 8.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 682]
 // sends target to sleep (unable to attack or cast, slow movement)
@@ -1484,7 +1484,7 @@ EFFECT=5,30
 DURATION=45.0,60.0
 MANAUSE=9
 SKILLREQ=MYSTICISM 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 683]
 // summons an eagle
@@ -1501,7 +1501,7 @@ EFFECT=5,30
 DURATION=0.0
 MANAUSE=9
 SKILLREQ=MYSTICISM 20.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 684]
 // summons an animated weapon to automatically fight
@@ -1518,7 +1518,7 @@ EFFECT=5,30
 DURATION=45.0,60.0
 MANAUSE=11
 SKILLREQ=MYSTICISM 33.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 685]
 // improves caster physical stats and armour, reduces movement/casting/attack speed
@@ -1535,7 +1535,7 @@ EFFECT=5,30
 DURATION=45.0,60.0
 MANAUSE=11
 SKILLREQ=MYSTICISM 33.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 686]
 // charges a spell stone with a selected spell, to be instantly cast when used
@@ -1552,7 +1552,7 @@ EFFECT=5,30
 DURATION=0.0
 MANAUSE=14
 SKILLREQ=MYSTICISM 45.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 687]
 // area-effect sleep
@@ -1569,7 +1569,7 @@ EFFECT=5,30
 DURATION=0.0
 MANAUSE=14
 SKILLREQ=MYSTICISM 45.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 688]
 // cure, remove curse and heal target
@@ -1586,7 +1586,7 @@ EFFECT=5,30
 DURATION=0.0
 MANAUSE=20
 SKILLREQ=MYSTICISM 58.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 689]
 // damages target, chance to knockback/stun
@@ -1603,7 +1603,7 @@ EFFECT=5,30
 DURATION=0.0
 MANAUSE=20
 SKILLREQ=MYSTICISM 58.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 690]
 // area of effect, affected targets receive damage when dealing damage (attack/spell)
@@ -1620,7 +1620,7 @@ EFFECT=5,30
 DURATION=0.0
 MANAUSE=40
 SKILLREQ=MYSTICISM 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 691]
 // area of effect, deals damage
@@ -1637,7 +1637,7 @@ EFFECT=5,30
 DURATION=0.0
 MANAUSE=40
 SKILLREQ=MYSTICISM 70.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 692]
 // area of effect, deals damage and reduces mana/stamina
@@ -1654,7 +1654,7 @@ EFFECT=5,30
 DURATION=30.0,.45.0
 MANAUSE=50
 SKILLREQ=MYSTICISM 83.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 [Spell 693]
 // summons colossal stone titan
@@ -1671,7 +1671,7 @@ EFFECT=5,30
 DURATION=30.0,.45.0
 MANAUSE=50
 SKILLREQ=MYSTICISM 83.0
-INTERRUPT=100.0,100.0
+INTERRUPT=0.0,0.0
 
 //
 // Bard spells - Basic definitions, no further info
