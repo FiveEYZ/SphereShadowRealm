@@ -800,12 +800,12 @@ TYPE=T_EQ_HORSE
 LAYER=layer_horse
 TDATA3=c_m_hiryu
 
-[ITEMDEF 03ead]
-//deck (really used as horse equipped)
-DEFNAME=i_mt_kirin
-TYPE=T_EQ_HORSE
-LAYER=layer_horse
-TDATA3=c_kirin
+//[ITEMDEF 03ead]
+////deck (really used as horse equipped)
+//DEFNAME=i_mt_kirin
+//TYPE=T_EQ_HORSE
+//LAYER=layer_horse
+//TDATA3=c_kirin
 
 [ITEMDEF 03eb4]
 //prow (really used as horse equipped)
