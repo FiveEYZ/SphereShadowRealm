@@ -116,6 +116,7 @@ DUPEITEM=013bf
 
 [ITEMDEF 013c5]
 DEFNAME=i_leather_sleeves
+TDATA3=2
 TYPE=t_armor_leather
 RESOURCES=4 i_hides_cut
 SKILLMAKE=TAILORING 53.9, t_sewing_kit
