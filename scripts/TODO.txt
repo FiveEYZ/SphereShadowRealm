@@ -48,4 +48,6 @@
 
 -- remove text for hits , emersive
 
+-Spawn every god damn mine with minerals
+
 
