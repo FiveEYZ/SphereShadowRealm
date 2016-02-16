@@ -135,6 +135,7 @@ HITPOINTS={25 30}
 
 [ITEMDEF 013c6]
 DEFNAME=i_leather_gloves
+TDATA3=2
 TYPE=t_armor_leather
 RESOURCES=3 i_hides_cut
 SKILLMAKE=TAILORING 51.8, t_sewing_kit
@@ -153,6 +154,7 @@ HITPOINTS={25 30}
 
 [ITEMDEF 013c7]
 DEFNAME=i_leather_gorget
+TDATA3=2
 TYPE=t_armor_leather
 RESOURCES=4 i_hides_cut
 SKILLMAKE=TAILORING 53.9, t_sewing_kit
@@ -204,6 +206,7 @@ HITPOINTS={25 30}
 
 [ITEMDEF 013cb]
 DEFNAME=i_leather_leggings
+TDATA3=2
 TYPE=t_armor_leather
 RESOURCES=10 i_hides_cut
 SKILLMAKE=TAILORING 66.3, t_sewing_kit
@@ -222,6 +225,7 @@ HITPOINTS={25 30}
 
 [ITEMDEF 013cc]
 DEFNAME=i_leather_tunic
+TDATA3=2
 TYPE=t_armor_leather
 RESOURCES=12 i_hides_cut
 SKILLMAKE=TAILORING 70.5, t_sewing_kit
@@ -268,6 +272,7 @@ DUPEITEM=013cc
 
 [ITEMDEF 013d4]
 DEFNAME=i_studded_sleeves
+TDATA3=3
 TYPE=T_ARMOR
 RESOURCES=10 i_hides_cut
 WEIGHT=8
@@ -286,6 +291,7 @@ HITPOINTS={50 60}
 
 [ITEMDEF 013d5]
 DEFNAME=i_studded_gloves
+TDATA3=3
 TYPE=t_armor
 SKILLMAKE=TAILORING 82.9, t_sewing_kit
 RESOURCES=8 i_hides_cut
@@ -304,6 +310,7 @@ HITPOINTS={50 60}
 
 [ITEMDEF 013d6]
 DEFNAME=i_studded_gorget
+TDATA3=3
 TYPE=T_ARMOR
 RESOURCES=6 i_hides_cut
 WEIGHT=3
@@ -363,6 +370,7 @@ DESCRIPTION=Studded Tunic Hanging
 
 [ITEMDEF 013da]
 DEFNAME=i_studded_leggings
+TDATA3=3
 TYPE=T_ARMOR
 RESOURCES=12 i_hides_cut
 WEIGHT=7
@@ -381,6 +389,7 @@ HITPOINTS={50 60}
 
 [ITEMDEF 013db]
 DEFNAME=i_studded_tunic
+TDATA3=3
 TYPE=T_ARMOR
 RESOURCES=14 i_hides_cut
 WEIGHT=9
@@ -484,6 +493,7 @@ DUPEITEM=013e9
 
 [ITEMDEF 013eb]
 DEFNAME=i_ringmail_gloves
+TDATA3=5
 TYPE=T_ARMOR
 RESOURCES=10 i_ingot_iron
 SKILLMAKE=BLACKSMITHING 12.0
@@ -502,6 +512,7 @@ HITPOINTS={50 60}
 
 [ITEMDEF 013ec]
 DEFNAME=i_ringmail_tunic
+TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
 WEIGHT=15
@@ -524,6 +535,7 @@ DUPEITEM=013ec
 
 [ITEMDEF 013ee]
 DEFNAME=i_ringmail_sleeves
+TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=14 i_ingot_iron
@@ -546,6 +558,7 @@ DUPEITEM=013ee
 
 [ITEMDEF 013f0]
 DEFNAME=i_ringmail_leggings
+TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=16 i_ingot_iron
@@ -573,6 +586,7 @@ DUPEITEM=013eb
 [ITEMDEF 01408]
 //DEFNAME2=closed_helm
 DEFNAME=i_helm_closed
+TDATA3=1
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=15 i_ingot_iron
@@ -596,6 +610,7 @@ DUPEITEM=01408
 [ITEMDEF 0140a]
 // DEFNAME2=OPEN_HELM
 DEFNAME=i_helm_open
+TDATA3=1
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=15 i_ingot_iron
@@ -618,6 +633,7 @@ DUPEITEM=0140a
 
 [ITEMDEF 0140c]
 DEFNAME=i_bascinet
+TDATA3=1
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=15 i_ingot_iron
@@ -640,6 +656,7 @@ DUPEITEM=0140c
 
 [ITEMDEF 0140e]
 DEFNAME=i_helm_nose
+TDATA3=1
 TYPE=t_ARMOR
 FLIP=1
 RESOURCES=15 i_ingot_iron
@@ -662,6 +679,7 @@ DUPEITEM=0140e
 
 [ITEMDEF 01410]
 DEFNAME=i_platemail_arms
+TDATA3=1
 TYPE=T_ARMOR
 FLIP=1
 SKILLMAKE=BLACKSMITHING 66.3
@@ -680,6 +698,7 @@ HITPOINTS={50 60}
 
 [ITEMDEF 01411]
 DEFNAME=i_platemail_leggings
+TDATA3=1
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=20 i_ingot_iron
@@ -698,6 +717,7 @@ HITPOINTS={50 60}
 
 [ITEMDEF 01412]
 DEFNAME=i_platemail_helm
+TDATA3=1
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=15 i_ingot_iron
@@ -716,6 +736,7 @@ HITPOINTS={50 60}
 
 [ITEMDEF 01413]
 DEFNAME=i_platemail_gorget
+TDATA3=1
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=10 i_ingot_iron
@@ -733,6 +754,7 @@ HITPOINTS={50 60}
 
 [ITEMDEF 01414]
 DEFNAME=i_platemail_gloves
+TDATA3=1
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=12 i_ingot_iron
@@ -751,6 +773,7 @@ HITPOINTS={50 60}
 
 [ITEMDEF 01415]
 DEFNAME=i_platemail_chest
+TDATA3=1
 TYPE=T_ARMOR
 FLIP=1
 RESOURCES=25 i_ingot_iron
@@ -790,6 +813,7 @@ DUPEITEM=01411
 [ITEMDEF 0141b]
 DEFNAME=i_mask_orc
 TYPE=t_armor_leather
+TDATA3=2
 FLIP=1
 RESOURCES=5 i_reag_bone
 VALUE=5
@@ -810,6 +834,7 @@ DUPEITEM=0141b
 
 [ITEMDEF 0144e]
 DEFNAME=i_bone_arms
+TDATA3=6
 TYPE=t_armor_leather
 FLIP=1
 RESOURCES=4 i_reag_bone, 8 i_hides_cut
@@ -828,6 +853,7 @@ HITPOINTS={21 23}
 
 [ITEMDEF 0144f]
 DEFNAME=i_bone_chest
+TDATA3=6
 TYPE=t_armor_leather
 FLIP=1
 RESOURCES=4 i_reag_bone, 8 i_hides_cut
@@ -846,6 +872,7 @@ HITPOINTS={21 23}
 
 [ITEMDEF 01450]
 DEFNAME=i_bone_gloves
+TDATA3=6
 TYPE=t_armor_leather
 FLIP=1
 RESOURCES=2 i_reag_bone, 6 i_hides_cut
@@ -864,6 +891,7 @@ HITPOINTS={21 23}
 
 [ITEMDEF 01451]
 DEFNAME=i_bone_helmet
+TDATA3=6
 TYPE=t_armor_leather
 FLIP=1
 RESOURCES=2 i_reag_bone, 4 i_hides_cut
@@ -882,6 +910,7 @@ HITPOINTS={21 23}
 
 [ITEMDEF 01452]
 DEFNAME=i_bone_leggings
+TDATA3=6
 TYPE=t_armor_leather
 FLIP=1
 RESOURCES=6 i_reag_bone, 10 i_hides_cut
@@ -1291,6 +1320,7 @@ DUPEITEM=01c0c
 [ITEMDEF 01db9]
 //leather cap
 DEFNAME=i_leather_cap
+TDATA3=2
 TYPE=t_armor_leather
 FLIP=1
 SKILLMAKE=TAILORING 6.2, t_sewing_kit
@@ -1311,6 +1341,7 @@ DUPEITEM=01db9
 
 [ITEMDEF 01f0b]
 DEFNAME=i_helm_orc
+TDATA3=2
 TYPE=t_armor_leather
 FLIP=1
 ARMOR=20

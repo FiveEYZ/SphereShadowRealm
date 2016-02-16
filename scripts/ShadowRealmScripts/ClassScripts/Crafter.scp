@@ -9,6 +9,8 @@ SUBSECTION=Classes
 ON=@STEP
 if (<src.body> == c_man) || (<src.body> == c_woman)
 	src.skillclass=Class_human_crafter
+	src.go=britain
+	src.sysmessage=You have chosen Crafter as your class.
 endif
 
 [EOF]

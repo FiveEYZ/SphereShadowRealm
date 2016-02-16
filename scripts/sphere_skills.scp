@@ -1464,6 +1464,11 @@ Throwing=100.0
 on=@spellcast
 SRC.SYSMESSAGE You do not know how to use magic.
 return 1
+ON=@ItemEquipTest
+IF (<ACT.TDATA3> == 1)
+SRC.SYSMESSAGE You can't equip this armor.
+RETURN 1
+ENDIF
 
 /////////////
 //Archer's//
@@ -1540,5 +1545,9 @@ Throwing=100.0
 on=@spellcast
 SRC.SYSMESSAGE You do not know how to use magic.
 return 1
-
+ON=@ItemEquipTest
+IF (<ACT.TDATA3> == 1) || (<ACT.TDATA3> == 5)
+SRC.SYSMESSAGE You can't equip this armor.
+RETURN 1
+ENDIF
 [EOF]

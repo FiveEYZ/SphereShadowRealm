@@ -2,7 +2,7 @@
 --Decide what races to have
 ---Decide Stat caps and race traits for races
 
---Decide What classes to have
+--Decide What classes to have///(atm we got warrior, novice, archer and crafter done)
 ---Decide invidual skill caps for said classes
 ----Decide what things to be locked for diffrent classes (ex Archer can only wear leather-chain mail mages only leather-studeed leather)
 
