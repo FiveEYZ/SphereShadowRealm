@@ -1,0 +1,64 @@
+[Spell 1]	-	Clumsy
+[Spell 2]	-	Create Food
+[Spell 3]	-	Feeblemind
+[Spell 4]	-	Heal
+[Spell 5]	-	Magic Arrow
+[Spell 6]	-	Night Sight
+[Spell 7]	-	Reactive Armor
+[Spell 8]	-	Weaken
+[Spell 9]	-	Agility
+[Spell 10]	-	Cunning
+[Spell 11]	-	Cure
+[Spell 12]	-	Harm
+[Spell 13]	-	Magic Trap
+[Spell 14]	-	Magic Untrap
+[Spell 15]	-	Protection
+[Spell 16]	-	Strength
+[Spell 17]	-	Bless
+[Spell 18]	-	Fireball
+[Spell 19]	-	Magic Lock
+[Spell 20]	-	Poison
+[Spell 21]	-	Telekinesis
+[Spell 22]	-	Teleport
+[Spell 23]	-	Unlock
+[Spell 24]	-	Wall of Stone
+[Spell 25]	-	Arch Cure
+[Spell 26]	-	Arch Protection
+[Spell 27]	-	Curse
+[Spell 28]	-	Fire Field
+[Spell 29]	-	Greater Heal
+[Spell 30]	-	Lightning
+[Spell 31]	-	Mana Drain
+[Spell 32]	-	Recall
+[Spell 33]	-	Blade Spirit
+[Spell 34]	-	Dispel Field
+[Spell 35]	-	Incognito
+[Spell 36]	-	Magic Reflect
+[Spell 37]	-	Mind Blast
+[Spell 38]	-	Paralyze
+[Spell 39]	-	Poison Field
+[Spell 40]	-	Summon
+[Spell 41]	-	Dispel
+[Spell 42]	-	Energy Bolt
+[Spell 43]	-	Explosion
+[Spell 44]	-	Invisibility
+[Spell 45]	-	Mark
+[Spell 46]	-	Mass Curse
+[Spell 47]	-	Paralyze Field
+[Spell 48]	-	Reveal
+[Spell 49]	-	Chain Lightning
+[Spell 50]	-	Energy Field
+[Spell 51]	-	Flame Strike
+[Spell 52]	-	Gate Travel
+[Spell 53]	-	Mana Vampire
+[Spell 54]	-	Mass Dispel
+[Spell 55]	-	Meteor Swarm
+[Spell 56]	-	Polymorph
+[Spell 57]	-	Earthquake
+[Spell 58]	-	Energy Vortex
+[Spell 59]	-	Resurrection
+[Spell 60]	-	Air Elemental
+[Spell 61]	-	Daemon
+[Spell 62]	-	Earth Elemental
+[Spell 63]	-	Fire Elemental
+[Spell 64]	-	Water Elemental

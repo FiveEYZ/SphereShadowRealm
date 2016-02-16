@@ -1,0 +1,174 @@
+/// Script to check if a player is using Change-Speed.
+///
+/// SCRIPT VERSION: 1.00
+/// FILE LAST UPDATED: 14-Feb-2014
+//
+/// CREDITS: 
+///   Feeh - packets and idea
+///   Staff_Stanic - coding and optimization
+///
+/// INSTALL:
+///  1st step:
+///   -Open sphere.ini
+///   -Add this code under [SPHERE]:
+///	PACKET2=f_WalkingRequest
+///
+
+[PLEVEL 02]
+WalkingCheck
+
+[FUNCTION WalkingCheck]
+IF (<TAG0.ChangeSpeed.Cheking>)
+ UID.<TAG0.ChangeSpeed.Cheking>.TRYSRC <UID> WalkingCheck_SyncDialog
+ELSE
+ SYSMESSAGE @,,1 Select the player that you want to check.
+ TARGETF WalkingCheck_Start
+ENDIF
+
+///////////////////////////////////////////////////////
+// Patcket
+
+[FUNCTION f_WalkingRequest]
+IF (<UID.<LOCAL.CHAR>.TAG0.ChangeSpeed.Checking>)
+ UID.<LOCAL.CHAR>.WalkingCheck_AddStep
+ENDIF
+
+///////////////////////////////////////////////////////
+// Checking System
+
+[FUNCTION WalkingCheck_Start]
+IF !(<ARGO.ISPLAYER>)
+ SYSMESSAGE @,,1 You must select a player.
+ELIF !(<ARGO.ISONLINE>)
+ SYSMESSAGE @,,1 The player must be online for checking.
+ELIF (<ARGO.TAG0.ChangeSpeed.Checking>)
+ SYSMESSAGE @,,1 This player is already being checked.
+ELSE
+ ARGO.TAG.ChangeSpeed.Checking=<SERV.TIME>
+ ARGO.TAG.ChangeSpeed.Staff=<UID>
+ ARGO.TRYSRC <UID> WalkingCheck_SyncDialog
+ ARGO.EVENTS=+e_WalkingCheck
+ TAG.ChangeSpeed.Cheking=<ARGO>
+ENDIF
+
+[FUNCTION WalkingCheck_Finalize]
+UID.<TAG0.ChangeSpeed.Staff>.TAG.ChangeSpeed.Cheking=
+CLEARTAGS ChangeSpeed
+EVENTS=-e_WalkingCheck
+TIMERF 1,TAG.ChangeFinalized=
+
+[FUNCTION WalkingCheck_AddStep]
+IF (<TAG0.ChangeSpeed.Checking> > <SERV.TIME>)
+ LOCAL.Steps=<DistanceSteps <P.X>,<P.Y>,<P.Z>,<TAG.ChangeSpeed.LastP>>
+ IF (<LOCAL.Steps> > 0)
+  TAG0.ChangeSpeed.Distance.<dTAG0.ChangeSpeed.Count> += <LOCAL.Steps>
+ ENDIF
+ELSE
+ TAG.ChangeSpeed.Checking=<eval <SERV.TIME>+2>
+ IF (<TAG0.ChangeSpeed.Distance.<dTAG0.ChangeSpeed.Count>>) && (<TAG0.ChangeSpeed.Distance.<dTAG0.ChangeSpeed.Count>> < 20)
+  IF (<TAG0.ChangeSpeed.Count> > 1)
+   IF (<TAG0.ChangeSpeed.Distance.<dTAG0.ChangeSpeed.Count>> > <TAG0.ChangeSpeed.HighDistance>)
+    TAG.ChangeSpeed.HighDistance=<TAG0.ChangeSpeed.Distance.<dTAG0.ChangeSpeed.Count>>
+   ENDIF
+   TAG0.ChangeSpeed.TotalDistance +=<TAG0.ChangeSpeed.Distance.<dTAG0.ChangeSpeed.Count>>
+  ENDIF
+  TAG0.ChangeSpeed.Occurrences.<dTAG0.ChangeSpeed.Distance.<dTAG0.ChangeSpeed.Count>> ++
+  TAG0.ChangeSpeed.Count ++
+  TRYSRC <TAG.ChangeSpeed.Staff> WalkingCheck_SyncDialog
+ ENDIF
+ENDIF
+TAG.ChangeSpeed.LastP=<P.X>,<P.Y>,<P.Z>
+return 1
+
+///////////////////////////////////////////////////////
+// Dialog Render
+
+[FUNCTION WalkingCheck_SyncDialog]
+IF (<ISONLINE>)
+ DIALOGCLOSE d_WalkingCheck
+ DIALOG d_WalkingCheck
+ENDIF
+
+[FUNCTION WalkingCheck_SyncDialog_DistanceLog]
+IF (<TAG0.ChangeSpeed.Count>)
+ FOR <eval <TAG0.ChangeSpeed.Count>-1> <QVAL (<TAG0.ChangeSpeed.Count> <= 100)?1:<eval <TAG0.ChangeSpeed.Count>-100>>
+  LOCAL.Log .= "<dTAG0.ChangeSpeed.Distance.<dLOCAL._FOR>> tiles<DEF.BR>"
+ ENDFOR
+ return <STRSUB 1 0 <LOCAL.Log>>
+ELSE
+ return "Waiting the player move to start checking"
+ENDIF
+
+[FUNCTION WalkingCheck_SyncDialog_AvarageSpeed]
+IF !(<TAG0.ChangeSpeed.Count>) || !(<TAG0.ChangeSpeed.TotalDistance>)
+ return 0.000000
+ENDIF
+return <floatval <dTAG0.ChangeSpeed.TotalDistance>/<eval <TAG0.ChangeSpeed.Count>-2>>
+
+[FUNCTION WalkingCheck_SyncDialog_Probability]
+IF (<TAG0.ChangeSpeed.HighDistance> >= 5) && (<TAG0.ChangeSpeed.Count>)
+ FOR 5 <TAG0.ChangeSpeed.HighDistance>
+  LOCAL.Probability += <eval <TAG0.ChangeSpeed.Occurrences.<dLOCAL._FOR>>*<dLOCAL._FOR>*5>
+ ENDFOR
+ return <QVAL (<LOCAL.Probability> <= 100)?<LOCAL.Probability>:100>
+ELSE
+ return 0
+ENDIF
+
+
+[DIALOG d_WalkingCheck]
+2,30
+
+resizepic 0 0 5054 315 170
+gumppictiled 10 10 295 20 2624
+checkertrans 10 10 295 20
+gumppictiled 10 35 295 125 2624
+checkertrans 10 35 295 125
+resizepic 15 40 0BB8 285 115
+
+dcroppedtext 20 10 210 20 1000 Change-Speed Checking: <NAME>
+
+IF !(<TAG0.ChangeFinalized>)
+ dhtmlgump 232 10 105 20 0 0 <DEF.BFONT_WHITE>Finalize
+ button 275 10 4005 4006 1 0 1
+ELSE
+ dhtmlgump 252 10 105 20 0 0 <DEF.BFONT_WHITE>Finalized
+ENDIF
+
+dtext 25 50 1000 Distance log:
+dhtmlgump 25 70 120 80 1 1 <WalkingCheck_SyncDialog_DistanceLog>
+
+dtext 160 70 1000 Counted Steps: <dTAG0.ChangeSpeed.Count>
+dtext 160 90 1000 High Distance: <dTAG0.ChangeSpeed.HighDistance>
+dtext 160 110 1000 Avg. Distance: <STRSUB 0 6 <WalkingCheck_SyncDialog_AvarageSpeed>>
+dtext 160 130 1000 Probability: <dWalkingCheck_SyncDialog_Probability>%
+
+[DIALOG d_WalkingCheck BUTTON]
+ON=1
+TAG.ChangeFinalized=1
+WalkingCheck_SyncDialog
+WalkingCheck_Finalize
+
+///////////////////////////////////////////////////////
+// Player Event
+
+[EVENTS e_WalkingCheck]
+ON=@Logout
+UID.<TAG.ChangeSpeed.Staff>.SYSMESSAGE @,,1 The process was finalized because '<NAME>' logout the server.
+TAG.ChangeFinalized=1
+TRYSRC <TAG0.ChangeSpeed.Staff> WalkingCheck_SyncDialog
+TIMERF 1,WalkingCheck_Finalize
+
+ON=@Click
+IF (<SRC.ISGM>)
+ MESSAGE @051 [Checking Change-Speed]
+ENDIF
+
+///////////////////////////////////////////////////////
+// Functions
+
+[FUNCTION DistanceSteps]
+LOCAL.Distancia=<eval ((<ARGV3>-<ARGV0>)*(<ARGV3>-<ARGV0>))+((<ARGV4>-<ARGV1>)*(<ARGV4>-<ARGV1>))> //+((<ARGV5>-<ARGV2>)*(<ARGV4>-<ARGV2>))
+return <eval SQRT(<dLOCAL.Distancia>)>
+
+[EOF]
