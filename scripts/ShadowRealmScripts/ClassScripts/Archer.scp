@@ -1,14 +1,14 @@
-[ITEMDEF i_warrior_class]
+[ITEMDEF i_archer_class]
 ID=i_rune_alchem_10
-DEFNAME=i_warrior_class
-NAME=Warrior
+DEFNAME=i_archer_class
+NAME=Archer
 TYPE=t_telepad
 CATEGORY=Shadow Realm
 SUBSECTION=Classes
 
 ON=@STEP
 if (<src.body> == c_man) || (<src.body> == c_woman)
-	src.skillclass=Class_human_warrior
+	src.skillclass=Class_human_archer
 endif
 
 [EOF]

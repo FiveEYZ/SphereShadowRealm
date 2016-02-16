@@ -42,4 +42,10 @@
 
 -Script Travel Mages
 
+-- Important!! Fighting, the right swing speed for monsters and players! = str-dex 
+
+--Disable mounted combat and disable mounting in dungeons/housed/indoors
+
+-- remove text for hits , emersive
+
 

@@ -1192,7 +1192,7 @@ DESCRIPTION=Flame Strike Scroll
 
 ON=@Create
 	ATTR=ATTR_MAGIC
-	MOREX=s_flamestrike
+	MOREX=s_flamestrike_scroll
 	MOREY={70 90}
 
 [ITEMDEF 01f60]
