@@ -914,6 +914,10 @@ NAME=Flame Strike
 SOUND=snd_SPELL_FLAMESTRIKE
 RUNES=KVF
 CAST_TIME=20
+<<<<<<< HEAD
+=======
+MORE2=100.0
+>>>>>>> origin/master
 RESOURCES=i_reag_spider_silk,i_reag_sulfur_ash
 RUNE_ITEM=i_rune_FLAMESTRIKE
 SCROLL_ITEM=i_scroll_FLAMESTRIKE

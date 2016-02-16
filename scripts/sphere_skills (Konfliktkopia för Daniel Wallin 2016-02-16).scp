@@ -1226,11 +1226,7 @@ Throwing=100.0
 
 DEFNAME=Class_human_warrior
 NAME=undeclared
-<<<<<<< HEAD
 //EVENTS=e_human_warrior
-=======
-EVENTS=e_human_warrior
->>>>>>> origin/master
 STATSUM=260
 SKILLSUM=10000.0
 STR=85
@@ -1294,13 +1290,9 @@ Spellweaving=100.0
 Mysticism=100.0
 Imbuing=100.0
 Throwing=100.0
-<<<<<<< HEAD
 on=@spellcast
 SYSMESSAGE You do not know how to use magic.
 return 1
-=======
-
->>>>>>> origin/master
 //////////////
 //Novices's//
 ////////////
@@ -1309,11 +1301,7 @@ return 1
 
 DEFNAME=Class_human_novice
 NAME=undeclared
-<<<<<<< HEAD
 //EVENTS=e_human_novice
-=======
-EVENTS=e_human_novice
->>>>>>> origin/master
 STATSUM=260
 SKILLSUM=10000.0
 STR=85
@@ -1377,19 +1365,16 @@ Spellweaving=100.0
 Mysticism=100.0
 Imbuing=100.0
 Throwing=100.0
-<<<<<<< HEAD
 ON=@SPELLCAST
 IF (<argn1>==1) || (<argn1>==2) || (<argn1>==3) || (<argn1>==4) || (<argn1>==5) || (<argn1>==6)
 elseif (<argn1>==7) || (<argn1>==8) || (<argn1>==9) || (<argn1>==10) || (<argn1>==11) || (<argn1>==12) 
 elseif (<argn1>==13) || (<argn1>==14) || (<argn1>==15) || (<argn1>==16) || (<argn1>==17) || (<argn1>==18) 
-elseif (<argn1>==19) || (<argn1>==20)
+elseif (<argn1>==19) || (<argn1>==20) || (<argn1>==21) || (<argn1>==22) || (<argn1>==23) || (<argn1>==24)
   return 0 // Continue
 else
 SYSMESSAGE You do not know how that magic works.
   return 1 // Stop 
 endif
-=======
->>>>>>> origin/master
 
 //////////////
 //Crafter's//
@@ -1399,11 +1384,7 @@ endif
 
 DEFNAME=Class_human_crafter
 NAME=undeclared
-<<<<<<< HEAD
 //EVENTS=e_human_crafter
-=======
-EVENTS=e_human_crafter
->>>>>>> origin/master
 STATSUM=260
 SKILLSUM=10000.0
 STR=85
@@ -1476,11 +1457,7 @@ Throwing=100.0
 
 DEFNAME=Class_human_archer
 NAME=undeclared
-<<<<<<< HEAD
 //EVENTS=e_human_archer
-=======
-EVENTS=e_human_archer
->>>>>>> origin/master
 STATSUM=260
 SKILLSUM=10000.0
 STR=85
