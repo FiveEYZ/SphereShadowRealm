@@ -1,5 +1,0 @@
-1 = Plate
-2 = Leather
-3 = Studded Leather
-4 = Chain
-5 = Ringmail
