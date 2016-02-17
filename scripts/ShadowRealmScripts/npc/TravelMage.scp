@@ -30,5 +30,5 @@ ON=@Create
 	ITEMNEWBIE=random_facial_hair
 	COLOR=match_hair
 	
-on=minoc
+on=*minoc*
 src.go minoc
