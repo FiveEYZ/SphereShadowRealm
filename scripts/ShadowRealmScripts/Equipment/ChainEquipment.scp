@@ -38,25 +38,25 @@ ON=@Create
 COLOR=color_o_rusty
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_rusty]
-//DEFNAME=i_chainmail_gorget_rusty
-//NAME=rusty chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-/FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_rusty
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=rusty chainmail gorget
+[ITEMDEF i_chainmail_gorget_rusty]
+DEFNAME=i_chainmail_gorget_rusty
+NAME=rusty chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_rusty
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=rusty chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_rusty
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_rusty]
 DEFNAME=i_chainmail_tunic_rusty
@@ -118,25 +118,25 @@ ON=@Create
 COLOR=color_o_copper
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_copper]
-//DEFNAME=i_chainmail_gorget_copper
-//NAME=copper chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_copper
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Platemail Armor
-//DESCRIPTION=copper chainmail gorget
+[ITEMDEF i_chainmail_gorget_copper]
+DEFNAME=i_chainmail_gorget_copper
+NAME=copper chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_copper
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_copper
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_copper]
 DEFNAME=i_chainmail_tunic_copper
@@ -198,25 +198,25 @@ ON=@Create
 COLOR=color_o_oldcopper
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_oldcopper]
-//DEFNAME=i_chainmail_gorget_oldcopper
-//NAME=old copper chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_old_copper
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=old copper chainmail gorget
+[ITEMDEF i_chainmail_gorget_oldcopper]
+DEFNAME=i_chainmail_gorget_oldcopper
+NAME=old copper chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_old_copper
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=old copper chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_oldcopper
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_oldcopper]
 DEFNAME=i_chainmail_tunic_oldcopper
@@ -278,25 +278,25 @@ ON=@Create
 COLOR=color_o_dullcopper
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_dullcopper]
-//DEFNAME=i_chainmail_gorget_dullcopper
-//NAME=dull copper chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_dull_copper
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=dull copper chainmail gorget
+[ITEMDEF i_chainmail_gorget_dullcopper]
+DEFNAME=i_chainmail_gorget_dullcopper
+NAME=dull copper chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_dull_copper
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=dull copper chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_dullcopper
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_dullcopper]
 DEFNAME=i_chainmail_tunic_dullcopper
@@ -358,25 +358,25 @@ ON=@Create
 COLOR=color_o_bronze
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_bronze]
-//DEFNAME=i_chainmail_gorget_bronze
-//NAME=bronze chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_bronze
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Platemail Armor
-//DESCRIPTION=bronze chainmail gorget
+[ITEMDEF i_chainmail_gorget_bronze]
+DEFNAME=i_chainmail_gorget_bronze
+NAME=bronze chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_bronze
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_bronze
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_bronze]
 DEFNAME=i_chainmail_tunic_bronze
@@ -438,25 +438,25 @@ ON=@Create
 COLOR=color_o_silver
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_silver]
-//DEFNAME=i_chainmail_gorget_silver
-//NAME=silver chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_silver
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=silver chainmail gorget
+[ITEMDEF i_chainmail_gorget_silver]
+DEFNAME=i_chainmail_gorget_silver
+NAME=silver chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_silver
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=silver chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_silver
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_silver]
 DEFNAME=i_chainmail_tunic_silver
@@ -518,25 +518,25 @@ ON=@Create
 COLOR=color_o_gold
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_gold]
-//DEFNAME=i_chainmail_gorget_gold
-//NAME=gold chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_gold
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=gold chainmail gorget
+[ITEMDEF i_chainmail_gorget_gold]
+DEFNAME=i_chainmail_gorget_gold
+NAME=gold chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_gold
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=gold chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_gold
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_gold]
 DEFNAME=i_chainmail_tunic_gold
@@ -598,25 +598,25 @@ ON=@Create
 COLOR=color_o_bloodrock
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_bloodrock]
-//DEFNAME=i_chainmail_gorget_bloodrock
-//NAME=bloodrock chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_bloodrock
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=bloodrock chainmail gorget
+[ITEMDEF i_chainmail_gorget_bloodrock]
+DEFNAME=i_chainmail_gorget_bloodrock
+NAME=bloodrock chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_bloodrock
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=bloodrock chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_bloodrock
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_bloodrock]
 DEFNAME=i_chainmail_tunic_bloodrock
@@ -678,25 +678,25 @@ ON=@Create
 COLOR=color_o_blackrock
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_blackrock]
-//DEFNAME=i_chainmail_gorget_blackrock
-//NAME=blackrock chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_blackrock
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=blackrock chainmail gorget
+[ITEMDEF i_chainmail_gorget_blackrock]
+DEFNAME=i_chainmail_gorget_blackrock
+NAME=blackrock chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_blackrock
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=blackrock chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_blackrock
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_blackrock]
 DEFNAME=i_chainmail_tunic_blackrock
@@ -758,25 +758,25 @@ ON=@Create
 COLOR=color_o_mytheril
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_mytheril]
-//DEFNAME=i_chainmail_gorget_mytheril
-//NAME=mytheril chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_mytheril
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=mytheril chainmail gorget
+[ITEMDEF i_chainmail_gorget_mytheril]
+DEFNAME=i_chainmail_gorget_mytheril
+NAME=mytheril chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_mytheril
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=mytheril chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_mytheril
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_mytheril]
 DEFNAME=i_chainmail_tunic_mytheril
@@ -838,25 +838,25 @@ ON=@Create
 COLOR=color_o_rose
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_rose]
-//DEFNAME=i_chainmail_gorget_rose
-//NAME=rose chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_rose
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=rose chainmail gorget
+[ITEMDEF i_chainmail_gorget_rose]
+DEFNAME=i_chainmail_gorget_rose
+NAME=rose chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_rose
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=rose chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_rose
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_rose]
 DEFNAME=i_chainmail_tunic_rose
@@ -918,25 +918,25 @@ ON=@Create
 COLOR=color_o_verite
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_verite]
-//DEFNAME=i_chainmail_gorget_verite
-//NAME=verite chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_verite
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=verite chainmail gorget
+[ITEMDEF i_chainmail_gorget_verite]
+DEFNAME=i_chainmail_gorget_verite
+NAME=verite chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_verite
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=verite chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_verite
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_verite]
 DEFNAME=i_chainmail_tunic_verite
@@ -998,25 +998,25 @@ ON=@Create
 COLOR=color_o_agapite
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_agapite]
-//DEFNAME=i_chainmail_gorget_agapite
-//NAME=agapite chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_agapite
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=agapite chainmail gorget
+[ITEMDEF i_chainmail_gorget_agapite]
+DEFNAME=i_chainmail_gorget_agapite
+NAME=agapite chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_agapite
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=agapite chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_agapite
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_agapite]
 DEFNAME=i_chainmail_tunic_agapite
@@ -1078,25 +1078,25 @@ ON=@Create
 COLOR=color_o_valorite
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_valorite]
-//DEFNAME=i_chainmail_gorget_valorite
-//NAME=valorite chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_valorite
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=valorite chainmail gorget
+[ITEMDEF i_chainmail_gorget_valorite]
+DEFNAME=i_chainmail_gorget_valorite
+NAME=valorite chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_valorite
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=valorite chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_valorite
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_valorite]
 DEFNAME=i_chainmail_tunic_valorite
@@ -1158,25 +1158,25 @@ ON=@Create
 COLOR=color_o_shadow
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_shadow]
-//DEFNAME=i_chainmail_gorget_shadow
-//NAME=shadow chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_shadow
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=shadow chainmail gorget
+[ITEMDEF i_chainmail_gorget_shadow]
+DEFNAME=i_chainmail_gorget_shadow
+NAME=shadow chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_shadow
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=shadow chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_shadow
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_shadow]
 DEFNAME=i_chainmail_tunic_shadow
@@ -1238,25 +1238,25 @@ ON=@Create
 COLOR=color_o_invulnerability
 HITPOINTS={35 45}
 
-//[ITEMDEF i_chainmail_gorget_invulnerability]
-//DEFNAME=i_chainmail_gorget_invulnerability
-//NAME=invulnerability chainmail gorget
-//ID=i_chainmail_gorget
-//TDATA3=4
-//TYPE=T_ARMOR
-//FLIP=1
-//SKILLMAKE=BLACKSMITHING 14.1
-//RESOURCES=10 i_ingot_invulnerability
-//WEIGHT=7
-//ARMOR=23
-//REQSTR=20
-//CATEGORY=Shadow Realm
-//SUBSECTION=Chainmail Armor
-//DESCRIPTION=invulnerability chainmail gorget
+[ITEMDEF i_chainmail_gorget_invulnerability]
+DEFNAME=i_chainmail_gorget_invulnerability
+NAME=invulnerability chainmail gorget
+ID=i_chainmail_gorget
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.1
+RESOURCES=10 i_ingot_invulnerability
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=invulnerability chainmail gorget
 
-//ON=@Create
-//COLOR=color_o_invulnerability
-//HITPOINTS={35 45}
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={35 45}
 
 [ITEMDEF i_chainmail_tunic_invulnerability]
 DEFNAME=i_chainmail_tunic_invulnerability
