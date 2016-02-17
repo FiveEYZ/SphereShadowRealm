@@ -1,0 +1,1922 @@
+[ITEMDEF i_platemail_arms_rusty]
+DEFNAME=i_platemail_arms_rusty
+NAME=rusty platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_rusty
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rusty platemail arms
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_rusty]
+DEFNAME=i_platemail_leggings_rusty
+NAME=rusty platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_rusty
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rusty platemail legs
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_rusty]
+DEFNAME=i_platemail_helm_rusty
+NAME=rusty plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_rusty
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rusty plate helm
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_rusty]
+DEFNAME=i_platemail_gorget_rusty
+NAME=rusty platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_rusty
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rusty platemail gorget
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_rusty]
+DEFNAME=i_platemail_gloves_rusty
+NAME=rusty platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_rusty
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rusty platemail gloves
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_rusty]
+DEFNAME=i_platemail_chest_rusty
+NAME=rusty platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_rusty
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rusty platemail
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_copper]
+DEFNAME=i_platemail_arms_copper
+NAME=copper platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_copper
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper platemail arms
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_copper]
+DEFNAME=i_platemail_leggings_copper
+NAME=copper platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_copper
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper platemail legs
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_copper]
+DEFNAME=i_platemail_helm_copper
+NAME=copper plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_copper
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper plate helm
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_copper]
+DEFNAME=i_platemail_gorget_copper
+NAME=copper platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_copper
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper platemail gorget
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_copper]
+DEFNAME=i_platemail_gloves_copper
+NAME=copper platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_copper
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper platemail gloves
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_copper]
+DEFNAME=i_platemail_chest_copper
+NAME=copper platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_copper
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper platemail
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_oldcopper]
+DEFNAME=i_platemail_arms_oldcopper
+NAME=old copper platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_old_copper
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=old copper platemail arms
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_oldcopper]
+DEFNAME=i_platemail_leggings_oldcopper
+NAME=old copper platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_old_copper
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=old copper platemail legs
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_oldcopper]
+DEFNAME=i_platemail_helm_oldcopper
+NAME=old copper plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_old_copper
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=old copper plate helm
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_oldcopper]
+DEFNAME=i_platemail_gorget_oldcopper
+NAME=old copper platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_old_copper
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=old copper platemail gorget
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_oldcopper]
+DEFNAME=i_platemail_gloves_oldcopper
+NAME=old copper platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_old_copper
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=old copper platemail gloves
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_oldcopper]
+DEFNAME=i_platemail_chest_oldcopper
+NAME=old copper platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_old_copper
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=old copper platemail
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_dullcopper]
+DEFNAME=i_platemail_arms_dullcopper
+NAME=dull copper platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_dull_copper
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=dull copper platemail arms
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_dullcopper]
+DEFNAME=i_platemail_leggings_dullcopper
+NAME=old copper platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_dull_copper
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=dull copper platemail legs
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_dullcopper]
+DEFNAME=i_platemail_helm_dullcopper
+NAME=dull copper plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_dull_copper
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=dull copper plate helm
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_dullcopper]
+DEFNAME=i_platemail_gorget_dullcopper
+NAME=dull copper platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_dull_copper
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=dull copper platemail gorget
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_dullcopper]
+DEFNAME=i_platemail_gloves_dullcopper
+NAME=dull copper platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_dull_copper
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=dull copper platemail gloves
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_dullcopper]
+DEFNAME=i_platemail_chest_dullcopper
+NAME=dull copper platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_dull_copper
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=dull copper platemail
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={51 65}
+
+
+[ITEMDEF i_platemail_arms_bronze]
+DEFNAME=i_platemail_arms_bronze
+NAME=bronze platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_bronze
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze platemail arms
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_bronze]
+DEFNAME=i_platemail_leggings_bronze
+NAME=bronze platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_bronze
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze platemail legs
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_bronze]
+DEFNAME=i_platemail_helm_bronze
+NAME=bronze plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_bronze
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze plate helm
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_bronze]
+DEFNAME=i_platemail_gorget_bronze
+NAME=bronze platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_bronze
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze platemail gorget
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_bronze]
+DEFNAME=i_platemail_gloves_bronze
+NAME=bronze platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_bronze
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze platemail gloves
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_bronze]
+DEFNAME=i_platemail_chest_bronze
+NAME=bronze platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_bronze
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze platemail
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_silver]
+DEFNAME=i_platemail_arms_silver
+NAME=silver platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_silver
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=silver platemail arms
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_silver]
+DEFNAME=i_platemail_leggings_silver
+NAME=silver platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_silver
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=silver platemail legs
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_silver]
+DEFNAME=i_platemail_helm_silver
+NAME=silver plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_silver
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=silver plate helm
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_silver]
+DEFNAME=i_platemail_gorget_silver
+NAME=silver platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_silver
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=silver platemail gorget
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_silver]
+DEFNAME=i_platemail_gloves_silver
+NAME=silver platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_silver
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=silver platemail gloves
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_silver]
+DEFNAME=i_platemail_chest_silver
+NAME=silver platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_silver
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=silver platemail
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_gold]
+DEFNAME=i_platemail_arms_gold
+NAME=gold platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_gold
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=gold platemail arms
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_gold]
+DEFNAME=i_platemail_leggings_gold
+NAME=gold platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_gold
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=gold platemail legs
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_gold]
+DEFNAME=i_platemail_helm_gold
+NAME=gold plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_gold
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=gold plate helm
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_gold]
+DEFNAME=i_platemail_gorget_gold
+NAME=gold platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_gold
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=gold platemail gorget
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_gold]
+DEFNAME=i_platemail_gloves_gold
+NAME=gold platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_gold
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=gold platemail gloves
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_gold]
+DEFNAME=i_platemail_chest_gold
+NAME=gold platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_gold
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=gold platemail
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_bloodrock]
+DEFNAME=i_platemail_arms_bloodrock
+NAME=bloodrock platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_bloodrock
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bloodrock platemail arms
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_bloodrock]
+DEFNAME=i_platemail_leggings_bloodrock
+NAME=bloodrock platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_bloodrock
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bloodrock platemail legs
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_bloodrock]
+DEFNAME=i_platemail_helm_bloodrock
+NAME=bloodrock plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_bloodrock
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bloodrock plate helm
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_bloodrock]
+DEFNAME=i_platemail_gorget_bloodrock
+NAME=bloodrock platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_bloodrock
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bloodrock platemail gorget
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_bloodrock]
+DEFNAME=i_platemail_gloves_bloodrock
+NAME=bloodrock platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_bloodrock
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bloodrock platemail gloves
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_bloodrock]
+DEFNAME=i_platemail_chest_bloodrock
+NAME=bloodrock platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_bloodrock
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bloodrock platemail
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_blackrock]
+DEFNAME=i_platemail_arms_blackrock
+NAME=blackrock platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_blackrock
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=blackrock platemail arms
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_blackrock]
+DEFNAME=i_platemail_leggings_blackrock
+NAME=blackrock platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_blackrock
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=blackrock platemail legs
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_blackrock]
+DEFNAME=i_platemail_helm_blackrock
+NAME=blackrock plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_blackrock
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=blackrock plate helm
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_blackrock]
+DEFNAME=i_platemail_gorget_blackrock
+NAME=blackrock platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_blackrock
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=blackrock platemail gorget
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_blackrock]
+DEFNAME=i_platemail_gloves_blackrock
+NAME=blackrock platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_blackrock
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=blackrock platemail gloves
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_blackrock]
+DEFNAME=i_platemail_chest_blackrock
+NAME=blackrock platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_blackrock
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=blackrock platemail
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_mytheril]
+DEFNAME=i_platemail_arms_mytheril
+NAME=mytheril platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_mytheril
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=mytheril platemail arms
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_mytheril]
+DEFNAME=i_platemail_leggings_mytheril
+NAME=mytheril platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_mytheril
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=mytheril platemail legs
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_mytheril]
+DEFNAME=i_platemail_helm_mytheril
+NAME=mytheril plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_mytheril
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=mytheril plate helm
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_mytheril]
+DEFNAME=i_platemail_gorget_mytheril
+NAME=mytheril platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_mytheril
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=mytheril platemail gorget
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_mytheril]
+DEFNAME=i_platemail_gloves_mytheril
+NAME=mytheril platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_mytheril
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=mytheril platemail gloves
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_mytheril]
+DEFNAME=i_platemail_chest_mytheril
+NAME=mytheril platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_mytheril
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=mytheril platemail
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_rose]
+DEFNAME=i_platemail_arms_rose
+NAME=rose platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_rose
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rose platemail arms
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_rose]
+DEFNAME=i_platemail_leggings_rose
+NAME=rose platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_rose
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rose platemail legs
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_rose]
+DEFNAME=i_platemail_helm_rose
+NAME=rose plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_rose
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rose plate helm
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_rose]
+DEFNAME=i_platemail_gorget_rose
+NAME=rose platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_rose
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rose platemail gorget
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_rose]
+DEFNAME=i_platemail_gloves_rose
+NAME=rose platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_rose
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rose platemail gloves
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_rose]
+DEFNAME=i_platemail_chest_rose
+NAME=rose platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_rose
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rose platemail
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_verite]
+DEFNAME=i_platemail_arms_verite
+NAME=verite platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_verite
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=verite platemail arms
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_verite]
+DEFNAME=i_platemail_leggings_verite
+NAME=verite platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_verite
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=verite platemail legs
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_verite]
+DEFNAME=i_platemail_helm_verite
+NAME=verite plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_verite
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=verite plate helm
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_verite]
+DEFNAME=i_platemail_gorget_verite
+NAME=verite platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_verite
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=verite platemail gorget
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_verite]
+DEFNAME=i_platemail_gloves_verite
+NAME=verite platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_verite
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=verite platemail gloves
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_verite]
+DEFNAME=i_platemail_chest_verite
+NAME=verite platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_verite
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=verite platemail
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_agapite]
+DEFNAME=i_platemail_arms_agapite
+NAME=agapite platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_agapite
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=agapite platemail arms
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_agapite]
+DEFNAME=i_platemail_leggings_agapite
+NAME=agapite platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_agapite
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=agapite platemail legs
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_agapite]
+DEFNAME=i_platemail_helm_agapite
+NAME=agapite plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_agapite
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=agapite plate helm
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_agapite]
+DEFNAME=i_platemail_gorget_agapite
+NAME=agapite platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_agapite
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=agapite platemail gorget
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_agapite]
+DEFNAME=i_platemail_gloves_agapite
+NAME=agapite platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_agapite
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=agapite platemail gloves
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_agapite]
+DEFNAME=i_platemail_chest_agapite
+NAME=agapite platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_agapite
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=agapite platemail
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_valorite]
+DEFNAME=i_platemail_arms_valorite
+NAME=valorite platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_valorite
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=valorite platemail arms
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_valorite]
+DEFNAME=i_platemail_leggings_valorite
+NAME=valorite platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_valorite
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=valorite platemail legs
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_valorite]
+DEFNAME=i_platemail_helm_valorite
+NAME=valorite plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_valorite
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=valorite plate helm
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_valorite]
+DEFNAME=i_platemail_gorget_valorite
+NAME=valorite platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_valorite
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=valorite platemail gorget
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_valorite]
+DEFNAME=i_platemail_gloves_valorite
+NAME=valorite platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_valorite
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=valorite platemail gloves
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_valorite]
+DEFNAME=i_platemail_chest_valorite
+NAME=valorite platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_valorite
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=valorite platemail
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_shadow]
+DEFNAME=i_platemail_arms_shadow 
+NAME=shadow platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_shadow 
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=shadow platemail arms
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_shadow]
+DEFNAME=i_platemail_leggings_shadow
+NAME=shadow platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_shadow
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=shadow platemail legs
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_shadow]
+DEFNAME=i_platemail_helm_shadow
+NAME=shadow plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_shadow
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=shadow plate helm
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_shadow]
+DEFNAME=i_platemail_gorget_shadow
+NAME=shadow platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_shadow
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=shadow platemail gorget
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_shadow]
+DEFNAME=i_platemail_gloves_shadow
+NAME=shadow platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_shadow
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=shadow platemail gloves
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_shadow]
+DEFNAME=i_platemail_chest_shadow
+NAME=shadow platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_shadow
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=shadow platemail
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_arms_invulnerability]
+DEFNAME=i_platemail_arms_invulnerability
+NAME=invulnerability platemail arms
+ID=i_platemail_arms
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 66.3
+RESOURCES=18 i_ingot_invulnerability
+WEIGHT=18
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=invulnerability platemail arms
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_leggings_invulnerability]
+DEFNAME=i_platemail_leggings_invulnerability
+NAME=invulnerability platemail legs
+ID=i_platemail_leggings
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 68.8
+RESOURCES=20 i_ingot_invulnerability
+WEIGHT=20
+ARMOR=40
+REQSTR=40
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=invulnerability platemail legs
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_helm_invulnerability]
+DEFNAME=i_platemail_helm_invulnerability
+NAME=invulnerability plate helm
+ID=i_platemail_helm
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 62.6
+RESOURCES=15 i_ingot_invulnerability
+WEIGHT=10
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=invulnerability plate helm
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gorget_invulnerability]
+DEFNAME=i_platemail_gorget_invulnerability
+NAME=invulnerability platemail gorget
+ID=i_platemail_gorget
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 56.4
+RESOURCES=10 i_ingot_invulnerability
+WEIGHT=6
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=invulnerability platemail gorget
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_gloves_invulnerability]
+DEFNAME=i_platemail_gloves_invulnerability
+NAME=invulnerability platemail gloves
+ID=i_platemail_gloves
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 58.9
+RESOURCES=12 i_ingot_invulnerability
+WEIGHT=5
+ARMOR=40
+REQSTR=30
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=invulnerability platemail gloves
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_chest_invulnerability]
+DEFNAME=i_platemail_chest_invulnerability
+NAME=invulnerability platemail
+ID=i_platemail_chest
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=25 i_ingot_invulnerability
+WEIGHT=23
+ARMOR=40
+REQSTR=60
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=invulnerability platemail
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={51 65}
+
+[EOF]

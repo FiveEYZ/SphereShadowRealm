@@ -447,14 +447,14 @@ ON=@Create
 
 [REGIONRESOURCE mr_iron]	// default mining result.
 // t_rock
-skill=0.0
+skill=0.0,100.0
 amount=9,30
 REAP=i_ore_iron
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_rusty]
 // t_rock - Iron gets rusty. It's not smeltable !
-skill=50.0
+skill=50.0,100.0
 amount=8,21
 REAP=i_ore_rusty
 REGEN=60*60*10
@@ -462,7 +462,7 @@ REGEN=60*60*10
 [REGIONRESOURCE mr_bronze]
 // Bronze is really copper and tin !
 // t_rock
-skill=80.0
+skill=80.0,100.0
 amount=4,12
 REAP=i_ore_bronze
 REGEN=60*60*10
@@ -470,7 +470,7 @@ REGEN=60*60*10
 [REGIONRESOURCE mr_old_copper]
 // this is really just a variety of copper. copper makes terrible armor
 // t_rock
-skill=60.0
+skill=60.0,100.0
 amount=7,18
 REAP=i_ore_old_copper
 REGEN=60*60*10
@@ -478,14 +478,14 @@ REGEN=60*60*10
 [REGIONRESOURCE mr_dull_copper]
 // this is really just a variety of copper. copper makes terrible armor
 // t_rock
-skill=65.0
+skill=65.0,100.0
 amount=5,25
 REAP=i_ore_dull_copper
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_shadow]
 // t_rock
-skill=92.0
+skill=92.0,100.0
 amount=5,12
 REAP=i_ore_shadow
 REGEN=60*60*10
@@ -493,77 +493,77 @@ REGEN=60*60*10
 [REGIONRESOURCE mr_copper]
 // copper makes terrible armor
 // t_rock
-skill=75.0
+skill=75.0,100.0
 amount=5,20
 REAP=i_ore_copper
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_gold]
 // t_rock - Gold makes terrible armor.
-skill=85.0
+skill=85.0,100.0
 amount=5,15
 REAP=i_ore_gold
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_rose]
 // t_rock
-skill=87.0
+skill=87.0,100.0
 amount=3,15
 REAP=i_ore_rose
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_agapite]
 // t_rock
-skill=90.0
+skill=90.0,100.0
 amount=3,15
 REAP=i_ore_agapite
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_bloodrock]
 // t_rock
-skill=93.0
+skill=93.0,100.0
 amount=3,14
 REAP=i_ore_bloodrock
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_silver]
 // t_rock
-skill=83.0
+skill=83.0,100.0
 amount=5,15
 REAP=i_ore_silver
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_verite]
 // t_rock
-skill=95.0
+skill=95.0,100.0
 amount=2,12
 REAP=i_ore_verite
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_Valorite]
 // t_rock
-skill=99.0
+skill=99.0,100.0
 amount=2,10
 REAP=i_ore_Valorite
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_mytheril]
 // t_rock
-skill=99.5
+skill=99.5,100.0
 amount=2,8
 REAP=i_ore_mytheril
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_blackrock]
 // t_rock
-skill=99.7
+skill=99.7,100.0
 amount=2,6
 REAP=i_ore_blackrock
 REGEN=60*60*10
 
 [REGIONRESOURCE mr_invulnerability]
 // t_rock - invulnerability makes excellent armor.
-skill=99.9
+skill=99.9,100.0
 amount=1,4
 REAP=i_ore_invulnerability
 REGEN=60*60*10

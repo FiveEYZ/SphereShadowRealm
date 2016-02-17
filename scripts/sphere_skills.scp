@@ -1380,7 +1380,7 @@ IF (<argn1>==1) || (<argn1>==2) || (<argn1>==3) || (<argn1>==4) || (<argn1>==5) 
 elseif (<argn1>==7) || (<argn1>==8) || (<argn1>==9) || (<argn1>==10) || (<argn1>==11) || (<argn1>==12) 
 elseif (<argn1>==13) || (<argn1>==14) || (<argn1>==15) || (<argn1>==16) || (<argn1>==17) || (<argn1>==18) 
 elseif (<argn1>==19) || (<argn1>==20) || (<argn1>==21) || (<argn1>==22) || (<argn1>==23) || (<argn1>==24)
-elseif (<argn1>==32) || (<argn1>==45)
+elseif (<argn1>==32) || (<argn1>==45) || (<argn1>==29)
   return 0 // Continue
 else
 SRC.SYSMESSAGE You do not know how that magic works.
