@@ -11,6 +11,33 @@
 //
 VERSION=0.56b
 
+
+
+
+[ITEMDEF i_memory_scroll_cooldown]
+ID=i_memory
+TYPE=t_eq_script
+NAME=Memory scroll cooldown
+
+ON=@Timer
+REMOVE
+RETURN 1
+
+[TYPEDEF t_scroll]
+IF (<SRC.RESTEST 1 i_memory_scroll_cooldown>)
+SRC.SYSMESSAGE You can't use a scroll yet!
+RETURN 1
+ENDIF
+SERV.NEWITEM i_memory_scroll_cooldown,1,<SRC.UID>
+NEW.TIMER = 10//your cooldown
+
+
+
+
+
+
+
+
 [ITEMDEF 0dda]
 //red moongate animated (full)
 DEFNAME=i_moongate_red

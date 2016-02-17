@@ -91,7 +91,7 @@ WEIGHT=7
 ARMOR=23
 REQSTR=20
 CATEGORY=Shadow Realm
-SUBSECTION=Platemail Armor
+SUBSECTION=Chainmail Armor
 DESCRIPTION=copper chainmail coif
 
 ON=@Create
@@ -111,7 +111,7 @@ WEIGHT=10
 ARMOR=23
 REQSTR=20
 CATEGORY=Shadow Realm
-SUBSECTION=Platemail Armor
+SUBSECTION=Chainmail Armor
 DESCRIPTION=copper chainmail legs
 
 ON=@Create
@@ -131,7 +131,7 @@ WEIGHT=7
 ARMOR=23
 REQSTR=20
 CATEGORY=Shadow Realm
-SUBSECTION=Platemail Armor
+SUBSECTION=Chainmail Armor
 DESCRIPTION=copper chainmail gorget
 
 ON=@Create
@@ -151,7 +151,7 @@ WEIGHT=23
 ARMOR=23
 REQSTR=20
 CATEGORY=Shadow Realm
-SUBSECTION=Platemail Armor
+SUBSECTION=Chainmail Armor
 DESCRIPTION=copper chainmail tunic
 
 ON=@Create
@@ -331,7 +331,7 @@ WEIGHT=7
 ARMOR=23
 REQSTR=20
 CATEGORY=Shadow Realm
-SUBSECTION=Platemail Armor
+SUBSECTION=Chainmail Armor
 DESCRIPTION=bronze chainmail coif
 
 ON=@Create
@@ -351,7 +351,7 @@ WEIGHT=10
 ARMOR=23
 REQSTR=20
 CATEGORY=Shadow Realm
-SUBSECTION=Platemail Armor
+SUBSECTION=Chainmail Armor
 DESCRIPTION=bronze chainmail legs
 
 ON=@Create
@@ -371,7 +371,7 @@ WEIGHT=7
 ARMOR=23
 REQSTR=20
 CATEGORY=Shadow Realm
-SUBSECTION=Platemail Armor
+SUBSECTION=Chainmail Armor
 DESCRIPTION=bronze chainmail gorget
 
 ON=@Create
@@ -391,7 +391,7 @@ WEIGHT=23
 ARMOR=23
 REQSTR=20
 CATEGORY=Shadow Realm
-SUBSECTION=Platemail Armor
+SUBSECTION=Chainmail Armor
 DESCRIPTION=bronze chainmail tunic
 
 ON=@Create
