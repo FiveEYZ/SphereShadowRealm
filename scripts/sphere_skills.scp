@@ -1236,7 +1236,7 @@ Alchemy=100.0
 Anatomy=100.0
 AnimalLore=100.0
 ItemId=100.0
-ArmsLore=5.0
+ArmsLore=100.0
 Parrying=100.0
 Begging=100.0
 Blacksmithing=100.0
@@ -1296,11 +1296,96 @@ return 1
 
 
 
-//////////////
-//Novices's//
-////////////
+///////////
+//Mage's//
+/////////
 
 [SKILLCLASS 2]
+
+DEFNAME=Class_human_searcher
+NAME=Searcher
+//EVENTS=e_human_Searcher
+STATSUM=260
+SKILLSUM=10000.0
+STR=85
+INT=85
+DEX=90
+Alchemy=100.0
+Anatomy=100.0
+AnimalLore=100.0
+ItemId=100.0
+ArmsLore=100.0
+Parrying=100.0
+Begging=100.0
+Blacksmithing=100.0
+Bowcraft=100.0
+Peacemaking=100.0
+Camping=100.0
+Carpentry=100.0
+Cartography=100.0
+Cooking=100.0
+DetectingHidden=100.0
+Enticement=100.0
+EvaluatingIntel=100.0
+Healing=100.0
+Fishing=100.0
+Forensics=100.0
+Herding=100.0
+Hiding=100.0
+Provocation=100.0
+Inscription=100.0
+LockPicking=100.0
+Magery=100.0
+MagicResistance=100.0
+Tactics=100.0
+Snooping=100.0
+Musicianship=100.0
+Poisoning=100.0
+Archery=100.0
+SpiritSpeak=100.0
+Stealing=100.0
+Tailoring=100.0
+Taming=100.0
+TasteId=100.0
+Tinkering=100.0
+Tracking=100.0
+Veterinary=100.0
+Swordsmanship=100.0
+Macefighting=100.0
+Fencing=100.0
+Wrestling=100.0
+Lumberjacking=100.0
+Mining=100.0
+Meditation=100.0
+Stealth=100.0
+RemoveTrap=100.0
+Necromancy=100.0
+Focus=100.0
+Chivalry=100.0
+Bushido=100.0
+Ninjitsu=100.0
+Spellweaving=100.0
+Mysticism=100.0
+Imbuing=100.0
+Throwing=100.0
+
+ON=@ItemEquipTest
+IF (<ACT.TDATA3> == 2) || (<ACT.TDATA3> == 6) || (<ACT.TDATA3> == 5)
+SRC.SYSMESSAGE You can't equip this armor.
+RETURN 1
+ENDIF
+
+ON=@SPELLCAST
+IF (<argn1>==1) || (<argn1>==2) || (<argn1>==3) || (<argn1>==5) || (<argn1>==6)
+	elseif (<argn1>==1)
+  return 0 // Continue
+else
+SRC.SYSMESSAGE You do not know how that magic works.
+  return 1 // Stop 
+endif
+
+
+[SKILLCLASS 21]
 
 DEFNAME=Class_human_novice
 NAME=Novice
@@ -1314,7 +1399,7 @@ Alchemy=100.0
 Anatomy=100.0
 AnimalLore=100.0
 ItemId=100.0
-ArmsLore=5.0
+ArmsLore=100.0
 Parrying=100.0
 Begging=100.0
 Blacksmithing=100.0
@@ -1380,7 +1465,192 @@ IF (<argn1>==1) || (<argn1>==2) || (<argn1>==3) || (<argn1>==4) || (<argn1>==5) 
 elseif (<argn1>==7) || (<argn1>==8) || (<argn1>==9) || (<argn1>==10) || (<argn1>==11) || (<argn1>==12) 
 elseif (<argn1>==13) || (<argn1>==14) || (<argn1>==15) || (<argn1>==16) || (<argn1>==17) || (<argn1>==18) 
 elseif (<argn1>==19) || (<argn1>==20) || (<argn1>==21) || (<argn1>==22) || (<argn1>==23) || (<argn1>==24)
-elseif (<argn1>==32) || (<argn1>==45) || (<argn1>==29)
+elseif (<argn1>==27) || (<argn1>==28) || (<argn1>==29) || (<argn1>==32) || (<argn1>==45)
+  return 0 // Continue
+else
+SRC.SYSMESSAGE You do not know how that magic works.
+  return 1 // Stop 
+endif
+
+
+[SKILLCLASS 22]
+
+DEFNAME=Class_human_mage
+NAME=Mage
+//EVENTS=e_human_mage
+STATSUM=260
+SKILLSUM=10000.0
+STR=85
+INT=85
+DEX=90
+Alchemy=100.0
+Anatomy=100.0
+AnimalLore=100.0
+ItemId=100.0
+ArmsLore=100.0
+Parrying=100.0
+Begging=100.0
+Blacksmithing=100.0
+Bowcraft=100.0
+Peacemaking=100.0
+Camping=100.0
+Carpentry=100.0
+Cartography=100.0
+Cooking=100.0
+DetectingHidden=100.0
+Enticement=100.0
+EvaluatingIntel=100.0
+Healing=100.0
+Fishing=100.0
+Forensics=100.0
+Herding=100.0
+Hiding=100.0
+Provocation=100.0
+Inscription=100.0
+LockPicking=100.0
+Magery=100.0
+MagicResistance=100.0
+Tactics=100.0
+Snooping=100.0
+Musicianship=100.0
+Poisoning=100.0
+Archery=100.0
+SpiritSpeak=100.0
+Stealing=100.0
+Tailoring=100.0
+Taming=100.0
+TasteId=100.0
+Tinkering=100.0
+Tracking=100.0
+Veterinary=100.0
+Swordsmanship=100.0
+Macefighting=100.0
+Fencing=100.0
+Wrestling=100.0
+Lumberjacking=100.0
+Mining=100.0
+Meditation=100.0
+Stealth=100.0
+RemoveTrap=100.0
+Necromancy=100.0
+Focus=100.0
+Chivalry=100.0
+Bushido=100.0
+Ninjitsu=100.0
+Spellweaving=100.0
+Mysticism=100.0
+Imbuing=100.0
+Throwing=100.0
+
+ON=@ItemEquipTest
+IF (<ACT.TDATA3> == 4) || (<ACT.TDATA3> == 1) || (<ACT.TDATA3> == 5) || (<ACT.TDATA3> == 3)
+SRC.SYSMESSAGE You can't equip this armor.
+RETURN 1
+ENDIF
+
+ON=@SPELLCAST
+IF (<argn1>==1) || (<argn1>==2) || (<argn1>==3) || (<argn1>==4) || (<argn1>==5) || (<argn1>==6)
+elseif (<argn1>==7) || (<argn1>==8) || (<argn1>==9) || (<argn1>==10) || (<argn1>==11) || (<argn1>==12) 
+elseif (<argn1>==13) || (<argn1>==14) || (<argn1>==15) || (<argn1>==16) || (<argn1>==17) || (<argn1>==18) 
+elseif (<argn1>==19) || (<argn1>==20) || (<argn1>==21) || (<argn1>==22) || (<argn1>==23) || (<argn1>==24)
+elseif (<argn1>==27) || (<argn1>==28) || (<argn1>==29) || (<argn1>==31) || (<argn1>==32) || (<argn1>==33)
+esleif (<argn1>==34) || (<argn1>==35) || (<argn1>==36) || (<argn1>==37) || (<argn1>==38) || (<argn1>==39)
+elseif (<argn1>==40) || (<argn1>==41) || (<argn1>==42) || (<argn1>==43) || (<argn1>==44) || (<argn1>==45)
+elseif (<argn1>==46) || (<argn1>==447) || (<argn1>==48) || (<argn1>==52)
+  return 0 // Continue
+else
+SRC.SYSMESSAGE You do not know how that magic works.
+  return 1 // Stop 
+endif
+
+
+[SKILLCLASS 23]
+
+DEFNAME=Class_human_arch_mage
+NAME=Arch Mage
+//EVENTS=e_human_arch_mage
+STATSUM=260
+SKILLSUM=10000.0
+STR=70
+INT=95
+DEX=90
+Alchemy=100.0
+Anatomy=100.0
+AnimalLore=100.0
+ItemId=100.0
+ArmsLore=100.0
+Parrying=100.0
+Begging=100.0
+Blacksmithing=100.0
+Bowcraft=100.0
+Peacemaking=100.0
+Camping=100.0
+Carpentry=100.0
+Cartography=100.0
+Cooking=100.0
+DetectingHidden=100.0
+Enticement=100.0
+EvaluatingIntel=100.0
+Healing=100.0
+Fishing=100.0
+Forensics=100.0
+Herding=100.0
+Hiding=100.0
+Provocation=100.0
+Inscription=100.0
+LockPicking=100.0
+Magery=100.0
+MagicResistance=100.0
+Tactics=100.0
+Snooping=100.0
+Musicianship=100.0
+Poisoning=100.0
+Archery=100.0
+SpiritSpeak=100.0
+Stealing=100.0
+Tailoring=100.0
+Taming=100.0
+TasteId=100.0
+Tinkering=100.0
+Tracking=100.0
+Veterinary=100.0
+Swordsmanship=100.0
+Macefighting=100.0
+Fencing=100.0
+Wrestling=100.0
+Lumberjacking=100.0
+Mining=100.0
+Meditation=100.0
+Stealth=100.0
+RemoveTrap=100.0
+Necromancy=100.0
+Focus=100.0
+Chivalry=100.0
+Bushido=100.0
+Ninjitsu=100.0
+Spellweaving=100.0
+Mysticism=100.0
+Imbuing=100.0
+Throwing=100.0
+
+ON=@ItemEquipTest
+IF (<ACT.TDATA3> == 4) || (<ACT.TDATA3> == 1) || (<ACT.TDATA3> == 5) || (<ACT.TDATA3> == 3)
+SRC.SYSMESSAGE You can't equip this armor.
+RETURN 1
+ENDIF
+
+ON=@SPELLCAST
+IF (<argn1>==1) || (<argn1>==2) || (<argn1>==3) || (<argn1>==4) || (<argn1>==5) || (<argn1>==6)
+elseif (<argn1>==7) || (<argn1>==8) || (<argn1>==9) || (<argn1>==10) || (<argn1>==11) || (<argn1>==12) 
+elseif (<argn1>==13) || (<argn1>==14) || (<argn1>==15) || (<argn1>==16) || (<argn1>==17) || (<argn1>==18) 
+elseif (<argn1>==19) || (<argn1>==20) || (<argn1>==21) || (<argn1>==22) || (<argn1>==23) || (<argn1>==24)
+elseif (<argn1>==27) || (<argn1>==28) || (<argn1>==29) || (<argn1>==31) || (<argn1>==32) || (<argn1>==33)
+esleif (<argn1>==34) || (<argn1>==35) || (<argn1>==36) || (<argn1>==37) || (<argn1>==38) || (<argn1>==39)
+elseif (<argn1>==40) || (<argn1>==41) || (<argn1>==42) || (<argn1>==43) || (<argn1>==44) || (<argn1>==45)
+elseif (<argn1>==46) || (<argn1>==447) || (<argn1>==48) || (<argn1>==49) || (<argn1>==50) || (<argn1>==51)
+elseif (<argn1>==52) || (<argn1>==53) || (<argn1>==54) || (<argn1>==55) || (<argn1>==56) || (<argn1>==57)
+elseif (<argn1>==58) || (<argn1>==59) || (<argn1>==60) || (<argn1>==61) || (<argn1>==62) || (<argn1>==63)
+elseif (<argn1>==64)
   return 0 // Continue
 else
 SRC.SYSMESSAGE You do not know how that magic works.
@@ -1407,7 +1677,7 @@ Alchemy=100.0
 Anatomy=100.0
 AnimalLore=100.0
 ItemId=100.0
-ArmsLore=5.0
+ArmsLore=100.0
 Parrying=100.0
 Begging=100.0
 Blacksmithing=100.0
@@ -1488,7 +1758,7 @@ Alchemy=100.0
 Anatomy=100.0
 AnimalLore=100.0
 ItemId=100.0
-ArmsLore=5.0
+ArmsLore=100.0
 Parrying=100.0
 Begging=100.0
 Blacksmithing=100.0
