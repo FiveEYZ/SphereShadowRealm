@@ -1,0 +1,34 @@
+[CHARDEF C_H_Travel_Mage]
+DEFNAME=C_H_Travel_Mage
+NAME=#NAMES_HUMANMALE the Travel Mage
+ID=C_MAN
+DESIRES=i_gold
+TSPEECH=spk_human_prime
+TSPEECH=spk_needs
+TSPEECH=spk_human_default
+TEVENTS=e_Human_HearUnk
+TEVENTS=e_Human_ConvInit
+TEVENTS=e_Human_Needs
+TEVENTS=e_Human_Greet
+TEVENTS=e_Human_Space
+TEVENTS=e_Human_Refuse
+TEVENTS=e_Human_Environ
+CATEGORY=Shadow Realm
+SUBSECTION=Npc
+DESCRIPTION=Travel Mage
+
+ON=@Create
+	NPC=brain_vendor
+	COLOR=colors_skin
+	NEED=i_gold
+	STR={66 80}
+	DEX=90
+	INT={66 80}
+	ITEMNEWBIE=i_lantern
+	ITEMNEWBIE=random_male_hair
+	COLOR=colors_hair
+	ITEMNEWBIE=random_facial_hair
+	COLOR=match_hair
+	
+on=minoc
+src.go minoc

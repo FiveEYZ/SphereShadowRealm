@@ -118,6 +118,26 @@ ON=@Create
 COLOR=color_o_rusty
 HITPOINTS={51 65}
 
+[ITEMDEF i_platemail_female_chest_rusty]
+DEFNAME=i_platemail_female_chest_rusty
+NAME=rusty female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_rusty
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rusty female platemail
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={51 65}
+
 [ITEMDEF i_platemail_arms_copper]
 DEFNAME=i_platemail_arms_copper
 NAME=copper platemail arms
@@ -233,6 +253,26 @@ REQSTR=60
 CATEGORY=Shadow Realm
 SUBSECTION=Platemail Armor
 DESCRIPTION=copper platemail
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_female_chest_copper]
+DEFNAME=i_platemail_female_chest_copper
+NAME=copper female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_copper
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper female platemail
 
 ON=@Create
 COLOR=color_o_copper
@@ -358,6 +398,26 @@ ON=@Create
 COLOR=color_o_oldcopper
 HITPOINTS={51 65}
 
+[ITEMDEF i_platemail_female_chest_oldcopper]
+DEFNAME=i_platemail_female_chest_oldcopper
+NAME=old copper female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_old_copper
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=old copper female platemail
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={51 65}
+
 [ITEMDEF i_platemail_arms_dullcopper]
 DEFNAME=i_platemail_arms_dullcopper
 NAME=dull copper platemail arms
@@ -478,6 +538,25 @@ ON=@Create
 COLOR=color_o_dullcopper
 HITPOINTS={51 65}
 
+[ITEMDEF i_platemail_female_chest_dullcopper]
+DEFNAME=i_platemail_female_chest_dullcopper
+NAME=dull copper female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_dull_copper
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=dull copper female platemail
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={51 65}
 
 [ITEMDEF i_platemail_arms_bronze]
 DEFNAME=i_platemail_arms_bronze
@@ -594,6 +673,26 @@ REQSTR=60
 CATEGORY=Shadow Realm
 SUBSECTION=Platemail Armor
 DESCRIPTION=bronze platemail
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_female_chest_bronze]
+DEFNAME=i_platemail_female_chest_bronze
+NAME=bronze female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_bronze
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze female platemail
 
 ON=@Create
 COLOR=color_o_bronze
@@ -719,6 +818,26 @@ ON=@Create
 COLOR=color_o_silver
 HITPOINTS={51 65}
 
+[ITEMDEF i_platemail_female_chest_silver]
+DEFNAME=i_platemail_female_chest_silver
+NAME=silver female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_rusty
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=silver female platemail
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={51 65}
+
 [ITEMDEF i_platemail_arms_gold]
 DEFNAME=i_platemail_arms_gold
 NAME=gold platemail arms
@@ -834,6 +953,26 @@ REQSTR=60
 CATEGORY=Shadow Realm
 SUBSECTION=Platemail Armor
 DESCRIPTION=gold platemail
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_female_chest_gold]
+DEFNAME=i_platemail_female_chest_gold
+NAME=gold female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_gold
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=gold female platemail
 
 ON=@Create
 COLOR=color_o_gold
@@ -959,6 +1098,26 @@ ON=@Create
 COLOR=color_o_bloodrock
 HITPOINTS={51 65}
 
+[ITEMDEF i_platemail_female_chest_bloodrock]
+DEFNAME=i_platemail_female_chest_bloodrock
+NAME=bloodrock female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 75.0
+RESOURCES=20 i_ingot_bloodrock
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bloodrock female platemail
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={51 65}
+
 [ITEMDEF i_platemail_arms_blackrock]
 DEFNAME=i_platemail_arms_blackrock
 NAME=blackrock platemail arms
@@ -1074,6 +1233,26 @@ REQSTR=60
 CATEGORY=Shadow Realm
 SUBSECTION=Platemail Armor
 DESCRIPTION=blackrock platemail
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_female_chest_blackrock]
+DEFNAME=i_platemail_female_chest_blackrock
+NAME=blackrock female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_blackrock
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=blackrock female platemail
 
 ON=@Create
 COLOR=color_o_blackrock
@@ -1199,6 +1378,26 @@ ON=@Create
 COLOR=color_o_mytheril
 HITPOINTS={51 65}
 
+[ITEMDEF i_platemail_female_chest_mytheril]
+DEFNAME=i_platemail_female_chest_mytheril
+NAME=mytheril female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_mytheril
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=mytheril female platemail
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={51 65}
+
 [ITEMDEF i_platemail_arms_rose]
 DEFNAME=i_platemail_arms_rose
 NAME=rose platemail arms
@@ -1314,6 +1513,26 @@ REQSTR=60
 CATEGORY=Shadow Realm
 SUBSECTION=Platemail Armor
 DESCRIPTION=rose platemail
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_female_chest_rose]
+DEFNAME=i_platemail_female_chest_rose
+NAME=rose female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_rose
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=rose female platemail
 
 ON=@Create
 COLOR=color_o_rose
@@ -1439,6 +1658,26 @@ ON=@Create
 COLOR=color_o_verite
 HITPOINTS={51 65}
 
+[ITEMDEF i_platemail_female_chest_verite]
+DEFNAME=i_platemail_female_chest_verite
+NAME=verite female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_verite
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=verite female platemail
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={51 65}
+
 [ITEMDEF i_platemail_arms_agapite]
 DEFNAME=i_platemail_arms_agapite
 NAME=agapite platemail arms
@@ -1554,6 +1793,26 @@ REQSTR=60
 CATEGORY=Shadow Realm
 SUBSECTION=Platemail Armor
 DESCRIPTION=agapite platemail
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_female_chest_agapite]
+DEFNAME=i_platemail_female_chest_agapite
+NAME=agapite female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_agapite
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=agapite female platemail
 
 ON=@Create
 COLOR=color_o_agapite
@@ -1679,6 +1938,26 @@ ON=@Create
 COLOR=color_o_valorite
 HITPOINTS={51 65}
 
+[ITEMDEF i_platemail_female_chest_valorite]
+DEFNAME=i_platemail_female_chest_valorite
+NAME=valorite female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_valorite
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=valorite female platemail
+
+ON=@Create
+COLOR=color_o_valotite
+HITPOINTS={51 65}
+
 [ITEMDEF i_platemail_arms_shadow]
 DEFNAME=i_platemail_arms_shadow 
 NAME=shadow platemail arms
@@ -1799,6 +2078,26 @@ ON=@Create
 COLOR=color_o_shadow
 HITPOINTS={51 65}
 
+[ITEMDEF i_platemail_female_chest_shadow]
+DEFNAME=i_platemail_female_chest_shadow
+NAME=shadow female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_shadow
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=shadow female platemail
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={51 65}
+
 [ITEMDEF i_platemail_arms_invulnerability]
 DEFNAME=i_platemail_arms_invulnerability
 NAME=invulnerability platemail arms
@@ -1914,6 +2213,26 @@ REQSTR=60
 CATEGORY=Shadow Realm
 SUBSECTION=Platemail Armor
 DESCRIPTION=invulnerability platemail
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={51 65}
+
+[ITEMDEF i_platemail_female_chest_invulnerability]
+DEFNAME=i_platemail_female_chest_invulnerability
+NAME=invulnerability female platemail
+ID=i_armor_female_plate
+TDATA3=1
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 44.1
+RESOURCES=20 i_ingot_invulnerabilityy
+WEIGHT=6
+ARMOR=30
+REQSTR=45
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=invulnerability female platemail
 
 ON=@Create
 COLOR=color_o_invulnerability
