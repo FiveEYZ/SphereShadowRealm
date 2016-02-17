@@ -1,0 +1,1281 @@
+[ITEMDEF i_chainmail_coif_rusty]
+DEFNAME=i_chainmail_coif_rusty
+NAME=rusty chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_rusty
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=rusty chainmail coif
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_rusty]
+DEFNAME=i_chainmail_leggings_rusty
+NAME=rusty chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_rusty
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=rusty chainmail legs
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_rusty]
+//DEFNAME=i_chainmail_gorget_rusty
+//NAME=rusty chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+/FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_rusty
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=rusty chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_rusty
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_rusty]
+DEFNAME=i_chainmail_tunic_rusty
+NAME=rusty chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_rusty
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=rusty chainmail tunic
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_copper]
+DEFNAME=i_chainmail_coif_copper
+NAME=copper chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_copper
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper chainmail coif
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_copper]
+DEFNAME=i_chainmail_leggings_copper
+NAME=copper chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_copper
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper chainmail legs
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_copper]
+//DEFNAME=i_chainmail_gorget_copper
+//NAME=copper chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_copper
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Platemail Armor
+//DESCRIPTION=copper chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_copper
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_copper]
+DEFNAME=i_chainmail_tunic_copper
+NAME=copper chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_copper
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=copper chainmail tunic
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_oldcopper]
+DEFNAME=i_chainmail_coif_oldcopper
+NAME=old copper chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_old_copper
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=old copper chainmail coif
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_oldcopper]
+DEFNAME=i_chainmail_leggings_oldcopper
+NAME=old copper chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_old_copper
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=old copper chainmail legs
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_oldcopper]
+//DEFNAME=i_chainmail_gorget_oldcopper
+//NAME=old copper chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_old_copper
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=old copper chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_oldcopper
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_oldcopper]
+DEFNAME=i_chainmail_tunic_oldcopper
+NAME=old copper chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_old_copper
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=old copper chainmail tunic
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_dullcopper]
+DEFNAME=i_chainmail_coif_dullcopper
+NAME=dull copper chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_dull_copper
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=dull copper chainmail coif
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_dullcopper]
+DEFNAME=i_chainmail_leggings_dullcopper
+NAME=old copper chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_dull_copper
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=dull copper chainmail legs
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_dullcopper]
+//DEFNAME=i_chainmail_gorget_dullcopper
+//NAME=dull copper chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_dull_copper
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=dull copper chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_dullcopper
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_dullcopper]
+DEFNAME=i_chainmail_tunic_dullcopper
+NAME=dull copper chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_dull_copper
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=dull copper chainmail tunic
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_bronze]
+DEFNAME=i_chainmail_coif_bronze
+NAME=bronze chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_bronze
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze chainmail coif
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_bronze]
+DEFNAME=i_chainmail_leggings_bronze
+NAME=bronze chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_bronze
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze chainmail legs
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_bronze]
+//DEFNAME=i_chainmail_gorget_bronze
+//NAME=bronze chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_bronze
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Platemail Armor
+//DESCRIPTION=bronze chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_bronze
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_bronze]
+DEFNAME=i_chainmail_tunic_bronze
+NAME=bronze chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_bronze
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Platemail Armor
+DESCRIPTION=bronze chainmail tunic
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_silver]
+DEFNAME=i_chainmail_coif_silver
+NAME=silver chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_silver
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=silver chainmail coif
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_silver]
+DEFNAME=i_chainmail_leggings_silver
+NAME=silver chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_silver
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=silver chainmail legs
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_silver]
+//DEFNAME=i_chainmail_gorget_silver
+//NAME=silver chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_silver
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=silver chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_silver
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_silver]
+DEFNAME=i_chainmail_tunic_silver
+NAME=silver chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_silver
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=silver chainmail
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_gold]
+DEFNAME=i_chainmail_coif_gold
+NAME=gold chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_gold
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=gold chainmail coif
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_gold]
+DEFNAME=i_chainmail_leggings_gold
+NAME=gold chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_gold
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=gold chainmail legs
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_gold]
+//DEFNAME=i_chainmail_gorget_gold
+//NAME=gold chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_gold
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=gold chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_gold
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_gold]
+DEFNAME=i_chainmail_tunic_gold
+NAME=gold chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_gold
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=gold chainmail tunic
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_bloodrock]
+DEFNAME=i_chainmail_coif_bloodrock
+NAME=bloodrock chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_bloodrock
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=bloodrock chainmail coif
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_bloodrock]
+DEFNAME=i_chainmail_leggings_bloodrock
+NAME=bloodrock chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_bloodrock
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=bloodrock chainmail legs
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_bloodrock]
+//DEFNAME=i_chainmail_gorget_bloodrock
+//NAME=bloodrock chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_bloodrock
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=bloodrock chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_bloodrock
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_bloodrock]
+DEFNAME=i_chainmail_tunic_bloodrock
+NAME=bloodrock chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_bloodrock
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=bloodrock chainmail tunic
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_blackrock]
+DEFNAME=i_chainmail_coif_blackrock
+NAME=blackrock chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_blackrock
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=blackrock chainmail coif
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_blackrock]
+DEFNAME=i_chainmail_leggings_blackrock
+NAME=blackrock chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_blackrock
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=blackrock chainmail legs
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_blackrock]
+//DEFNAME=i_chainmail_gorget_blackrock
+//NAME=blackrock chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_blackrock
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=blackrock chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_blackrock
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_blackrock]
+DEFNAME=i_chainmail_tunic_blackrock
+NAME=blackrock chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_blackrock
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=blackrock chainmail tunic
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_mytheril]
+DEFNAME=i_chainmail_coif_mytheril
+NAME=mytheril chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_mytheril
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=mytheril chainmail coif
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_mytheril]
+DEFNAME=i_chainmail_leggings_mytheril
+NAME=mytheril chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_mytheril
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=mytheril chainmail legs
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_mytheril]
+//DEFNAME=i_chainmail_gorget_mytheril
+//NAME=mytheril chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_mytheril
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=mytheril chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_mytheril
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_mytheril]
+DEFNAME=i_chainmail_tunic_mytheril
+NAME=mytheril chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_mytheril
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=mytheril chainmail tunic
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_rose]
+DEFNAME=i_chainmail_coif_rose
+NAME=rose chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_rose
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=rose chainmail coif
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_rose]
+DEFNAME=i_chainmail_leggings_rose
+NAME=rose chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_rose
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=rose chainmail legs
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_rose]
+//DEFNAME=i_chainmail_gorget_rose
+//NAME=rose chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_rose
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=rose chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_rose
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_rose]
+DEFNAME=i_chainmail_tunic_rose
+NAME=rose chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_rose
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=rose chainmail tunic
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_verite]
+DEFNAME=i_chainmail_coif_verite
+NAME=verite chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_verite
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=verite chainmail coif
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_verite]
+DEFNAME=i_chainmail_leggings_verite
+NAME=verite chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_verite
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=verite chainmail legs
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_verite]
+//DEFNAME=i_chainmail_gorget_verite
+//NAME=verite chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_verite
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=verite chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_verite
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_verite]
+DEFNAME=i_chainmail_tunic_verite
+NAME=verite chainmail
+ID=i_chainmail_tunic tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_verite
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=verite chainmail tunic
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_agapite]
+DEFNAME=i_chainmail_coif_agapite
+NAME=agapite chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_agapite
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=agapite chainmail coif
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_agapite]
+DEFNAME=i_chainmail_leggings_agapite
+NAME=agapite chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_agapite
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=agapite chainmail legs
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_agapite]
+//DEFNAME=i_chainmail_gorget_agapite
+//NAME=agapite chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_agapite
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=agapite chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_agapite
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_agapite]
+DEFNAME=i_chainmail_tunic_agapite
+NAME=agapite chainmail
+ID=i_chainmail_tunic tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_agapite
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=agapite chainmail tunic
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_valorite]
+DEFNAME=i_chainmail_coif_valorite
+NAME=valorite chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_valorite
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=valorite chainmail coif
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_valorite]
+DEFNAME=i_chainmail_leggings_valorite
+NAME=valorite chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_valorite
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=valorite chainmail legs
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_valorite]
+//DEFNAME=i_chainmail_gorget_valorite
+//NAME=valorite chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_valorite
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=valorite chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_valorite
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_valorite]
+DEFNAME=i_chainmail_tunic_valorite
+NAME=valorite chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_valorite
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=valorite chainmail tunic
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_shadow]
+DEFNAME=i_chainmail_coif_shadow 
+NAME=shadow chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_shadow 
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=shadow chainmail coif
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_shadow]
+DEFNAME=i_chainmail_leggings_shadow
+NAME=shadow chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_shadow
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=shadow chainmail legs
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_shadow]
+//DEFNAME=i_chainmail_gorget_shadow
+//NAME=shadow chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_shadow
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=shadow chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_shadow
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_shadow]
+DEFNAME=i_chainmail_tunic_shadow
+NAME=shadow chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_shadow
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=shadow chainmail tunic
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_coif_invulnerability]
+DEFNAME=i_chainmail_coif_invulnerability
+NAME=invulnerability chainmail coif
+ID=i_chainmail_coif
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 14.5
+RESOURCES=10 i_ingot_invulnerability
+WEIGHT=7
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=invulnerability chainmail coif
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_leggings_invulnerability]
+DEFNAME=i_chainmail_leggings_invulnerability
+NAME=invulnerability chainmail legs
+ID=i_chainmail_leggings
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 36.7
+RESOURCES=20 i_ingot_invulnerability
+WEIGHT=10
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=invulnerability chainmail legs
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={35 45}
+
+//[ITEMDEF i_chainmail_gorget_invulnerability]
+//DEFNAME=i_chainmail_gorget_invulnerability
+//NAME=invulnerability chainmail gorget
+//ID=i_chainmail_gorget
+//TDATA3=4
+//TYPE=T_ARMOR
+//FLIP=1
+//SKILLMAKE=BLACKSMITHING 14.1
+//RESOURCES=10 i_ingot_invulnerability
+//WEIGHT=7
+//ARMOR=23
+//REQSTR=20
+//CATEGORY=Shadow Realm
+//SUBSECTION=Chainmail Armor
+//DESCRIPTION=invulnerability chainmail gorget
+
+//ON=@Create
+//COLOR=color_o_invulnerability
+//HITPOINTS={35 45}
+
+[ITEMDEF i_chainmail_tunic_invulnerability]
+DEFNAME=i_chainmail_tunic_invulnerability
+NAME=invulnerability chainmail tunic
+ID=i_chainmail_tunic
+TDATA3=4
+TYPE=T_ARMOR
+FLIP=1
+SKILLMAKE=BLACKSMITHING 39.1
+RESOURCES=25 i_ingot_invulnerability
+WEIGHT=23
+ARMOR=23
+REQSTR=20
+CATEGORY=Shadow Realm
+SUBSECTION=Chainmail Armor
+DESCRIPTION=invulnerability chainmail tunic
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={35 45}
+
+[EOF]

@@ -1,18 +1,56 @@
-TDATA	ARMOR TYPE
 
-1 	= 	Plate
-2 	= 	Leather
-3 	= 	Studded Leather
-4 	= 	Chain
-5 	= 	Ringmail
-6 	= 	Bone
+TDATA3		ARMOR TYPE
 
-		WEAPON TYPE
+1 		= 		Plate
+2 		= 		Leather
+3 		= 		Studded Leather
+4 		= 		Chain
+5 		= 		Ringmail
+6	 	= 		Bone
 
-7	=	
-8	=	
-9	=	
-10	=	
-11	=	
-12	=	
-13	=	
+			Swords
+
+7		=		Katana
+8		=		Broadsword
+9		=		Cutlass
+10		=		Longsword
+11		=		Scimitar
+12		=		Viking Sword
+13		=		Boneharvester
+14		=		Crescentblade
+15		=		Twohanded Sword
+
+			Axes & Polearms (2h)
+
+16		=		Double Axe
+17		=		Large Battle Axe
+18		=		Two Handed Axe
+19		=		Halberd
+20		=		Bardiche
+21		=		Axe (ID:0xF48)
+22		=		Battle Axe
+
+			Fencing Weapons
+			
+23		=		Dagger (1h)
+24		=		Kryss (1h)
+25		=		War Fork (1h)
+26		=		Short Spear (2h)
+27		=		Spear (2h)
+28		=		Bladedstaff (2h)
+29		=		Doublebladedstaff (2h)
+30		=		Lance (2h)
+31		=		Scythe (2h)
+
+			Slashing
+
+32		=		Mace (1h)
+33		=		Maul (1h)
+34		=		Scepter
+35		=		War Axe	(1h)
+36		=		War Mace (1h)
+37		=		War Hammer (2h)
+38		=		Hammer Pick (2h)
+39		=		Black Staff (2h)
+40		=		Nailmace
+41		=		Barbarian Club

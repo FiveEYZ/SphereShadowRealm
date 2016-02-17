@@ -1,0 +1,61 @@
+[ITEMDEF i_searcher_class]
+ID=i_rune_alchem_10
+DEFNAME=i_searcher_class
+NAME=Searcher
+TYPE=t_telepad
+CATEGORY=Shadow Realm
+SUBSECTION=Classes
+
+ON=@STEP
+if (<src.body> == c_man) || (<src.body> == c_woman)
+	src.skillclass=Class_human_searcher
+	src.go=britain
+	src.sysmessage=You have chosen Searcher as your class.
+endif
+
+[ITEMDEF i_novice_class]
+ID=i_rune_alchem_10
+DEFNAME=i_novice_class
+NAME=Novice
+TYPE=t_telepad
+CATEGORY=Shadow Realm
+SUBSECTION=Classes
+
+ON=@STEP
+if (<src.body> == c_man) || (<src.body> == c_woman)
+	src.skillclass=Class_human_novice
+	src.go=britain
+	src.sysmessage=Congratulations you have been promoted to Novice.
+endif
+
+[ITEMDEF i_mage_class]
+ID=i_rune_alchem_10
+DEFNAME=i_mage_class
+NAME=Mage
+TYPE=t_telepad
+CATEGORY=Shadow Realm
+SUBSECTION=Classes
+
+ON=@STEP
+if (<src.body> == c_man) || (<src.body> == c_woman)
+	src.skillclass=Class_human_mage
+	src.go=britain
+	src.sysmessage=Congratulations you have been promoted to Mage.
+endif
+
+[ITEMDEF i_arch_mage_class]
+ID=i_rune_alchem_10
+DEFNAME=i_arch_mage_class
+NAME=Arch Mage
+TYPE=t_telepad
+CATEGORY=Shadow Realm
+SUBSECTION=Classes
+
+ON=@STEP
+if (<src.body> == c_man) || (<src.body> == c_woman)
+	src.skillclass=Class_human_arch_mage
+	src.go=britain
+	src.sysmessage=Congratulations you have been promoted to Arch Mage.
+endif
+
+[EOF]
