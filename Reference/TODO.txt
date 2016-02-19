@@ -1,3 +1,5 @@
+TO DO!!
+
 -Class/race System
 --Decide what races to have
 ---Decide Stat caps and race traits for races
@@ -58,6 +60,15 @@ rusty, copper, oldcopper, dullcopper, bronze, silver, gold, bloodrock, blackrock
 
 *idea balance for mages , novice 60 tac mage 80 tac and arch mage 95 ? because this will affect your spellcasting % chance for fizzle.
 
+
+NEEDS TESTING!!
+
+all armors from all materials
+https://gyazo.com/f7dea4512327f11d942380d82d8bd5db
+
+
+all swords, axes and polearms from all materials
+https://gyazo.com/c51eaca3973477b2fe3d3dfd567314a4
 
 
 
