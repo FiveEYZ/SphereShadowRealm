@@ -1,7 +1,7 @@
-[ITEMDEF i_ringmail_sleevess_rusty]
-DEFNAME=i_ringmail_sleevess_rusty
-NAME=rusty ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_rusty]
+DEFNAME=i_ringmail_sleeves_rusty
+NAME=rusty ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -12,7 +12,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=rusty ringmail sleevess
+DESCRIPTION=rusty ringmail sleeves
 
 ON=@Create
 COLOR=color_o_rusty
@@ -158,10 +158,10 @@ ON=@Create
 COLOR=color_o_copper
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_oldcopper]
-DEFNAME=i_ringmail_sleevess_oldcopper
-NAME=old copper ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_oldcopper]
+DEFNAME=i_ringmail_sleeves_oldcopper
+NAME=old copper ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -172,7 +172,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=old copper ringmail sleevess
+DESCRIPTION=old copper ringmail sleeves
 
 ON=@Create
 COLOR=color_o_oldcopper
@@ -238,10 +238,10 @@ ON=@Create
 COLOR=color_o_oldcopper
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_dullcopper]
-DEFNAME=i_ringmail_sleevess_dullcopper
-NAME=dull copper ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_dullcopper]
+DEFNAME=i_ringmail_sleeves_dullcopper
+NAME=dull copper ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -252,7 +252,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=dull copper ringmail sleevess
+DESCRIPTION=dull copper ringmail sleeves
 
 ON=@Create
 COLOR=color_o_dullcopper
@@ -318,10 +318,10 @@ ON=@Create
 COLOR=color_o_dullcopper
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_bronze]
-DEFNAME=i_ringmail_sleevess_bronze
-NAME=bronze ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_bronze]
+DEFNAME=i_ringmail_sleeves_bronze
+NAME=bronze ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -332,7 +332,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=bronze ringmail sleevess
+DESCRIPTION=bronze ringmail sleeves
 
 ON=@Create
 COLOR=color_o_bronze
@@ -398,10 +398,10 @@ ON=@Create
 COLOR=color_o_bronze
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_silver]
-DEFNAME=i_ringmail_sleevess_silver
-NAME=silver ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_silver]
+DEFNAME=i_ringmail_sleeves_silver
+NAME=silver ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -412,7 +412,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=silver ringmail sleevess
+DESCRIPTION=silver ringmail sleeves
 
 ON=@Create
 COLOR=color_o_silver
@@ -478,10 +478,10 @@ ON=@Create
 COLOR=color_o_silver
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_gold]
-DEFNAME=i_ringmail_sleevess_gold
-NAME=gold ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_gold]
+DEFNAME=i_ringmail_sleeves_gold
+NAME=gold ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -492,7 +492,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=gold ringmail sleevess
+DESCRIPTION=gold ringmail sleeves
 
 ON=@Create
 COLOR=color_o_gold
@@ -558,10 +558,10 @@ ON=@Create
 COLOR=color_o_gold
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_bloodrock]
-DEFNAME=i_ringmail_sleevess_bloodrock
-NAME=bloodrock ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_bloodrock]
+DEFNAME=i_ringmail_sleeves_bloodrock
+NAME=bloodrock ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -572,7 +572,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=bloodrock ringmail sleevess
+DESCRIPTION=bloodrock ringmail sleeves
 
 ON=@Create
 COLOR=color_o_bloodrock
@@ -638,10 +638,10 @@ ON=@Create
 COLOR=color_o_bloodrock
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_blackrock]
-DEFNAME=i_ringmail_sleevess_blackrock
-NAME=blackrock ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_blackrock]
+DEFNAME=i_ringmail_sleeves_blackrock
+NAME=blackrock ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -652,7 +652,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=blackrock ringmail sleevess
+DESCRIPTION=blackrock ringmail sleeves
 
 ON=@Create
 COLOR=color_o_blackrock
@@ -718,10 +718,10 @@ ON=@Create
 COLOR=color_o_blackrock
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_mytheril]
-DEFNAME=i_ringmail_sleevess_mytheril
-NAME=mytheril ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_mytheril]
+DEFNAME=i_ringmail_sleeves_mytheril
+NAME=mytheril ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -732,7 +732,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=mytheril ringmail sleevess
+DESCRIPTION=mytheril ringmail sleeves
 
 ON=@Create
 COLOR=color_o_mytheril
@@ -798,10 +798,10 @@ ON=@Create
 COLOR=color_o_mytheril
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_rose]
-DEFNAME=i_ringmail_sleevess_rose
-NAME=rose ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_rose]
+DEFNAME=i_ringmail_sleeves_rose
+NAME=rose ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -812,7 +812,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=rose ringmail sleevess
+DESCRIPTION=rose ringmail sleeves
 
 ON=@Create
 COLOR=color_o_rose
@@ -878,10 +878,10 @@ ON=@Create
 COLOR=color_o_rose
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_verite]
-DEFNAME=i_ringmail_sleevess_verite
-NAME=verite ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_verite]
+DEFNAME=i_ringmail_sleeves_verite
+NAME=verite ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -892,7 +892,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=verite ringmail sleevess
+DESCRIPTION=verite ringmail sleeves
 
 ON=@Create
 COLOR=color_o_verite
@@ -958,10 +958,10 @@ ON=@Create
 COLOR=color_o_verite
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_agapite]
-DEFNAME=i_ringmail_sleevess_agapite
-NAME=agapite ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_agapite]
+DEFNAME=i_ringmail_sleeves_agapite
+NAME=agapite ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -972,7 +972,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=agapite ringmail sleevess
+DESCRIPTION=agapite ringmail sleeves
 
 ON=@Create
 COLOR=color_o_agapite
@@ -1038,10 +1038,10 @@ ON=@Create
 COLOR=color_o_agapite
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_valorite]
-DEFNAME=i_ringmail_sleevess_valorite
-NAME=valorite ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_valorite]
+DEFNAME=i_ringmail_sleeves_valorite
+NAME=valorite ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -1052,7 +1052,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=valorite ringmail sleevess
+DESCRIPTION=valorite ringmail sleeves
 
 ON=@Create
 COLOR=color_o_valorite
@@ -1118,10 +1118,10 @@ ON=@Create
 COLOR=color_o_valorite
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_shadow]
-DEFNAME=i_ringmail_sleevess_shadow 
-NAME=shadow ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_shadow]
+DEFNAME=i_ringmail_sleeves_shadow 
+NAME=shadow ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -1132,7 +1132,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=shadow ringmail sleevess
+DESCRIPTION=shadow ringmail sleeves
 
 ON=@Create
 COLOR=color_o_shadow
@@ -1198,10 +1198,10 @@ ON=@Create
 COLOR=color_o_shadow
 HITPOINTS={41 55}
 
-[ITEMDEF i_ringmail_sleevess_invulnerability]
-DEFNAME=i_ringmail_sleevess_invulnerability
-NAME=invulnerability ringmail sleevess
-ID=i_ringmail_sleevess
+[ITEMDEF i_ringmail_sleeves_invulnerability]
+DEFNAME=i_ringmail_sleeves_invulnerability
+NAME=invulnerability ringmail sleeves
+ID=i_ringmail_sleeves
 TDATA3=5
 TYPE=T_ARMOR
 FLIP=1
@@ -1212,7 +1212,7 @@ ARMOR=16
 REQSTR=20
 CATEGORY=Shadow Realm
 SUBSECTION=Ringmail Armor
-DESCRIPTION=invulnerability ringmail sleevess
+DESCRIPTION=invulnerability ringmail sleeves
 
 ON=@Create
 COLOR=color_o_invulnerability
