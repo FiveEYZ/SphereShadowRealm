@@ -1,0 +1,41 @@
+[ITEMDEF i_drake_hide]
+DEFNAME=i_drake_hide
+TYPE=t_hide
+WEIGHT=5
+VALUE=5
+CATEGORY=Shadow Realm
+SUBSECTION=Resources
+DESCRIPTION=Hide
+Color=
+
+[ITEMDEF i_dragon_hide]
+DEFNAME=i_dragon_hide
+TYPE=t_hide
+WEIGHT=5
+VALUE=6
+CATEGORY=Shadow Realm
+SUBSECTION=Resources
+DESCRIPTION=Hide
+Color=
+
+[ITEMDEF i_wyvern_hide]
+DEFNAME=i_wyvern_hide
+TYPE=t_hide
+WEIGHT=5
+VALUE=7
+CATEGORY=Shadow Realm
+SUBSECTION=Resources
+DESCRIPTION=Hide
+Color=
+
+[ITEMDEF i_wyrm_hide]
+DEFNAME=i_wyrm_hide
+TYPE=t_hide
+WEIGHT=5
+VALUE=8
+CATEGORY=Shadow Realm
+SUBSECTION=Resources
+DESCRIPTION=Hide
+Color=
+
+[EOF]
