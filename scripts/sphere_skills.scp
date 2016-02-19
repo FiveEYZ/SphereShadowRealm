@@ -1634,10 +1634,10 @@ Imbuing=100.0
 Throwing=100.0
 
 ON=@ItemEquipTest
-if (<act.tdata3> == 1||3||4||5)
-src.smsg You can't equip this armor.
-return 1
-endif
+IF (<ACT.TDATA3> == 4) || (<ACT.TDATA3> == 1) || (<ACT.TDATA3> == 5) || (<ACT.TDATA3> == 3)
+SRC.SYSMESSAGE You can't equip this armor.
+RETURN 1
+ENDIF
 
 //on=@SpellCast
 //if (<argo.type> == t_scroll)

@@ -320,6 +320,17 @@ MANAUSE=9
 SKILLREQ=MAGERY 30.0
 INTERRUPT=0.0,0.0
 
+//ON=@TARGON_ITEM
+//IF ((<src.targ.baseid> == i_dragon_hide)
+//    src.smsg You clean the blood bandages.
+//    serv.newitem=i_drake_hide
+//    new.amount=<amount>
+//    new.bounce
+//    remove
+//    RETURN 1
+//ENDIF
+
+
 [Spell 18]
 DEFNAME=s_fireball
 NAME=Fireball

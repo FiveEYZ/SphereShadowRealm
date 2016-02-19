@@ -213,7 +213,7 @@ NAME=Wyvern
 ID=c_DRAGON_RED
 DAM=3,24
 ARMOR=20
-RESOURCES=50 i_ribs_raw, 5 i_dragon_hide
+RESOURCES=50 i_ribs_raw, 5 i_wyvern_hide
 FOODTYPE=25 t_meat_raw
 //SHELTER==r_caves,r_dungeon
 DESIRES=i_gold
@@ -536,7 +536,7 @@ SOUND=snd_MONSTER_DRAGON1
 ICON=i_pet_dragon
 DAM=11,53
 ARMOR=35
-RESOURCES=99 i_ribs_raw,5 i_dragon_hide,8 i_reag_dragon_blood
+RESOURCES=99 i_ribs_raw,5 i_wyrm_hide,8 i_reag_dragon_blood
 //ALIGNMENT=CHAOTIC
 CAN=MT_WALK|MT_FLY
 //SPELLCIRCLES=4,8

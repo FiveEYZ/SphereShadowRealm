@@ -1,41 +1,59 @@
 [ITEMDEF i_drake_hide]
 DEFNAME=i_drake_hide
+Name=Drake Hide
+ID=i_hide
 TYPE=t_hide
 WEIGHT=5
 VALUE=5
 CATEGORY=Shadow Realm
 SUBSECTION=Resources
 DESCRIPTION=Hide
-Color=
+//Color=
 
 [ITEMDEF i_dragon_hide]
 DEFNAME=i_dragon_hide
+Name=Dragon Hide
+ID=i_hide
 TYPE=t_hide
 WEIGHT=5
 VALUE=6
 CATEGORY=Shadow Realm
 SUBSECTION=Resources
 DESCRIPTION=Hide
-Color=
+//Color=
+
+ON=@SpellEffect
+if (<argn1>==17)
+    src.smsg You clean the blood bandages.
+    serv.newitem=i_drake_hide
+    new.amount=<amount>
+    remove
+RETURN 1
+endif
+
 
 [ITEMDEF i_wyvern_hide]
 DEFNAME=i_wyvern_hide
+Name=Wyvern Hide
+ID=i_hide
 TYPE=t_hide
 WEIGHT=5
 VALUE=7
 CATEGORY=Shadow Realm
 SUBSECTION=Resources
 DESCRIPTION=Hide
-Color=
+//Color=
 
 [ITEMDEF i_wyrm_hide]
 DEFNAME=i_wyrm_hide
+Name=Wyrm Hide
+ID=i_hide
 TYPE=t_hide
 WEIGHT=5
 VALUE=8
 CATEGORY=Shadow Realm
 SUBSECTION=Resources
 DESCRIPTION=Hide
-Color=
+//Color=
 
 [EOF]
