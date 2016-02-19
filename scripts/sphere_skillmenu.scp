@@ -756,12 +756,47 @@ SKILLMENU=sm_axes_rusty
 ON=i_axe_double_copper @color_o_copper, Axes (2h)
 SKILLMENU=sm_axes_copper
 
+ON=i_axe_double_oldcopper @color_o_oldcopper, Axes (2h)
+SKILLMENU=sm_axes_oldcopper
 
+ON=i_axe_double_dullcopper @color_o_dullcopper, Axes (2h)
+SKILLMENU=sm_axes_dullcopper
 
+ON=i_axe_double_bronze @color_o_bronze, Axes (2h)
+SKILLMENU=sm_axes_bronze
 
+ON=i_axe_double_silver @color_o_silver, Axes (2h)
+SKILLMENU=sm_axes_silver
 
+ON=i_axe_double_gold @color_o_gold, Axes (2h)
+SKILLMENU=sm_axes_gold
 
+ON=i_axe_double_bloodrock @color_o_bloodrock, Axes (2h)
+SKILLMENU=sm_axes_bloodrock
 
+ON=i_axe_double_blackrock @color_o_blackrock, Axes (2h)
+SKILLMENU=sm_axes_blackrock
+
+ON=i_axe_double_mytheril @color_o_mytheril, Axes (2h)
+SKILLMENU=sm_axes_mytheril
+
+ON=i_axe_double_rose @color_o_rose, Axes (2h)
+SKILLMENU=sm_axes_rose
+
+ON=i_axe_double_verite @color_o_verite, Axes (2h)
+SKILLMENU=sm_axes_verite
+
+ON=i_axe_double_agapite @color_o_agapite, Axes (2h)
+SKILLMENU=sm_axes_agapite
+
+ON=i_axe_double_valorite @color_o_valorite, Axes (2h)
+SKILLMENU=sm_axes_valorite
+
+ON=i_axe_double_shadow @color_o_shadow, Axes (2h)
+SKILLMENU=sm_axes_shadow
+
+ON=i_axe_double_invulnerability @color_o_invulnerability, Axes (2h)
+SKILLMENU=sm_axes_invulnerability
 
 ON=i_sword_viking Swords & Blades
 SKILLMENU=sm_swords_blades
@@ -772,10 +807,47 @@ SKILLMENU=sm_swords_blades_rusty
 ON=i_sword_viking_copper @color_o_copper, Swords & Blades
 SKILLMENU=sm_swords_blades_copper
 
+ON=i_sword_viking_oldcopper @color_o_oldcopper, Swords & Blades
+SKILLMENU=sm_swords_blades_oldcopper
 
+ON=i_sword_viking_dullcopper @color_o_dullcopper, Swords & Blades
+SKILLMENU=sm_swords_blades_dullcopper
 
+ON=i_sword_viking_bronze @color_o_bronze, Swords & Blades
+SKILLMENU=sm_swords_blades_bronze
 
+ON=i_sword_viking_silver @color_o_silver, Swords & Blades
+SKILLMENU=sm_swords_blades_silver
 
+ON=i_sword_viking_gold @color_o_gold, Swords & Blades
+SKILLMENU=sm_swords_blades_gold
+
+ON=i_sword_viking_bloodrock @color_o_bloodrock, Swords & Blades
+SKILLMENU=sm_swords_blades_bloodrock
+
+ON=i_sword_viking_blackrock @color_o_blackrock, Swords & Blades
+SKILLMENU=sm_swords_blades_blackrock
+
+ON=i_sword_viking_mytheril @color_o_mytheril, Swords & Blades
+SKILLMENU=sm_swords_blades_mytheril
+
+ON=i_sword_viking_rose @color_o_rose, Swords & Blades
+SKILLMENU=sm_swords_blades_rose
+
+ON=i_sword_viking_verite @color_o_verite, Swords & Blades
+SKILLMENU=sm_swords_blades_verite
+
+ON=i_sword_viking_agapite @color_o_agapite, Swords & Blades
+SKILLMENU=sm_swords_blades_agapite
+
+ON=i_sword_viking_valorite @color_o_valorite, Swords & Blades
+SKILLMENU=sm_swords_blades_valorite
+
+ON=i_sword_viking_shadow @color_o_shadow, Swords & Blades
+SKILLMENU=sm_swords_blades_shadow
+
+ON=i_sword_viking_invulnerability @color_o_invulnerability, Swords & Blades
+SKILLMENU=sm_swords_blades_invulnerability
 
 
 
@@ -1857,10 +1929,299 @@ MAKEITEM=i_scimitar_copper
 ON=i_sword_viking_copper @color_o_copper, <name> (<resmake>)
 MAKEITEM=i_sword_viking_copper
 
+[SKILLMENU sm_swords_blades_oldcopper]
+Old Copper Swords & Blades
 
+ON=i_katana_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_katana_oldcopper
 
+ON=i_sword_broad_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_sword_broad_oldcopper
 
+ON=i_cutlass_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_cutlass_oldcopper
 
+ON=i_sword_long_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_sword_long_oldcopper
+
+ON=i_scimitar_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_scimitar_oldcopper
+
+ON=i_sword_viking_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_sword_viking_oldcopper
+
+[SKILLMENU sm_swords_blades_dullcopper]
+Dull Copper Swords & Blades
+
+ON=i_katana_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_katana_dullcopper
+
+ON=i_sword_broad_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_sword_broad_dullcopper
+
+ON=i_cutlass_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_cutlass_dullcopper
+
+ON=i_sword_long_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_sword_long_dullcopper
+
+ON=i_scimitar_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_scimitar_dullcopper
+
+ON=i_sword_viking_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_sword_viking_dullcopper
+
+[SKILLMENU sm_swords_blades_bronze]
+Bronze Swords & Blades
+
+ON=i_katana_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_katana_bronze
+
+ON=i_sword_broad_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_sword_broad_bronze
+
+ON=i_cutlass_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_cutlass_bronze
+
+ON=i_sword_long_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_sword_long_bronze
+
+ON=i_scimitar_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_scimitar_bronze
+
+ON=i_sword_viking_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_sword_viking_bronze
+
+[SKILLMENU sm_swords_blades_silver]
+Silver Swords & Blades
+
+ON=i_katana_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_katana_silver
+
+ON=i_sword_broad_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_sword_broad_silver
+
+ON=i_cutlass_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_cutlass_silver
+
+ON=i_sword_long_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_sword_long_silver
+
+ON=i_scimitar_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_scimitar_silver
+
+ON=i_sword_viking_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_sword_viking_silver
+
+[SKILLMENU sm_swords_blades_gold]
+Golden Swords & Blades
+
+ON=i_katana_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_katana_gold
+
+ON=i_sword_broad_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_sword_broad_gold
+
+ON=i_cutlass_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_cutlass_gold
+
+ON=i_sword_long_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_sword_long_gold
+
+ON=i_scimitar_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_scimitar_gold
+
+ON=i_sword_viking_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_sword_viking_gold
+
+[SKILLMENU sm_swords_blades_bloodrock]
+Bloodrock Swords & Blades
+
+ON=i_katana_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_katana_bloodrock
+
+ON=i_sword_broad_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_sword_broad_bloodrock
+
+ON=i_cutlass_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_cutlass_bloodrock
+
+ON=i_sword_long_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_sword_long_bloodrock
+
+ON=i_scimitar_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_scimitar_bloodrock
+
+ON=i_sword_viking_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_sword_viking_bloodrock
+
+[SKILLMENU sm_swords_blades_blackrock]
+Blackrock Swords & Blades
+
+ON=i_katana_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_katana_blackrock
+
+ON=i_sword_broad_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_sword_broad_blackrock
+
+ON=i_cutlass_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_cutlass_blackrock
+
+ON=i_sword_long_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_sword_long_blackrock
+
+ON=i_scimitar_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_scimitar_blackrock
+
+ON=i_sword_viking_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_sword_viking_blackrock
+
+[SKILLMENU sm_swords_blades_mytheril]
+Mytheril Swords & Blades
+
+ON=i_katana_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_katana_mytheril
+
+ON=i_sword_broad_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_sword_broad_mytheril
+
+ON=i_cutlass_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_cutlass_mytheril
+
+ON=i_sword_long_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_sword_long_mytheril
+
+ON=i_scimitar_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_scimitar_mytheril
+
+ON=i_sword_viking_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_sword_viking_mytheril
+
+[SKILLMENU sm_swords_blades_rose]
+Rose Swords & Blades
+
+ON=i_katana_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_katana_rose
+
+ON=i_sword_broad_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_sword_broad_rose
+
+ON=i_cutlass_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_cutlass_rose
+
+ON=i_sword_long_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_sword_long_rose
+
+ON=i_scimitar_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_scimitar_rose
+
+ON=i_sword_viking_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_sword_viking_rose
+
+[SKILLMENU sm_swords_blades_verite]
+Verite Swords & Blades
+
+ON=i_katana_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_katana_verite
+
+ON=i_sword_broad_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_sword_broad_verite
+
+ON=i_cutlass_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_cutlass_verite
+
+ON=i_sword_long_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_sword_long_verite
+
+ON=i_scimitar_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_scimitar_verite
+
+ON=i_sword_viking_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_sword_viking_verite
+
+[SKILLMENU sm_swords_blades_agapite]
+Agapite Swords & Blades
+
+ON=i_katana_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_katana_agapite
+
+ON=i_sword_broad_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_sword_broad_agapite
+
+ON=i_cutlass_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_cutlass_agapite
+
+ON=i_sword_long_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_sword_long_agapite
+
+ON=i_scimitar_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_scimitar_agapite
+
+ON=i_sword_viking_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_sword_viking_agapite
+
+[SKILLMENU sm_swords_blades_valorite]
+Valorite Swords & Blades
+
+ON=i_katana_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_katana_valorite
+
+ON=i_sword_broad_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_sword_broad_valorite
+
+ON=i_cutlass_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_cutlass_valorite
+
+ON=i_sword_long_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_sword_long_valorite
+
+ON=i_scimitar_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_scimitar_valorite
+
+ON=i_sword_viking_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_sword_viking_valorite
+
+[SKILLMENU sm_swords_blades_shadow]
+Shadow Swords & Blades
+
+ON=i_katana_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_katana_shadow
+
+ON=i_sword_broad_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_sword_broad_shadow
+
+ON=i_cutlass_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_cutlass_shadow
+
+ON=i_sword_long_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_sword_long_shadow
+
+ON=i_scimitar_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_scimitar_shadow
+
+ON=i_sword_viking_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_sword_viking_shadow
+
+[SKILLMENU sm_swords_blades_invulnerability]
+Invulnerability Swords & Blades
+
+ON=i_katana_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_katana_invulnerability
+
+ON=i_sword_broad_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_sword_broad_invulnerability
+
+ON=i_cutlass_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_cutlass_invulnerability
+
+ON=i_sword_long_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_sword_long_invulnerability
+
+ON=i_scimitar_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_scimitar_invulnerability
+
+ON=i_sword_viking_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_sword_viking_invulnerability
 
 [SKILLMENU sm_axes_rusty]
 Rusty Axes
@@ -1897,6 +2258,259 @@ MAKEITEM=i_halberd_copper
 
 ON=i_bardiche_copper @color_o_copper, <name> (<resmake>)
 MAKEITEM=i_bardiche_copper
+
+[SKILLMENU sm_axes_oldcopper]
+Old Copper Axes
+
+ON=i_axe_double_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_axe_double_oldcopper
+
+ON=i_axe_battle_large_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_oldcopper
+
+ON=i_axe_two_hand_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_oldcopper
+
+ON=i_halberd_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_halberd_oldcopper
+
+ON=i_bardiche_oldcopper @color_o_oldcopper, <name> (<resmake>)
+MAKEITEM=i_bardiche_oldcopper
+
+[SKILLMENU sm_axes_dullcopper]
+Dull Copper Axes
+
+ON=i_axe_double_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_axe_double_dullcopper
+
+ON=i_axe_battle_large_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_dullcopper
+
+ON=i_axe_two_hand_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_dullcopper
+
+ON=i_halberd_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_halberd_dullcopper
+
+ON=i_bardiche_dullcopper @color_o_dullcopper, <name> (<resmake>)
+MAKEITEM=i_bardiche_dullcopper
+
+[SKILLMENU sm_axes_bronze]
+Bronze Axes
+
+ON=i_axe_double_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_axe_double_bronze
+
+ON=i_axe_battle_large_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_bronze
+
+ON=i_axe_two_hand_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_bronze
+
+ON=i_halberd_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_halberd_bronze
+
+ON=i_bardiche_bronze @color_o_bronze, <name> (<resmake>)
+MAKEITEM=i_bardiche_bronze
+
+[SKILLMENU sm_axes_silver]
+Silver Axes
+
+ON=i_axe_double_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_axe_double_silver
+
+ON=i_axe_battle_large_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_silver
+
+ON=i_axe_two_hand_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_silver
+
+ON=i_halberd_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_halberd_silver
+
+ON=i_bardiche_silver @color_o_silver, <name> (<resmake>)
+MAKEITEM=i_bardiche_silver
+
+[SKILLMENU sm_axes_gold]
+Golden Axes
+
+ON=i_axe_double_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_axe_double_gold
+
+ON=i_axe_battle_large_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_gold
+
+ON=i_axe_two_hand_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_gold
+
+ON=i_halberd_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_halberd_gold
+
+ON=i_bardiche_gold @color_o_gold, <name> (<resmake>)
+MAKEITEM=i_bardiche_gold
+
+[SKILLMENU sm_axes_bloodrock]
+Bloodrock Axes
+
+ON=i_axe_double_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_axe_double_bloodrock
+
+ON=i_axe_battle_large_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_bloodrock
+
+ON=i_axe_two_hand_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_bloodrock
+
+ON=i_halberd_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_halberd_bloodrock
+
+ON=i_bardiche_bloodrock @color_o_bloodrock, <name> (<resmake>)
+MAKEITEM=i_bardiche_bloodrock
+
+[SKILLMENU sm_axes_blackrock]
+Blackrock Axes
+
+ON=i_axe_double_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_axe_double_blackrock
+
+ON=i_axe_battle_large_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_blackrock
+
+ON=i_axe_two_hand_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_blackrock
+
+ON=i_halberd_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_halberd_blackrock
+
+ON=i_bardiche_blackrock @color_o_blackrock, <name> (<resmake>)
+MAKEITEM=i_bardiche_blackrock
+
+[SKILLMENU sm_axes_mytheril]
+Mytheril Axes
+
+ON=i_axe_double_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_axe_double_mytheril
+
+ON=i_axe_battle_large_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_mytheril
+
+ON=i_axe_two_hand_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_mytheril
+
+ON=i_halberd_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_halberd_mytheril
+
+ON=i_bardiche_mytheril @color_o_mytheril, <name> (<resmake>)
+MAKEITEM=i_bardiche_mytheril
+
+[SKILLMENU sm_axes_rose]
+Rose Axes
+
+ON=i_axe_double_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_axe_double_rose
+
+ON=i_axe_battle_large_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_rose
+
+ON=i_axe_two_hand_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_rose
+
+ON=i_halberd_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_halberd_rose
+
+ON=i_bardiche_rose @color_o_rose, <name> (<resmake>)
+MAKEITEM=i_bardiche_rose
+
+[SKILLMENU sm_axes_verite]
+Verite Axes
+
+ON=i_axe_double_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_axe_double_verite
+
+ON=i_axe_battle_large_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_verite
+
+ON=i_axe_two_hand_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_verite
+
+ON=i_halberd_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_halberd_verite
+
+ON=i_bardiche_verite @color_o_verite, <name> (<resmake>)
+MAKEITEM=i_bardiche_verite
+
+[SKILLMENU sm_axes_agapite]
+Agapite Axes
+
+ON=i_axe_double_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_axe_double_agapite
+
+ON=i_axe_battle_large_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_agapite
+
+ON=i_axe_two_hand_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_agapite
+
+ON=i_halberd_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_halberd_agapite
+
+ON=i_bardiche_agapite @color_o_agapite, <name> (<resmake>)
+MAKEITEM=i_bardiche_agapite
+
+[SKILLMENU sm_axes_valorite]
+Valorite Axes
+
+ON=i_axe_double_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_axe_double_valorite
+
+ON=i_axe_battle_large_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_valorite
+
+ON=i_axe_two_hand_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_valorite
+
+ON=i_halberd_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_halberd_valorite
+
+ON=i_bardiche_valorite @color_o_valorite, <name> (<resmake>)
+MAKEITEM=i_bardiche_valorite
+
+[SKILLMENU sm_axes_shadow]
+Shadow Axes
+
+ON=i_axe_double_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_axe_double_shadow
+
+ON=i_axe_battle_large_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_shadow
+
+ON=i_axe_two_hand_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_shadow
+
+ON=i_halberd_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_halberd_shadow
+
+ON=i_bardiche_shadow @color_o_shadow, <name> (<resmake>)
+MAKEITEM=i_bardiche_shadow
+
+[SKILLMENU sm_axes_invulnerability]
+Invulnerability Axes
+
+ON=i_axe_double_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_axe_double_invulnerability
+
+ON=i_axe_battle_large_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_invulnerability
+
+ON=i_axe_two_hand_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_invulnerability
+
+ON=i_halberd_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_halberd_invulnerability
+
+ON=i_bardiche_invulnerability @color_o_invulnerability, <name> (<resmake>)
+MAKEITEM=i_bardiche_invulnerability
+
 
 
 

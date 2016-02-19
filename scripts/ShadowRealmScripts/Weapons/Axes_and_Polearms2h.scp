@@ -228,4 +228,1619 @@ ON=@Create
 COLOR=color_o_copper
 HITPOINTS={31 100}
 
+
+
+
+
+
+[ITEMDEF i_axe_double_dullcopper]
+DEFNAME=i_axe_double_dullcopper
+NAME=dull copper double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_dull_copper
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=dull copper double axe
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_dullcopper]
+DEFNAME=i_axe_battle_large_dullcopper
+NAME=dull copper large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_dull_copper
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=dull copper large battle axe
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_dullcopper]
+DEFNAME=i_axe_two_hand_dullcopper
+NAME=dull copper two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_dull_copper
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=dull copper two handed axe
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_dullcopper]
+DEFNAME=i_halberd_dullcopper
+NAME=dull copper halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_dull_copper
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=dull copper halberd
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_dullcopper]
+DEFNAME=i_bardiche_dullcopper
+NAME=dull copper bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_dull_copper
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=dull copper bardiche
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_oldcopper]
+DEFNAME=i_axe_double_oldcopper
+NAME=old copper double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_old_copper
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=oldcopper double axe
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_oldcopper]
+DEFNAME=i_axe_battle_large_oldcopper
+NAME=oldcopper large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_old_copper
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=oldcopper large battle axe
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_oldcopper]
+DEFNAME=i_axe_two_hand_oldcopper
+NAME=old copper two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_old_copper
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=old copper two handed axe
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_oldcopper]
+DEFNAME=i_halberd_oldcopper
+NAME=old copper halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_old_copper
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=old copper halberd
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_oldcopper]
+DEFNAME=i_bardiche_oldcopper
+NAME=old copper bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_old_copper
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=oldc opper bardiche
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_bronze]
+DEFNAME=i_axe_double_bronze
+NAME=bronze double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_bronze
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bronze double axe
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_bronze]
+DEFNAME=i_axe_battle_large_bronze
+NAME=bronze large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_bronze
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bronze large battle axe
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_bronze]
+DEFNAME=i_axe_two_hand_bronze
+NAME=bronze two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_bronze
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bronze two handed axe
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_bronze]
+DEFNAME=i_halberd_bronze
+NAME=bronze halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_bronze
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bronze halberd
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_bronze]
+DEFNAME=i_bardiche_bronze
+NAME=bronze bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_bronze
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bronze bardiche
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_silver]
+DEFNAME=i_axe_double_silver
+NAME=silver double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_silver
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=silver double axe
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_silver]
+DEFNAME=i_axe_battle_large_silver
+NAME=silver large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_silver
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=silver large battle axe
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_silver]
+DEFNAME=i_axe_two_hand_silver
+NAME=silver two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_silver
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=silver two handed axe
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_silver]
+DEFNAME=i_halberd_silver
+NAME=silver halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_silver
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=silver halberd
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_silver]
+DEFNAME=i_bardiche_silver
+NAME=silver bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_silver
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=silver bardiche
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_gold]
+DEFNAME=i_axe_double_gold
+NAME=golden double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_gold
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=golden double axe
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_gold]
+DEFNAME=i_axe_battle_large_gold
+NAME=golden large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_gold
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=golden large battle axe
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_gold]
+DEFNAME=i_axe_two_hand_gold
+NAME=golden two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_gold
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=golden two handed axe
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_gold]
+DEFNAME=i_halberd_gold
+NAME=golden halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_gold
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=golden halberd
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_gold]
+DEFNAME=i_bardiche_gold
+NAME=golden bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_gold
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=golden bardiche
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_bloodrock]
+DEFNAME=i_axe_double_bloodrock
+NAME=bloodrock double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_bloodrock
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bloodrock double axe
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_bloodrock]
+DEFNAME=i_axe_battle_large_bloodrock
+NAME=bloodrock large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_bloodrock
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bloodrock large battle axe
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_bloodrock]
+DEFNAME=i_axe_two_hand_bloodrock
+NAME=bloodrock two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_bloodrock
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bloodrock two handed axe
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_bloodrock]
+DEFNAME=i_halberd_bloodrock
+NAME=bloodrock halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_bloodrock
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bloodrock halberd
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_bloodrock]
+DEFNAME=i_bardiche_bloodrock
+NAME=bloodrock bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_bloodrock
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=bloodrock bardiche
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_blackrock]
+DEFNAME=i_axe_double_blackrock
+NAME=blackrock double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_blackrock
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=blackrock double axe
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_blackrock]
+DEFNAME=i_axe_battle_large_blackrock
+NAME=blackrock large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_blackrock
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=blackrock large battle axe
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_blackrock]
+DEFNAME=i_axe_two_hand_blackrock
+NAME=blackrock two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_blackrock
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=blackrock two handed axe
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_blackrock]
+DEFNAME=i_halberd_blackrock
+NAME=blackrock halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_blackrock
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=blackrock halberd
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_blackrock]
+DEFNAME=i_bardiche_blackrock
+NAME=blackrock bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_blackrock
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=blackrock bardiche
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_mytheril]
+DEFNAME=i_axe_double_mytheril
+NAME=mytheril double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_mytheril
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=mytheril double axe
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_mytheril]
+DEFNAME=i_axe_battle_large_mytheril
+NAME=mytheril large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_mytheril
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=mytheril large battle axe
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_mytheril]
+DEFNAME=i_axe_two_hand_mytheril
+NAME=mytheril two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_mytheril
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=mytheril two handed axe
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_mytheril]
+DEFNAME=i_halberd_mytheril
+NAME=mytheril halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_mytheril
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=mytheril halberd
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_mytheril]
+DEFNAME=i_bardiche_mytheril
+NAME=mytheril bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_mytheril
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=mytheril bardiche
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_rose]
+DEFNAME=i_axe_double_rose
+NAME=rose double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_rose
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=rose double axe
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_rose]
+DEFNAME=i_axe_battle_large_rose
+NAME=rose large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_rose
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=rose large battle axe
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_rose]
+DEFNAME=i_axe_two_hand_rose
+NAME=rose two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_rose
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=rose two handed axe
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_rose]
+DEFNAME=i_halberd_rose
+NAME=rose halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_rose
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=rose halberd
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_rose]
+DEFNAME=i_bardiche_rose
+NAME=rose bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_rose
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=rose bardiche
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_verite]
+DEFNAME=i_axe_double_verite
+NAME=verite double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_verite
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=verite double axe
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_verite]
+DEFNAME=i_axe_battle_large_verite
+NAME=verite large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_verite
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=verite large battle axe
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_verite]
+DEFNAME=i_axe_two_hand_verite
+NAME=verite two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_verite
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=verite two handed axe
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_verite]
+DEFNAME=i_halberd_verite
+NAME=verite halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_verite
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=verite halberd
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_verite]
+DEFNAME=i_bardiche_verite
+NAME=verite bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_verite
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=verite bardiche
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_agapite]
+DEFNAME=i_axe_double_agapite
+NAME=agapite double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_agapite
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=agapite double axe
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_agapite]
+DEFNAME=i_axe_battle_large_agapite
+NAME=agapite large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_agapite
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=agapite large battle axe
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_agapite]
+DEFNAME=i_axe_two_hand_agapite
+NAME=agapite two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_agapite
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=agapite two handed axe
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_agapite]
+DEFNAME=i_halberd_agapite
+NAME=agapite halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_agapite
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=agapite halberd
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_agapite]
+DEFNAME=i_bardiche_agapite
+NAME=agapite bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_agapite
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=agapite bardiche
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_valorite]
+DEFNAME=i_axe_double_valorite
+NAME=valorite double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_valorite
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=valorite double axe
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_valorite]
+DEFNAME=i_axe_battle_large_valorite
+NAME=valorite large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_valorite
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=valorite large battle axe
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_valorite]
+DEFNAME=i_axe_two_hand_valorite
+NAME=valorite two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_valorite
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=valorite two handed axe
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_valorite]
+DEFNAME=i_halberd_valorite
+NAME=valorite halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_valorite
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=valorite halberd
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_valorite]
+DEFNAME=i_bardiche_valorite
+NAME=valorite bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_valorite
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=valorite bardiche
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_shadow]
+DEFNAME=i_axe_double_shadow
+NAME=shadow double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_shadow
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=shadow double axe
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_shadow]
+DEFNAME=i_axe_battle_large_shadow
+NAME=shadow large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_shadow
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=shadow large battle axe
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_shadow]
+DEFNAME=i_axe_two_hand_shadow
+NAME=shadow two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_shadow
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=shadow two handed axe
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_shadow]
+DEFNAME=i_halberd_shadow
+NAME=shadow halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_shadow
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=shadow halberd
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_shadow]
+DEFNAME=i_bardiche_shadow
+NAME=shadow bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_shadow
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=shadow bardiche
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 100}
+
+[ITEMDEF i_axe_double_invulnerability]
+DEFNAME=i_axe_double_invulnerability
+NAME=invulnerability double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_invulnerability
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=invulnerability double axe
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_battle_large_invulnerability]
+DEFNAME=i_axe_battle_large_invulnerability
+NAME=invulnerability large battle axe
+ID=i_axe_battle_large
+RESOURCES=12 i_ingot_invulnerability
+SKILLMAKE=BLACKSMITHING 28.0
+WEIGHT=12
+TYPE=T_WEAPON_AXE
+TDATA3=17
+FLIP=1
+DAM=16,17
+SPEED=29
+SKILL=Swordsmanship
+REQSTR=80
+TWOHANDS=Y
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=invulnerability large battle axe
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 110}
+
+[ITEMDEF i_axe_two_hand_invulnerability]
+DEFNAME=i_axe_two_hand_invulnerability
+NAME=invulnerability two handed axe
+ID=i_axe_two_hand
+RESOURCES=16 i_ingot_invulnerability
+WEIGHT=8
+TYPE=T_WEAPON_AXE
+TDATA3=18
+FLIP=1
+DAM=16,17
+SPEED=31
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 33.0
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=invulnerability two handed axe
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 90}
+
+[ITEMDEF i_halberd_invulnerability]
+DEFNAME=i_halberd_invulnerability
+NAME=invulnerability halberd
+ID=i_halberd
+RESOURCES=20 i_ingot_invulnerability
+WEIGHT=10
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=19
+DAM=18,19
+SPEED=25
+SKILL=Swordsmanship
+REQSTR=95
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 39.1
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=invulnerability halberd
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 80}
+
+[ITEMDEF i_bardiche_invulnerability]
+DEFNAME=i_bardiche_invulnerability
+NAME=invulnerability bardiche
+ID=i_bardiche
+RESOURCES=18 i_ingot_invulnerability
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=17,18
+TDATA3=20
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=invulnerability bardiche
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 100}
+
 [EOF]
