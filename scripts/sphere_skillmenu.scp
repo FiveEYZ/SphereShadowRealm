@@ -750,10 +750,10 @@ SKILLMENU=sm_pole_arms
 ON=i_axe_battle Axes
 SKILLMENU=sm_axes
 
-ON=i_axe_battle @color_o_rusty, Axes
+ON=i_axe_double_rusty @color_o_rusty, Axes (2h)
 SKILLMENU=sm_axes_rusty
 
-ON=i_axe_battle @color_o_copper, Axes
+ON=i_axe_double_copper @color_o_copper, Axes (2h)
 SKILLMENU=sm_axes_copper
 
 
