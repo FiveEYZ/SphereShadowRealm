@@ -965,7 +965,6 @@ ON=@Create
 COLOR=color_o_gold
 HITPOINTS={31 100}
 
-
 [ITEMDEF i_katana_bloodrock]
 DEFNAME=i_katana_bloodrock
 NAME=bloodrock katana
@@ -1103,7 +1102,6 @@ DESCRIPTION=bloodrock viking sword
 ON=@Create
 COLOR=color_o_bloodrock
 HITPOINTS={31 100}
-
 
 [ITEMDEF i_katana_blackrock]
 DEFNAME=i_katana_blackrock
@@ -1518,7 +1516,6 @@ DESCRIPTION=rose viking sword
 ON=@Create
 COLOR=color_o_rose
 HITPOINTS={31 100}
-
 
 [ITEMDEF i_katana_verite]
 DEFNAME=i_katana_verite
