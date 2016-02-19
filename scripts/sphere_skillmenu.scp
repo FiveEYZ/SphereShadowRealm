@@ -764,6 +764,12 @@ SKILLMENU=sm_swords_blades_rusty
 ON=i_axe_battle @color_o_rusty, Axes
 SKILLMENU=sm_axes_rusty
 
+ON=i_sword_viking @color_o_copper, Swords & Blades
+SKILLMENU=sm_swords_blades_copper
+
+ON=i_axe_battle @color_o_copper, Axes
+SKILLMENU=sm_axes_copper
+
 
 
 [SKILLMENU sm_platemail_armor]
@@ -1815,6 +1821,28 @@ MAKEITEM=i_scimitar_rusty
 
 ON=i_sword_viking_rusty @color_o_rusty, <name> (<resmake>)
 MAKEITEM=i_sword_viking_rusty
+
+[SKILLMENU sm_swords_blades_copper]
+Copper Swords & Blades
+
+ON=i_katana_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_katana_copper
+
+ON=i_sword_broad_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_sword_broad_copper
+
+ON=i_cutlass_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_cutlass_copper
+
+ON=i_sword_long_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_sword_long_copper
+
+ON=i_scimitar_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_scimitar_copper
+
+ON=i_sword_viking_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_sword_viking_copper
+
 
 [SKILLMENU sm_axes_rusty]
 Rusty Axes
