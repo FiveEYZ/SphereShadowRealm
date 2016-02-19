@@ -33,7 +33,7 @@ ON=@Create
 	COLOR=colors_hair
 	ITEMNEWBIE=random_facial_hair
 	COLOR=match_hair
-	CONT.TAG.NOMOVE
+	
 	
 ON=@NPCRestock
 	ITEM=i_robe

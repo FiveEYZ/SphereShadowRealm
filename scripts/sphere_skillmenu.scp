@@ -588,9 +588,6 @@ SKILLMENU=sm_chainmail_armor
 ON=i_ringmail_tunic Ring Mail
 SKILLMENU=sm_ringmail_armor
 
-
-
-
 ON=i_platemail_chest_rusty @color_o_rusty, Plate Mail
 SKILLMENU=sm_platemail_armor_rusty
 
@@ -741,12 +738,6 @@ SKILLMENU=sm_helmets
 [SKILLMENU sm_weapons]
 Weapons
 
-ON=i_sword_viking Swords & Blades
-SKILLMENU=sm_swords_blades
-
-ON=i_axe_battle Axes
-SKILLMENU=sm_axes
-
 ON=i_mace Maces & Hammers
 SKILLMENU=sm_maces_hammers
 
@@ -756,19 +747,42 @@ SKILLMENU=sm_spears_forks
 ON=i_halberd Pole Arms
 SKILLMENU=sm_pole_arms
 
-
-
-ON=i_sword_viking @color_o_rusty, Swords & Blades
-SKILLMENU=sm_swords_blades_rusty
+ON=i_axe_battle Axes
+SKILLMENU=sm_axes
 
 ON=i_axe_battle @color_o_rusty, Axes
 SKILLMENU=sm_axes_rusty
 
-ON=i_sword_viking @color_o_copper, Swords & Blades
-SKILLMENU=sm_swords_blades_copper
-
 ON=i_axe_battle @color_o_copper, Axes
 SKILLMENU=sm_axes_copper
+
+
+
+
+
+
+
+
+ON=i_sword_viking Swords & Blades
+SKILLMENU=sm_swords_blades
+
+ON=i_sword_viking_rusty @color_o_rusty, Swords & Blades
+SKILLMENU=sm_swords_blades_rusty
+
+ON=i_sword_viking_copper @color_o_copper, Swords & Blades
+SKILLMENU=sm_swords_blades_copper
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1844,11 +1858,52 @@ ON=i_sword_viking_copper @color_o_copper, <name> (<resmake>)
 MAKEITEM=i_sword_viking_copper
 
 
+
+
+
+
 [SKILLMENU sm_axes_rusty]
 Rusty Axes
 
 ON=i_axe_double_rusty @color_o_rusty, <name> (<resmake>)
 MAKEITEM=i_axe_double_rusty
+
+ON=i_axe_battle_large_rusty @color_o_rusty, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_rusty
+
+ON=i_axe_two_hand_rusty @color_o_rusty, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_rusty
+
+ON=i_halberd_rusty @color_o_rusty, <name> (<resmake>)
+MAKEITEM=i_halberd_rusty
+
+ON=i_bardiche_rusty @color_o_rusty, <name> (<resmake>)
+MAKEITEM=i_bardiche_rusty
+
+[SKILLMENU sm_axes_copper]
+Copper Axes
+
+ON=i_axe_double_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_axe_double_copper
+
+ON=i_axe_battle_large_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_axe_battle_large_copper
+
+ON=i_axe_two_hand_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_axe_two_hand_copper
+
+ON=i_halberd_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_halberd_copper
+
+ON=i_bardiche_copper @color_o_copper, <name> (<resmake>)
+MAKEITEM=i_bardiche_copper
+
+
+
+
+
+
+
 
 
 
