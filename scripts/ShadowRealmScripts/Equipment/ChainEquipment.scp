@@ -41,7 +41,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_rusty]
 DEFNAME=i_chainmail_gorget_rusty
 NAME=rusty chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -121,7 +121,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_copper]
 DEFNAME=i_chainmail_gorget_copper
 NAME=copper chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -201,7 +201,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_oldcopper]
 DEFNAME=i_chainmail_gorget_oldcopper
 NAME=old copper chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -281,7 +281,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_dullcopper]
 DEFNAME=i_chainmail_gorget_dullcopper
 NAME=dull copper chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -361,7 +361,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_bronze]
 DEFNAME=i_chainmail_gorget_bronze
 NAME=bronze chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -441,7 +441,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_silver]
 DEFNAME=i_chainmail_gorget_silver
 NAME=silver chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -521,7 +521,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_gold]
 DEFNAME=i_chainmail_gorget_gold
 NAME=gold chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -601,7 +601,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_bloodrock]
 DEFNAME=i_chainmail_gorget_bloodrock
 NAME=bloodrock chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -681,7 +681,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_blackrock]
 DEFNAME=i_chainmail_gorget_blackrock
 NAME=blackrock chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -761,7 +761,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_mytheril]
 DEFNAME=i_chainmail_gorget_mytheril
 NAME=mytheril chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -841,7 +841,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_rose]
 DEFNAME=i_chainmail_gorget_rose
 NAME=rose chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -921,7 +921,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_verite]
 DEFNAME=i_chainmail_gorget_verite
 NAME=verite chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -1001,7 +1001,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_agapite]
 DEFNAME=i_chainmail_gorget_agapite
 NAME=agapite chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -1081,7 +1081,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_valorite]
 DEFNAME=i_chainmail_gorget_valorite
 NAME=valorite chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -1161,7 +1161,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_shadow]
 DEFNAME=i_chainmail_gorget_shadow
 NAME=shadow chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1
@@ -1241,7 +1241,7 @@ HITPOINTS={35 45}
 [ITEMDEF i_chainmail_gorget_invulnerability]
 DEFNAME=i_chainmail_gorget_invulnerability
 NAME=invulnerability chainmail gorget
-ID=i_chainmail_gorget
+ID=i_platemail_gorget
 TDATA3=4
 TYPE=T_ARMOR
 FLIP=1

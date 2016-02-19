@@ -4,31 +4,108 @@ NAME=#NAMES_HUMANMALE the Travel Mage
 ID=C_MAN
 DESIRES=i_gold
 TSPEECH=spk_human_prime
-TSPEECH=spk_needs
-TSPEECH=spk_human_default
+TSPEECH=teleporter
 TEVENTS=e_Human_HearUnk
 TEVENTS=e_Human_ConvInit
 TEVENTS=e_Human_Needs
 TEVENTS=e_Human_Greet
-TEVENTS=e_Human_Space
 TEVENTS=e_Human_Refuse
-TEVENTS=e_Human_Environ
 CATEGORY=Shadow Realm
 SUBSECTION=Npc
 DESCRIPTION=Travel Mage
 
 ON=@Create
-	NPC=brain_vendor
+	NPC=brain_human
 	COLOR=colors_skin
 	NEED=i_gold
 	STR={66 80}
 	DEX=90
 	INT={66 80}
-	ITEMNEWBIE=i_lantern
+	FENCING={15.0 38.0}
+	PARRYING={45.0 68.0}
+	SWORDSMANSHIP={15.0 38.0}
+	WRESTLING={15.0 38.0}
+	MACEFIGHTING={15.0 38.0}
+	MAGICRESISTANCE={45.0 68.0}
+	TACTICS={45.0 68.0}
+	ITEMNEWBIE=i_staff_black
 	ITEMNEWBIE=random_male_hair
 	COLOR=colors_hair
 	ITEMNEWBIE=random_facial_hair
 	COLOR=match_hair
+	CONT.TAG.NOMOVE
 	
-on=minoc
-src.go minoc
+ON=@NPCRestock
+	ITEM=i_robe
+	COLOR=colors_all
+	ITEM=i_staff_black
+	ITEM=i_shirt_plain 
+	COLOR=colors_all 
+	ITEM=random_pants 
+	COLOR=colors_all
+	ITEM=01710
+	COLOR=colors_all
+
+	
+	
+[SPEECH teleporter] 
+
+on=*hi*
+on=*hello*
+say Hello there. For 100 gold I can send you to any city you'd like.
+say Just say the name of the city you would like to go.
+
+on=*Minoc*
+if (!<src.restest 100 i_gold>)
+say Sorry, but you don't have enough money for that.
+return 1 // We will now end this conversation with the player until the player gets the mage's attention again.
+endif
+src.consumegold 100
+src.go Minoc
+return 1 // The player is gone. Let's remove his presence from the mage's attention.
+
+on=*Britain*
+if (!<src.restest 100 i_gold>)
+say Sorry, but you don't have enough money for that.
+return 1 // We will now end this conversation with the player until the player gets the mage's attention again.
+endif
+src.consumegold 100
+src.go Britain
+return 1 // The player is gone. Let's remove his presence from the mage's attention.
+
+on=*Yew*
+if (!<src.restest 100 i_gold>)
+say Sorry, but you don't have enough money for that.
+return 1 // We will now end this conversation with the player until the player gets the mage's attention again.
+endif
+src.consumegold 100
+src.go Yew
+return 1 // The player is gone. Let's remove his presence from the mage's attention.
+
+on=*Trinsic*
+if (!<src.restest 100 i_gold>)
+say Sorry, but you don't have enough money for that.
+return 1 // We will now end this conversation with the player until the player gets the mage's attention again.
+endif
+src.consumegold 100
+src.go Trinsic
+return 1 // The player is gone. Let's remove his presence from the mage's attention.
+
+on=*Jhelom*
+if (!<src.restest 100 i_gold>)
+say Sorry, but you don't have enough money for that.
+return 1 // We will now end this conversation with the player until the player gets the mage's attention again.
+endif
+src.consumegold 100
+src.go Jhelom
+return 1 // The player is gone. Let's remove his presence from the mage's attention.
+
+on=*Skara Brae*
+if (!<src.restest 100 i_gold>)
+say Sorry, but you don't have enough money for that.
+return 1 // We will now end this conversation with the player until the player gets the mage's attention again.
+endif
+src.consumegold 100
+src.go Skare Brae
+return 1 // The player is gone. Let's remove his presence from the mage's attention.
+[EOF]

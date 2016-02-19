@@ -9,8 +9,11 @@
 --Script races and classes
 --Write class/race lore and posting it on the website
  
--Crafting System
---Blacksmithing
+-Crafting System needs full rebuild
+--Blacksmithing 
+armors done: 
+rusty, copper, oldcopper, dullcopper, bronze, silver, gold, bloodrock, blackrock, mytheril, rose, verite, agapite, valorite, shadow and invulnerability
+
 --Tailoring
 --Carpentry
 --Alchemy
@@ -34,9 +37,9 @@
 -Look over skill functions
 
 -Make world .mul files to match the server lore
---Design race towns
+--Design race towns? :-) right .mul files.
 
--Make a website
+-Make a website, " under construction" ? to fuel intressed players
 
 -Look over the housing system and make changes accordingly
 
@@ -48,6 +51,14 @@
 
 -- remove text for hits , emersive
 
--Spawn every god damn mine with minerals
+
+
+- easier to gain combats skills( combats skills from 50 should be ok to go farming for easier monsters) 
+- harder to gain craft skills. profits for crafters that keep going and keep the economy in check.
+
+*idea balance for mages , novice 60 tac mage 80 tac and arch mage 95 ? because this will affect your spellcasting % chance for fizzle.
+
+
+
 
 

@@ -1,0 +1,24 @@
+[ITEMDEF i_axe_double_rusty]
+DEFNAME=i_axe_double_rusty
+NAME=rusty double axe
+ID=i_axe_double
+RESOURCES=12 i_ingot_rusty
+TYPE=T_WEAPON_SWORD
+FLIP=1
+TDATA3=16
+DAM=15,17
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=45
+TWOHANDS=Y
+WEIGHT=8
+SKILLMAKE=BLACKSMITHING 29.3
+CATEGORY=Shadow Realm
+SUBSECTION=Axes & Polearms (2h)
+DESCRIPTION=rusty double axe
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={31 110}
+
+[EOF]
