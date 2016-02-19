@@ -908,23 +908,6 @@ MANAUSE=40
 SKILLREQ=MAGERY 70.0
 INTERRUPT=0.0,0.0
 
-[Spell 510]
-DEFNAME=s_flamestrike_scroll
-NAME=Flame Strike
-SOUND=snd_SPELL_FLAMESTRIKE
-RUNES=KVF
-CAST_TIME=20
-RESOURCES=i_reag_spider_silk,i_reag_sulfur_ash
-RUNE_ITEM=i_rune_FLAMESTRIKE
-SCROLL_ITEM=i_scroll_FLAMESTRIKE
-FLAGS=SPELLFLAG_TARG_OBJ|SPELLFLAG_HARM|SPELLFLAG_FX_TARG|SPELLFLAG_RESIST|SPELLFLAG_DAMAGE
-EFFECT_ID=03709
-EFFECT=25,50
-DURATION=0.0
-MANAUSE=0
-SKILLREQ=MAGERY 70.0
-INTERRUPT=0.0,0.0
-
 [Spell 52]
 // NOTE: should be set to less then a minute?? Gate has been known to be the downfall of innocent travellers. Down-side would be for large groups. With that in mind, one minute should suffice.
 DEFNAME=s_gate_travel
