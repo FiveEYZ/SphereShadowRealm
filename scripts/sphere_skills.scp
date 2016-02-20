@@ -1294,6 +1294,9 @@ on=@spellcast
 SRC.SYSMESSAGE You do not know how to use magic.
 return 1
 
+on=@UserWarmode
+	dismount
+
 
 
 ///////////
@@ -1374,6 +1377,9 @@ IF (<ACT.TDATA3> == 2) || (<ACT.TDATA3> == 6) || (<ACT.TDATA3> == 5)
 SRC.SYSMESSAGE You can't equip this armor.
 RETURN 1
 ENDIF
+
+on=@UserWarmode
+	dismount
 
 ON=@SPELLCAST
 IF (<argn1>==1) || (<argn1>==2) || (<argn1>==3) || (<argn1>==5) || (<argn1>==6)
@@ -1459,6 +1465,9 @@ IF (<ACT.TDATA3> == 4) || (<ACT.TDATA3> == 1) || (<ACT.TDATA3> == 5)
 SRC.SYSMESSAGE You can't equip this armor.
 RETURN 1
 ENDIF
+
+on=@UserWarmode
+	dismount
 
 ON=@SPELLCAST
 IF (<argn1>==1) || (<argn1>==2) || (<argn1>==3) || (<argn1>==4) || (<argn1>==5) || (<argn1>==6)
@@ -1547,6 +1556,9 @@ IF (<ACT.TDATA3> == 4) || (<ACT.TDATA3> == 1) || (<ACT.TDATA3> == 5) || (<ACT.TD
 SRC.SYSMESSAGE You can't equip this armor.
 RETURN 1
 ENDIF
+
+on=@UserWarmode
+	dismount
 
 ON=@SPELLCAST
 IF (<argn1>==1) || (<argn1>==2) || (<argn1>==3) || (<argn1>==4) || (<argn1>==5) || (<argn1>==6)
@@ -1639,21 +1651,24 @@ SRC.SYSMESSAGE You can't equip this armor.
 RETURN 1
 ENDIF
 
-//on=@SpellCast
-//if (<argo.type> == t_scroll)
-//if (<findlayer.layer_special.baseid> == i_memory_scroll_cooldown)
-//  src.smsg You cannot use a scroll again til <findlayer.layer_special.baseid.i_memory_scroll_cooldown.timer> seconds.
-//  return 1
-//endif
-//if (<argn1> == s_flamestrike||s_fireball)
-//  serv.newitem i_memory_scroll_cooldown,,<uid>
-//  new.timer = 30
-//endif
-//if (<argn1> == s_poison)
-//  serv.newitem i_memory_scroll_cooldown,,<uid>
-//  new.timer = 30
-//endif
-//endif
+on=@UserWarmode
+	dismount
+
+on=@SpellCast
+if (<argo.type> == t_scroll)
+if (<findlayer.layer_special.baseid> == i_memory_scroll_cooldown)
+  src.smsg You cannot use a scroll again til <findlayer.layer_special.baseid.i_memory_scroll_cooldown.timer> seconds.
+  return 1
+endif
+if (<argn1> == s_flamestrike||s_fireball)
+  serv.newitem i_memory_scroll_cooldown,,<uid>
+  new.timer = 30
+endif
+if (<argn1> == s_poison)
+  serv.newitem i_memory_scroll_cooldown,,<uid>
+  new.timer = 30
+endif
+endif
 
 
 //////////////
@@ -1728,14 +1743,19 @@ Spellweaving=100.0
 Mysticism=100.0
 Imbuing=100.0
 Throwing=100.0
+
 on=@spellcast
 SRC.SYSMESSAGE You do not know how to use magic.
 return 1
+
 ON=@ItemEquipTest
 IF (<ACT.TDATA3> == 1)
 SRC.SYSMESSAGE You can't equip this armor.
 RETURN 1
 ENDIF
+
+on=@UserWarmode
+	dismount
 
 /////////////
 //Archer's//
@@ -1809,13 +1829,18 @@ Spellweaving=100.0
 Mysticism=100.0
 Imbuing=100.0
 Throwing=100.0
+
 on=@spellcast
 SRC.SYSMESSAGE You do not know how to use magic.
 return 1
 ON=@ItemEquipTest
+
 IF (<ACT.TDATA3> == 1) || (<ACT.TDATA3> == 5)
 SRC.SYSMESSAGE You can't equip this armor.
 RETURN 1
 ENDIF
+
+on=@UserWarmode
+	dismount
 
 [EOF]

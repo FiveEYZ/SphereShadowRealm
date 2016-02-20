@@ -629,7 +629,7 @@ DUPELIST=0f3c
 //i_reag_BATWING
 DEFNAME=i_reag_batwing
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -641,7 +641,7 @@ DESCRIPTION=BatWing
 DEFNAME=i_reag_blackmoor
 TYPE=T_REAGENT
 PILE=1
-VALUE=8
+Value=4
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
 SUBSECTION=Reagents - Pagan
@@ -650,7 +650,7 @@ DESCRIPTION=Blackmoor
 [ITEMDEF 0f7a]
 //Black Pearl
 DEFNAME=i_reag_black_pearl
-VALUE=8
+Value=4
 TYPE=T_REAGENT
 PILE=1
 WEIGHT=.1
@@ -662,7 +662,7 @@ DESCRIPTION=Black Pearl
 //Blood Moss
 DEFNAME=i_reag_blood_moss
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -673,7 +673,7 @@ DESCRIPTION=Blood Moss
 // Bloodspawn
 DEFNAME=i_reag_blood_spawn
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -684,7 +684,7 @@ DESCRIPTION=Bloodspawn
 // Vial of Blood
 DEFNAME=i_reag_blood_vial
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -695,7 +695,7 @@ DESCRIPTION=Vial of Blood
 // Bone
 DEFNAME=i_reag_bone
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -706,7 +706,7 @@ DESCRIPTION=Bone
 // Brimstone
 DEFNAME=i_reag_brimstone
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -717,7 +717,7 @@ DESCRIPTION=Brimstone
 // Daemon Bone
 DEFNAME=i_reag_daemon_bone
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -728,7 +728,7 @@ DESCRIPTION=Daemon Bone
 // Fertile Dirt
 DEFNAME=i_reag_fertile_dirt
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -740,7 +740,7 @@ DESCRIPTION=Fertile Dirt
 // DEFNAME2=dragonsblood
 DEFNAME=i_reag_dragon_blood
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -751,7 +751,7 @@ DESCRIPTION=Dragons Blood
 //Executioner's Cap
 DEFNAME=i_reag_executioners_cap
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -762,7 +762,7 @@ DESCRIPTION=Executioner's Cap
 //Garlic Bulb
 DEFNAME=i_reag_garlic
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -773,7 +773,7 @@ DESCRIPTION=Garlic
 //Ginseng (root)
 DEFNAME=i_reag_ginseng
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -784,7 +784,7 @@ DESCRIPTION=Ginseng
 //Mandrake Root
 DEFNAME=i_reag_mandrake_root
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -795,7 +795,7 @@ DESCRIPTION=Mandrake
 // Eye of Newt
 DEFNAME=i_reag_eye_of_newt
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -806,7 +806,7 @@ DESCRIPTION=Eye of Newt
 //Nightshade
 DEFNAME=i_reag_nightshade
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -817,7 +817,7 @@ DESCRIPTION=Nightshade
 // Obsidian
 DEFNAME=i_reag_obsidian
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -828,7 +828,7 @@ DESCRIPTION=Obsidian
 //Pig Iron
 DEFNAME=i_reag_pig_iron
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -839,7 +839,7 @@ DESCRIPTION=Pig Iron
 //Pumice
 DEFNAME=i_reag_pumice
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -850,7 +850,7 @@ DESCRIPTION=Pumice
 //Sulphorous Ash
 DEFNAME=i_reag_sulfur_ash
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -861,7 +861,7 @@ DESCRIPTION=Sulphorous Ash
 //Spider's Silk
 DEFNAME=i_reag_spider_silk
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -872,7 +872,7 @@ DESCRIPTION=Spiders Silk
 NAME=Serpent's Scales
 DEFNAME=i_reag_serpent_scale
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -883,7 +883,7 @@ DESCRIPTION=Serpent's Scales
 //Volcanic Ash
 DEFNAME=i_reag_volcanic_ash
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -894,7 +894,7 @@ DESCRIPTION=Volcanic Ash
 //Dead Wood
 DEFNAME=i_reag_dead_wood
 TYPE=T_REAGENT
-VALUE=8
+Value=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic
@@ -906,7 +906,7 @@ DESCRIPTION=Dead Wood
 DEFNAME=i_reag_wyrm_heart
 DEFNAME2=wyrm_heart
 TYPE=T_REAGENT
-VALUE=8
+VALUE=4
 PILE=1
 WEIGHT=.1
 CATEGORY=Provisions - Alchemy & Magic

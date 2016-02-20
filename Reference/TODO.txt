@@ -63,12 +63,20 @@ rusty, copper, oldcopper, dullcopper, bronze, silver, gold, bloodrock, blackrock
 
 NEEDS TESTING!!
 
+Blacksmithing:
 all armors from all materials
-https://gyazo.com/f7dea4512327f11d942380d82d8bd5db
-
 
 all swords, axes and polearms from all materials
-https://gyazo.com/c51eaca3973477b2fe3d3dfd567314a4
+
+
+
+
+
+armors: https://gyazo.com/f7dea4512327f11d942380d82d8bd5db
+weapons: https://gyazo.com/c51eaca3973477b2fe3d3dfd567314a4
+ingots: https://gyazo.com/8e91bb7a259638cf746cc5cbbd888454
+
+
 
 
 

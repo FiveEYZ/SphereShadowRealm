@@ -10,19 +10,19 @@ RETURN 1
 ////////
 //test//
 ////////
-[typedef t_scroll]
-on=@DClick
-if (<src.findlayer.layer_special.baseid> == i_memory_scroll_cooldown)
-  src.smsg You cannot use a scroll again til <src.findlayer.layer_special.baseid.i_memory_scroll_cooldown.timer> seconds.
-  return 1
-endif
-if (<morex> == s_flamestrike||s_fireball)
-  serv.newitem i_memory_scroll_cooldown,,<src.uid>
-  new.timer = 30
-endif
-if (<morex> == s_poison)
-  serv.newitem i_memory_scroll_cooldown,,<src.uid>
-  new.timer = 7
-endif
+//[typedef t_scroll]
+//on=@DClick
+//if (<src.findlayer.layer_special.baseid> == i_memory_scroll_cooldown)
+//  src.smsg You cannot use a scroll again til <src.findlayer.layer_special.baseid.i_memory_scroll_cooldown.timer> seconds.
+//  return 1
+//endif
+//if (<morex> == s_flamestrike||s_fireball)
+//  serv.newitem i_memory_scroll_cooldown,,<src.uid>
+//  new.timer = 30
+//endif
+//if (<morex> == s_poison)
+//  serv.newitem i_memory_scroll_cooldown,,<src.uid>
+//  new.timer = 7
+//endif
 
 [EOF]

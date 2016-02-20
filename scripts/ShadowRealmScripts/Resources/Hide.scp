@@ -10,10 +10,42 @@ SUBSECTION=Resources
 DESCRIPTION=Hide
 //Color=
 
+ON=@SpellEffect
+if (<argn1>==17)
+    src.smsg You clean the blood bandages.
+    serv.newitem=i_invul_drake_hide
+    new.amount=<amount>
+	new.bounce
+    remove
+RETURN 1
+endif
+
+[ITEMDEF i_invul_drake_hide]
+DEFNAME=i_invul_drake_hide
+Name=Drake hide of Invulnerability
+ID=i_hide
+TYPE=t_hide
+WEIGHT=5
+VALUE=5
+CATEGORY=Shadow Realm
+SUBSECTION=Resources
+DESCRIPTION=Hide
+//Color=
+
+[ITEMDEF i_invul_drake_leather]
+DEFNAME=i_invul_drake_leather
+Name=Drake leather of Invulnerability
+ID=i_hides_cut
+TYPE=T_LEATHER
+RESOURCES=1 i_invul_drake_hide
+CATEGORY=Shadow Realm
+SUBSECTION=Resource
+DESCRIPTION=Invul Drake Leather
+
+
 [ITEMDEF i_dragon_hide]
 DEFNAME=i_dragon_hide
-Name=Dragon Hide
-ID=i_hide
+Name=Dragon hide
 TYPE=t_hide
 WEIGHT=5
 VALUE=6
@@ -25,16 +57,50 @@ DESCRIPTION=Hide
 ON=@SpellEffect
 if (<argn1>==17)
     src.smsg You clean the blood bandages.
-    serv.newitem=i_drake_hide
+    serv.newitem=i_invul_dragon_hide
     new.amount=<amount>
+	new.bounce
     remove
 RETURN 1
 endif
 
+[ITEMDEF i_invul_dragon_hide]
+DEFNAME=i_invul_dragon_hide
+Name=Dragon hide of Invulnerability
+ID=i_hide
+TYPE=t_hide
+WEIGHT=5
+VALUE=6
+CATEGORY=Shadow Realm
+SUBSECTION=Resources
+DESCRIPTION=Hide
+//Color=
 
 [ITEMDEF i_wyvern_hide]
 DEFNAME=i_wyvern_hide
-Name=Wyvern Hide
+Name=Wyvern hide
+ID=i_hide
+TYPE=t_hide
+WEIGHT=5
+VALUE=7
+CATEGORY=Shadow Realm
+SUBSECTION=Resources
+DESCRIPTION=Hide
+//Color=
+
+ON=@SpellEffect
+if (<argn1>==17)
+    src.smsg You clean the blood bandages.
+    serv.newitem=i_invul_wyvern_hide
+    new.amount=<amount>
+	new.bounce
+    remove
+RETURN 1
+endif
+
+[ITEMDEF i_invul_wyvern_hide]
+DEFNAME=i_invul_wyvern_hide
+Name=Wyvern hide of Invulnerability
 ID=i_hide
 TYPE=t_hide
 WEIGHT=5
@@ -46,7 +112,29 @@ DESCRIPTION=Hide
 
 [ITEMDEF i_wyrm_hide]
 DEFNAME=i_wyrm_hide
-Name=Wyrm Hide
+Name=Wyrm hide
+ID=i_hide
+TYPE=t_hide
+WEIGHT=5
+VALUE=8
+CATEGORY=Shadow Realm
+SUBSECTION=Resources
+DESCRIPTION=Hide
+//Color=
+
+ON=@SpellEffect
+if (<argn1>==17)
+    src.smsg You clean the blood bandages.
+    serv.newitem=i_invul_wyrm_hide
+    new.amount=<amount>
+	new.bounce
+    remove
+RETURN 1
+endif
+
+[ITEMDEF i_invul_wyrm_hide]
+DEFNAME=i_invul_wyrm_hide
+Name=Wyrm hide Invulnerability
 ID=i_hide
 TYPE=t_hide
 WEIGHT=5

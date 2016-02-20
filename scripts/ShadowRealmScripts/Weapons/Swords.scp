@@ -136,144 +136,6 @@ ON=@Create
 COLOR=color_o_rusty
 HITPOINTS={31 100}
 
-[ITEMDEF i_katana_copper]
-DEFNAME=i_katana_copper
-NAME=copper katana
-ID=i_katana
-RESOURCES=8 i_ingot_copper
-TDATA3=7
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=46
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 44.1
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=copper katana
-
-ON=@Create
-COLOR=color_o_copper
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_broad_copper]
-DEFNAME=i_sword_broad_copper
-NAME=copper broadsword
-ID=i_sword_broad
-RESOURCES=10 i_ingot_copper
-TYPE=T_WEAPON_SWORD
-TDATA3=8
-FLIP=1
-DAM=14,15
-SPEED=33
-SKILL=Swordsmanship
-REQSTR=30
-TWOHANDS=N
-WEIGHT=6
-SKILLMAKE=BLACKSMITHING 35.4
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=copper broadsword
-
-ON=@Create
-COLOR=color_o_copper
-HITPOINTS={31 100}
-
-[ITEMDEF i_cutlass_copper]
-DEFNAME=i_cutlass_copper
-NAME=copper cutlass
-ID=i_cutlass
-RESOURCES=8 i_ingot_copper
-WEIGHT=8
-TDATA3=9
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=44
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=copper cutlass
-
-ON=@Create
-COLOR=color_o_copper
-HITPOINTS={31 70}
-
-[ITEMDEF i_sword_long_copper]
-DEFNAME=i_sword_long_copper
-NAME=copper longsword
-ID=i_sword_long
-RESOURCES=12 i_ingot_copper
-TYPE=T_WEAPON_SWORD
-TDATA3=10
-FLIP=1
-DAM=15,16
-SPEED=30
-SKILL=Swordsmanship
-REQSTR=35
-TWOHANDS=N
-WEIGHT=7
-SKILLMAKE=BLACKSMITHING 25.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=copper longsword
-
-ON=@Create
-COLOR=color_o_copper
-HITPOINTS={31 110}
-
-[ITEMDEF i_scimitar_copper]
-DEFNAME=i_scimitar_copper
-NAME=copper scimitar
-ID=i_scimitar
-RESOURCES=10 i_ingot_copper
-WEIGHT=8
-TDATA3=11
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=13,15
-SPEED=37
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 31.7
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=copper scimitar
-
-ON=@Create
-COLOR=color_o_copper
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_viking_copper]
-DEFNAME=i_sword_viking_copper
-NAME=copper viking sword
-ID=i_sword_viking
-RESOURCES=14 i_ingot_copper
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-TDATA3=12
-FLIP=1
-DAM=15,17
-SPEED=28
-SKILL=Swordsmanship
-REQSTR=40
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=copper viking sword
-
-ON=@Create
-COLOR=color_o_copper
-HITPOINTS={31 100}
-
 [ITEMDEF i_katana_oldcopper]
 DEFNAME=i_katana_oldcopper
 NAME=old copper katana
@@ -548,6 +410,144 @@ DESCRIPTION=dull copper viking sword
 
 ON=@Create
 COLOR=color_o_dullcopper
+HITPOINTS={31 100}
+
+[ITEMDEF i_katana_copper]
+DEFNAME=i_katana_copper
+NAME=copper katana
+ID=i_katana
+RESOURCES=8 i_ingot_copper
+TDATA3=7
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=46
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 44.1
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=copper katana
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_broad_copper]
+DEFNAME=i_sword_broad_copper
+NAME=copper broadsword
+ID=i_sword_broad
+RESOURCES=10 i_ingot_copper
+TYPE=T_WEAPON_SWORD
+TDATA3=8
+FLIP=1
+DAM=14,15
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=30
+TWOHANDS=N
+WEIGHT=6
+SKILLMAKE=BLACKSMITHING 35.4
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=copper broadsword
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 100}
+
+[ITEMDEF i_cutlass_copper]
+DEFNAME=i_cutlass_copper
+NAME=copper cutlass
+ID=i_cutlass
+RESOURCES=8 i_ingot_copper
+WEIGHT=8
+TDATA3=9
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=44
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=copper cutlass
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 70}
+
+[ITEMDEF i_sword_long_copper]
+DEFNAME=i_sword_long_copper
+NAME=copper longsword
+ID=i_sword_long
+RESOURCES=12 i_ingot_copper
+TYPE=T_WEAPON_SWORD
+TDATA3=10
+FLIP=1
+DAM=15,16
+SPEED=30
+SKILL=Swordsmanship
+REQSTR=35
+TWOHANDS=N
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 25.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=copper longsword
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 110}
+
+[ITEMDEF i_scimitar_copper]
+DEFNAME=i_scimitar_copper
+NAME=copper scimitar
+ID=i_scimitar
+RESOURCES=10 i_ingot_copper
+WEIGHT=8
+TDATA3=11
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=13,15
+SPEED=37
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=copper scimitar
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_viking_copper]
+DEFNAME=i_sword_viking_copper
+NAME=copper viking sword
+ID=i_sword_viking
+RESOURCES=14 i_ingot_copper
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+TDATA3=12
+FLIP=1
+DAM=15,17
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=copper viking sword
+
+ON=@Create
+COLOR=color_o_copper
 HITPOINTS={31 100}
 
 [ITEMDEF i_katana_bronze]
@@ -965,420 +965,6 @@ ON=@Create
 COLOR=color_o_gold
 HITPOINTS={31 100}
 
-[ITEMDEF i_katana_bloodrock]
-DEFNAME=i_katana_bloodrock
-NAME=bloodrock katana
-ID=i_katana
-RESOURCES=8 i_ingot_bloodrock
-TDATA3=7
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=46
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 44.1
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=bloodrock katana
-
-ON=@Create
-COLOR=color_o_bloodrock
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_broad_bloodrock]
-DEFNAME=i_sword_broad_bloodrock
-NAME=bloodrock broadsword
-ID=i_sword_broad
-RESOURCES=10 i_ingot_bloodrock
-TYPE=T_WEAPON_SWORD
-TDATA3=8
-FLIP=1
-DAM=14,15
-SPEED=33
-SKILL=Swordsmanship
-REQSTR=30
-TWOHANDS=N
-WEIGHT=6
-SKILLMAKE=BLACKSMITHING 35.4
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=bloodrock broadsword
-
-ON=@Create
-COLOR=color_o_bloodrock
-HITPOINTS={31 100}
-
-[ITEMDEF i_cutlass_bloodrock]
-DEFNAME=i_cutlass_bloodrock
-NAME=bloodrock cutlass
-ID=i_cutlass
-RESOURCES=8 i_ingot_bloodrock
-WEIGHT=8
-TDATA3=9
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=44
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=bloodrock cutlass
-
-ON=@Create
-COLOR=color_o_bloodrock
-HITPOINTS={31 70}
-
-[ITEMDEF i_sword_long_bloodrock]
-DEFNAME=i_sword_long_bloodrock
-NAME=bloodrock longsword
-ID=i_sword_long
-RESOURCES=12 i_ingot_bloodrock
-TYPE=T_WEAPON_SWORD
-TDATA3=10
-FLIP=1
-DAM=15,16
-SPEED=30
-SKILL=Swordsmanship
-REQSTR=35
-TWOHANDS=N
-WEIGHT=7
-SKILLMAKE=BLACKSMITHING 25.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=bloodrock longsword
-
-ON=@Create
-COLOR=color_o_bloodrock
-HITPOINTS={31 110}
-
-[ITEMDEF i_scimitar_bloodrock]
-DEFNAME=i_scimitar_bloodrock
-NAME=bloodrock scimitar
-ID=i_scimitar
-RESOURCES=10 i_ingot_bloodrock
-WEIGHT=8
-TDATA3=11
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=13,15
-SPEED=37
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 31.7
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=bloodrock scimitar
-
-ON=@Create
-COLOR=color_o_bloodrock
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_viking_bloodrock]
-DEFNAME=i_sword_viking_bloodrock
-NAME=bloodrock viking sword
-ID=i_sword_viking
-RESOURCES=14 i_ingot_bloodrock
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-TDATA3=12
-FLIP=1
-DAM=15,17
-SPEED=28
-SKILL=Swordsmanship
-REQSTR=40
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=bloodrock viking sword
-
-ON=@Create
-COLOR=color_o_bloodrock
-HITPOINTS={31 100}
-
-[ITEMDEF i_katana_blackrock]
-DEFNAME=i_katana_blackrock
-NAME=blackrock katana
-ID=i_katana
-RESOURCES=8 i_ingot_blackrock
-TDATA3=7
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=46
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 44.1
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=blackrock katana
-
-ON=@Create
-COLOR=color_o_blackrock
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_broad_blackrock]
-DEFNAME=i_sword_broad_blackrock
-NAME=blackrock broadsword
-ID=i_sword_broad
-RESOURCES=10 i_ingot_blackrock
-TYPE=T_WEAPON_SWORD
-TDATA3=8
-FLIP=1
-DAM=14,15
-SPEED=33
-SKILL=Swordsmanship
-REQSTR=30
-TWOHANDS=N
-WEIGHT=6
-SKILLMAKE=BLACKSMITHING 35.4
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=blackrock broadsword
-
-ON=@Create
-COLOR=color_o_blackrock
-HITPOINTS={31 100}
-
-[ITEMDEF i_cutlass_blackrock]
-DEFNAME=i_cutlass_blackrock
-NAME=blackrock cutlass
-ID=i_cutlass
-RESOURCES=8 i_ingot_blackrock
-WEIGHT=8
-TDATA3=9
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=44
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=blackrock cutlass
-
-ON=@Create
-COLOR=color_o_blackrock
-HITPOINTS={31 70}
-
-[ITEMDEF i_sword_long_blackrock]
-DEFNAME=i_sword_long_blackrock
-NAME=blackrock longsword
-ID=i_sword_long
-RESOURCES=12 i_ingot_blackrock
-TYPE=T_WEAPON_SWORD
-TDATA3=10
-FLIP=1
-DAM=15,16
-SPEED=30
-SKILL=Swordsmanship
-REQSTR=35
-TWOHANDS=N
-WEIGHT=7
-SKILLMAKE=BLACKSMITHING 25.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=blackrock longsword
-
-ON=@Create
-COLOR=color_o_blackrock
-HITPOINTS={31 110}
-
-[ITEMDEF i_scimitar_blackrock]
-DEFNAME=i_scimitar_blackrock
-NAME=blackrock scimitar
-ID=i_scimitar
-RESOURCES=10 i_ingot_blackrock
-WEIGHT=8
-TDATA3=11
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=13,15
-SPEED=37
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 31.7
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=blackrock scimitar
-
-ON=@Create
-COLOR=color_o_blackrock
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_viking_blackrock]
-DEFNAME=i_sword_viking_blackrock
-NAME=blackrock viking sword
-ID=i_sword_viking
-RESOURCES=14 i_ingot_blackrock
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-TDATA3=12
-FLIP=1
-DAM=15,17
-SPEED=28
-SKILL=Swordsmanship
-REQSTR=40
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=blackrock viking sword
-
-ON=@Create
-COLOR=color_o_blackrock
-HITPOINTS={31 100}
-
-[ITEMDEF i_katana_mytheril]
-DEFNAME=i_katana_mytheril
-NAME=mytheril katana
-ID=i_katana
-RESOURCES=8 i_ingot_mytheril
-TDATA3=7
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=46
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 44.1
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=mytheril katana
-
-ON=@Create
-COLOR=color_o_mytheril
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_broad_mytheril]
-DEFNAME=i_sword_broad_mytheril
-NAME=mytheril broadsword
-ID=i_sword_broad
-RESOURCES=10 i_ingot_mytheril
-TYPE=T_WEAPON_SWORD
-TDATA3=8
-FLIP=1
-DAM=14,15
-SPEED=33
-SKILL=Swordsmanship
-REQSTR=30
-TWOHANDS=N
-WEIGHT=6
-SKILLMAKE=BLACKSMITHING 35.4
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=mytheril broadsword
-
-ON=@Create
-COLOR=color_o_mytheril
-HITPOINTS={31 100}
-
-[ITEMDEF i_cutlass_mytheril]
-DEFNAME=i_cutlass_mytheril
-NAME=mytheril cutlass
-ID=i_cutlass
-RESOURCES=8 i_ingot_mytheril
-WEIGHT=8
-TDATA3=9
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=44
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=mytheril cutlass
-
-ON=@Create
-COLOR=color_o_mytheril
-HITPOINTS={31 70}
-
-[ITEMDEF i_sword_long_mytheril]
-DEFNAME=i_sword_long_mytheril
-NAME=mytheril longsword
-ID=i_sword_long
-RESOURCES=12 i_ingot_mytheril
-TYPE=T_WEAPON_SWORD
-TDATA3=10
-FLIP=1
-DAM=15,16
-SPEED=30
-SKILL=Swordsmanship
-REQSTR=35
-TWOHANDS=N
-WEIGHT=7
-SKILLMAKE=BLACKSMITHING 25.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=mytheril longsword
-
-ON=@Create
-COLOR=color_o_mytheril
-HITPOINTS={31 110}
-
-[ITEMDEF i_scimitar_mytheril]
-DEFNAME=i_scimitar_mytheril
-NAME=mytheril scimitar
-ID=i_scimitar
-RESOURCES=10 i_ingot_mytheril
-WEIGHT=8
-TDATA3=11
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=13,15
-SPEED=37
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 31.7
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=mytheril scimitar
-
-ON=@Create
-COLOR=color_o_mytheril
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_viking_mytheril]
-DEFNAME=i_sword_viking_mytheril
-NAME=mytheril viking sword
-ID=i_sword_viking
-RESOURCES=14 i_ingot_mytheril
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-TDATA3=12
-FLIP=1
-DAM=15,17
-SPEED=28
-SKILL=Swordsmanship
-REQSTR=40
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=mytheril viking sword
-
-ON=@Create
-COLOR=color_o_mytheril
-HITPOINTS={31 100}
-
 [ITEMDEF i_katana_rose]
 DEFNAME=i_katana_rose
 NAME=rose katana
@@ -1515,6 +1101,422 @@ DESCRIPTION=rose viking sword
 
 ON=@Create
 COLOR=color_o_rose
+HITPOINTS={31 100}
+
+
+
+[ITEMDEF i_katana_agapite]
+DEFNAME=i_katana_agapite
+NAME=agapite katana
+ID=i_katana
+RESOURCES=8 i_ingot_agapite
+TDATA3=7
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=46
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 44.1
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=agapite katana
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_broad_agapite]
+DEFNAME=i_sword_broad_agapite
+NAME=agapite broadsword
+ID=i_sword_broad
+RESOURCES=10 i_ingot_agapite
+TYPE=T_WEAPON_SWORD
+TDATA3=8
+FLIP=1
+DAM=14,15
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=30
+TWOHANDS=N
+WEIGHT=6
+SKILLMAKE=BLACKSMITHING 35.4
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=agapite broadsword
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 100}
+
+[ITEMDEF i_cutlass_agapite]
+DEFNAME=i_cutlass_agapite
+NAME=agapite cutlass
+ID=i_cutlass
+RESOURCES=8 i_ingot_agapite
+WEIGHT=8
+TDATA3=9
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=44
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=agapite cutlass
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 70}
+
+[ITEMDEF i_sword_long_agapite]
+DEFNAME=i_sword_long_agapite
+NAME=dagapite longsword
+ID=i_sword_long
+RESOURCES=12 i_ingot_agapite
+TYPE=T_WEAPON_SWORD
+TDATA3=10
+FLIP=1
+DAM=15,16
+SPEED=30
+SKILL=Swordsmanship
+REQSTR=35
+TWOHANDS=N
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 25.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=agapite longsword
+
+ON=@Create
+COLOR=color_o_agapiter
+HITPOINTS={31 110}
+
+[ITEMDEF i_scimitar_agapite]
+DEFNAME=i_scimitar_agapite
+NAME=agapite scimitar
+ID=i_scimitar
+RESOURCES=10 i_ingot_agapite
+WEIGHT=8
+TDATA3=11
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=13,15
+SPEED=37
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=agapite scimitar
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_viking_agapite]
+DEFNAME=i_sword_viking_agapite
+NAME=agapite viking sword
+ID=i_sword_viking
+RESOURCES=14 i_ingot_agapite
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+TDATA3=12
+FLIP=1
+DAM=15,17
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=agapite viking sword
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 100}
+
+[ITEMDEF i_katana_shadow]
+DEFNAME=i_katana_shadow
+NAME=shadow katana
+ID=i_katana
+RESOURCES=8 i_ingot_shadow
+TDATA3=7
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=46
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 44.1
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=shadow katana
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_broad_shadow]
+DEFNAME=i_sword_broad_shadow
+NAME=shadow broadsword
+ID=i_sword_broad
+RESOURCES=10 i_ingot_shadow
+TYPE=T_WEAPON_SWORD
+TDATA3=8
+FLIP=1
+DAM=14,15
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=30
+TWOHANDS=N
+WEIGHT=6
+SKILLMAKE=BLACKSMITHING 35.4
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=shadow broadsword
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 100}
+
+[ITEMDEF i_cutlass_shadow]
+DEFNAME=i_cutlass_shadow
+NAME=shadow cutlass
+ID=i_cutlass
+RESOURCES=8 i_ingot_shadow
+WEIGHT=8
+TDATA3=9
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=44
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=shadow cutlass
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 70}
+
+[ITEMDEF i_sword_long_shadow]
+DEFNAME=i_sword_long_shadow
+NAME=shadow longsword
+ID=i_sword_long
+RESOURCES=12 i_ingot_shadow
+TYPE=T_WEAPON_SWORD
+TDATA3=10
+FLIP=1
+DAM=15,16
+SPEED=30
+SKILL=Swordsmanship
+REQSTR=35
+TWOHANDS=N
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 25.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=shadow longsword
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 110}
+
+[ITEMDEF i_scimitar_shadowr]
+DEFNAME=i_scimitar_shadow
+NAME=shadow scimitar
+ID=i_scimitar
+RESOURCES=10 i_ingot_shadow
+WEIGHT=8
+TDATA3=11
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=13,15
+SPEED=37
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=shadow scimitar
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_viking_shadow]
+DEFNAME=i_sword_viking_shadow
+NAME=shadow viking sword
+ID=i_sword_viking
+RESOURCES=14 i_ingot_shadow
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+TDATA3=12
+FLIP=1
+DAM=15,17
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=shadow viking sword
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 100}
+
+[ITEMDEF i_katana_bloodrock]
+DEFNAME=i_katana_bloodrock
+NAME=bloodrock katana
+ID=i_katana
+RESOURCES=8 i_ingot_bloodrock
+TDATA3=7
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=46
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 44.1
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=bloodrock katana
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_broad_bloodrock]
+DEFNAME=i_sword_broad_bloodrock
+NAME=bloodrock broadsword
+ID=i_sword_broad
+RESOURCES=10 i_ingot_bloodrock
+TYPE=T_WEAPON_SWORD
+TDATA3=8
+FLIP=1
+DAM=14,15
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=30
+TWOHANDS=N
+WEIGHT=6
+SKILLMAKE=BLACKSMITHING 35.4
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=bloodrock broadsword
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 100}
+
+[ITEMDEF i_cutlass_bloodrock]
+DEFNAME=i_cutlass_bloodrock
+NAME=bloodrock cutlass
+ID=i_cutlass
+RESOURCES=8 i_ingot_bloodrock
+WEIGHT=8
+TDATA3=9
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=44
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=bloodrock cutlass
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 70}
+
+[ITEMDEF i_sword_long_bloodrock]
+DEFNAME=i_sword_long_bloodrock
+NAME=bloodrock longsword
+ID=i_sword_long
+RESOURCES=12 i_ingot_bloodrock
+TYPE=T_WEAPON_SWORD
+TDATA3=10
+FLIP=1
+DAM=15,16
+SPEED=30
+SKILL=Swordsmanship
+REQSTR=35
+TWOHANDS=N
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 25.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=bloodrock longsword
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 110}
+
+[ITEMDEF i_scimitar_bloodrock]
+DEFNAME=i_scimitar_bloodrock
+NAME=bloodrock scimitar
+ID=i_scimitar
+RESOURCES=10 i_ingot_bloodrock
+WEIGHT=8
+TDATA3=11
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=13,15
+SPEED=37
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=bloodrock scimitar
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_viking_bloodrock]
+DEFNAME=i_sword_viking_bloodrock
+NAME=bloodrock viking sword
+ID=i_sword_viking
+RESOURCES=14 i_ingot_bloodrock
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+TDATA3=12
+FLIP=1
+DAM=15,17
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=bloodrock viking sword
+
+ON=@Create
+COLOR=color_o_bloodrock
 HITPOINTS={31 100}
 
 [ITEMDEF i_katana_verite]
@@ -1655,144 +1657,6 @@ ON=@Create
 COLOR=color_o_verite
 HITPOINTS={31 100}
 
-[ITEMDEF i_katana_agapite]
-DEFNAME=i_katana_agapite
-NAME=agapite katana
-ID=i_katana
-RESOURCES=8 i_ingot_agapite
-TDATA3=7
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=46
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 44.1
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=agapite katana
-
-ON=@Create
-COLOR=color_o_agapite
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_broad_agapite]
-DEFNAME=i_sword_broad_agapite
-NAME=agapite broadsword
-ID=i_sword_broad
-RESOURCES=10 i_ingot_agapite
-TYPE=T_WEAPON_SWORD
-TDATA3=8
-FLIP=1
-DAM=14,15
-SPEED=33
-SKILL=Swordsmanship
-REQSTR=30
-TWOHANDS=N
-WEIGHT=6
-SKILLMAKE=BLACKSMITHING 35.4
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=agapite broadsword
-
-ON=@Create
-COLOR=color_o_agapite
-HITPOINTS={31 100}
-
-[ITEMDEF i_cutlass_agapite]
-DEFNAME=i_cutlass_agapite
-NAME=agapite cutlass
-ID=i_cutlass
-RESOURCES=8 i_ingot_agapite
-WEIGHT=8
-TDATA3=9
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=11,13
-SPEED=44
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=agapite cutlass
-
-ON=@Create
-COLOR=color_o_agapite
-HITPOINTS={31 70}
-
-[ITEMDEF i_sword_long_agapite]
-DEFNAME=i_sword_long_agapite
-NAME=dagapite longsword
-ID=i_sword_long
-RESOURCES=12 i_ingot_agapite
-TYPE=T_WEAPON_SWORD
-TDATA3=10
-FLIP=1
-DAM=15,16
-SPEED=30
-SKILL=Swordsmanship
-REQSTR=35
-TWOHANDS=N
-WEIGHT=7
-SKILLMAKE=BLACKSMITHING 25.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=agapite longsword
-
-ON=@Create
-COLOR=color_o_agapiter
-HITPOINTS={31 110}
-
-[ITEMDEF i_scimitar_agapite]
-DEFNAME=i_scimitar_agapite
-NAME=agapite scimitar
-ID=i_scimitar
-RESOURCES=10 i_ingot_agapite
-WEIGHT=8
-TDATA3=11
-TYPE=T_WEAPON_SWORD
-FLIP=1
-DAM=13,15
-SPEED=37
-SKILL=Swordsmanship
-REQSTR=25
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 31.7
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=agapite scimitar
-
-ON=@Create
-COLOR=color_o_agapite
-HITPOINTS={31 90}
-
-[ITEMDEF i_sword_viking_agapite]
-DEFNAME=i_sword_viking_agapite
-NAME=agapite viking sword
-ID=i_sword_viking
-RESOURCES=14 i_ingot_agapite
-WEIGHT=8
-TYPE=T_WEAPON_SWORD
-TDATA3=12
-FLIP=1
-DAM=15,17
-SPEED=28
-SKILL=Swordsmanship
-REQSTR=40
-TWOHANDS=N
-SKILLMAKE=BLACKSMITHING 24.3
-CATEGORY=Shadow Realm
-SUBSECTION=Swords
-DESCRIPTION=agapite viking sword
-
-ON=@Create
-COLOR=color_o_agapite
-HITPOINTS={31 100}
-
 [ITEMDEF i_katana_valorite]
 DEFNAME=i_katana_valorite
 NAME=valorite katana
@@ -1931,11 +1795,11 @@ ON=@Create
 COLOR=color_o_valorite
 HITPOINTS={31 100}
 
-[ITEMDEF i_katana_shadow]
-DEFNAME=i_katana_shadow
-NAME=shadow katana
+[ITEMDEF i_katana_mytheril]
+DEFNAME=i_katana_mytheril
+NAME=mytheril katana
 ID=i_katana
-RESOURCES=8 i_ingot_shadow
+RESOURCES=8 i_ingot_mytheril
 TDATA3=7
 WEIGHT=8
 TYPE=T_WEAPON_SWORD
@@ -1948,17 +1812,17 @@ TWOHANDS=N
 SKILLMAKE=BLACKSMITHING 44.1
 CATEGORY=Shadow Realm
 SUBSECTION=Swords
-DESCRIPTION=shadow katana
+DESCRIPTION=mytheril katana
 
 ON=@Create
-COLOR=color_o_shadow
+COLOR=color_o_mytheril
 HITPOINTS={31 90}
 
-[ITEMDEF i_sword_broad_shadow]
-DEFNAME=i_sword_broad_shadow
-NAME=shadow broadsword
+[ITEMDEF i_sword_broad_mytheril]
+DEFNAME=i_sword_broad_mytheril
+NAME=mytheril broadsword
 ID=i_sword_broad
-RESOURCES=10 i_ingot_shadow
+RESOURCES=10 i_ingot_mytheril
 TYPE=T_WEAPON_SWORD
 TDATA3=8
 FLIP=1
@@ -1971,17 +1835,17 @@ WEIGHT=6
 SKILLMAKE=BLACKSMITHING 35.4
 CATEGORY=Shadow Realm
 SUBSECTION=Swords
-DESCRIPTION=shadow broadsword
+DESCRIPTION=mytheril broadsword
 
 ON=@Create
-COLOR=color_o_shadow
+COLOR=color_o_mytheril
 HITPOINTS={31 100}
 
-[ITEMDEF i_cutlass_shadow]
-DEFNAME=i_cutlass_shadow
-NAME=shadow cutlass
+[ITEMDEF i_cutlass_mytheril]
+DEFNAME=i_cutlass_mytheril
+NAME=mytheril cutlass
 ID=i_cutlass
-RESOURCES=8 i_ingot_shadow
+RESOURCES=8 i_ingot_mytheril
 WEIGHT=8
 TDATA3=9
 TYPE=T_WEAPON_SWORD
@@ -1994,17 +1858,17 @@ TWOHANDS=N
 SKILLMAKE=BLACKSMITHING 24.3
 CATEGORY=Shadow Realm
 SUBSECTION=Swords
-DESCRIPTION=shadow cutlass
+DESCRIPTION=mytheril cutlass
 
 ON=@Create
-COLOR=color_o_shadow
+COLOR=color_o_mytheril
 HITPOINTS={31 70}
 
-[ITEMDEF i_sword_long_shadow]
-DEFNAME=i_sword_long_shadow
-NAME=shadow longsword
+[ITEMDEF i_sword_long_mytheril]
+DEFNAME=i_sword_long_mytheril
+NAME=mytheril longsword
 ID=i_sword_long
-RESOURCES=12 i_ingot_shadow
+RESOURCES=12 i_ingot_mytheril
 TYPE=T_WEAPON_SWORD
 TDATA3=10
 FLIP=1
@@ -2017,17 +1881,17 @@ WEIGHT=7
 SKILLMAKE=BLACKSMITHING 25.3
 CATEGORY=Shadow Realm
 SUBSECTION=Swords
-DESCRIPTION=shadow longsword
+DESCRIPTION=mytheril longsword
 
 ON=@Create
-COLOR=color_o_shadow
+COLOR=color_o_mytheril
 HITPOINTS={31 110}
 
-[ITEMDEF i_scimitar_shadowr]
-DEFNAME=i_scimitar_shadow
-NAME=shadow scimitar
+[ITEMDEF i_scimitar_mytheril]
+DEFNAME=i_scimitar_mytheril
+NAME=mytheril scimitar
 ID=i_scimitar
-RESOURCES=10 i_ingot_shadow
+RESOURCES=10 i_ingot_mytheril
 WEIGHT=8
 TDATA3=11
 TYPE=T_WEAPON_SWORD
@@ -2040,17 +1904,17 @@ TWOHANDS=N
 SKILLMAKE=BLACKSMITHING 31.7
 CATEGORY=Shadow Realm
 SUBSECTION=Swords
-DESCRIPTION=shadow scimitar
+DESCRIPTION=mytheril scimitar
 
 ON=@Create
-COLOR=color_o_shadow
+COLOR=color_o_mytheril
 HITPOINTS={31 90}
 
-[ITEMDEF i_sword_viking_shadow]
-DEFNAME=i_sword_viking_shadow
-NAME=shadow viking sword
+[ITEMDEF i_sword_viking_mytheril]
+DEFNAME=i_sword_viking_mytheril
+NAME=mytheril viking sword
 ID=i_sword_viking
-RESOURCES=14 i_ingot_shadow
+RESOURCES=14 i_ingot_mytheril
 WEIGHT=8
 TYPE=T_WEAPON_SWORD
 TDATA3=12
@@ -2063,10 +1927,148 @@ TWOHANDS=N
 SKILLMAKE=BLACKSMITHING 24.3
 CATEGORY=Shadow Realm
 SUBSECTION=Swords
-DESCRIPTION=shadow viking sword
+DESCRIPTION=mytheril viking sword
 
 ON=@Create
-COLOR=color_o_shadow
+COLOR=color_o_mytheril
+HITPOINTS={31 100}
+
+[ITEMDEF i_katana_blackrock]
+DEFNAME=i_katana_blackrock
+NAME=blackrock katana
+ID=i_katana
+RESOURCES=8 i_ingot_blackrock
+TDATA3=7
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=46
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 44.1
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=blackrock katana
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_broad_blackrock]
+DEFNAME=i_sword_broad_blackrock
+NAME=blackrock broadsword
+ID=i_sword_broad
+RESOURCES=10 i_ingot_blackrock
+TYPE=T_WEAPON_SWORD
+TDATA3=8
+FLIP=1
+DAM=14,15
+SPEED=33
+SKILL=Swordsmanship
+REQSTR=30
+TWOHANDS=N
+WEIGHT=6
+SKILLMAKE=BLACKSMITHING 35.4
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=blackrock broadsword
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 100}
+
+[ITEMDEF i_cutlass_blackrock]
+DEFNAME=i_cutlass_blackrock
+NAME=blackrock cutlass
+ID=i_cutlass
+RESOURCES=8 i_ingot_blackrock
+WEIGHT=8
+TDATA3=9
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=11,13
+SPEED=44
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=blackrock cutlass
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 70}
+
+[ITEMDEF i_sword_long_blackrock]
+DEFNAME=i_sword_long_blackrock
+NAME=blackrock longsword
+ID=i_sword_long
+RESOURCES=12 i_ingot_blackrock
+TYPE=T_WEAPON_SWORD
+TDATA3=10
+FLIP=1
+DAM=15,16
+SPEED=30
+SKILL=Swordsmanship
+REQSTR=35
+TWOHANDS=N
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 25.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=blackrock longsword
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 110}
+
+[ITEMDEF i_scimitar_blackrock]
+DEFNAME=i_scimitar_blackrock
+NAME=blackrock scimitar
+ID=i_scimitar
+RESOURCES=10 i_ingot_blackrock
+WEIGHT=8
+TDATA3=11
+TYPE=T_WEAPON_SWORD
+FLIP=1
+DAM=13,15
+SPEED=37
+SKILL=Swordsmanship
+REQSTR=25
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 31.7
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=blackrock scimitar
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 90}
+
+[ITEMDEF i_sword_viking_blackrock]
+DEFNAME=i_sword_viking_blackrock
+NAME=blackrock viking sword
+ID=i_sword_viking
+RESOURCES=14 i_ingot_blackrock
+WEIGHT=8
+TYPE=T_WEAPON_SWORD
+TDATA3=12
+FLIP=1
+DAM=15,17
+SPEED=28
+SKILL=Swordsmanship
+REQSTR=40
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 24.3
+CATEGORY=Shadow Realm
+SUBSECTION=Swords
+DESCRIPTION=blackrock viking sword
+
+ON=@Create
+COLOR=color_o_blackrock
 HITPOINTS={31 100}
 
 [ITEMDEF i_katana_invulnerability]
