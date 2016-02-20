@@ -14,6 +14,7 @@ VERSION=0.56
 // sphere.ini and spheretable.scp are automatic.
 // All the other scripts we want to load.
 C:/Dropbox/SphereShadowRealm/scripts/sphere_defs.scp
+C:/Dropbox/SphereShadowRealm/scripts/ShadowRealmScripts/
 C:/Dropbox/SphereShadowRealm/scripts/sphere_types.scp
 C:/Dropbox/SphereShadowRealm/scripts/sphere_book.scp
 C:/Dropbox/SphereShadowRealm/scripts/sphere_backward_compatibility.scp
@@ -25,6 +26,8 @@ C:/Dropbox/SphereShadowRealm/scripts/sphere_dialog.scp
 C:/Dropbox/SphereShadowRealm/scripts/items/sphere_item_resources.scp
 C:/Dropbox/SphereShadowRealm/scripts/items/
 C:/Dropbox/SphereShadowRealm/scripts/sphere_region.scp
+
+
 //------------------------------------
 //			Shadow Realm Scripts
 //------------------------------------
@@ -33,7 +36,11 @@ C:/Dropbox/SphereShadowRealm/scripts/ShadowRealmScripts/Equipment/
 C:/Dropbox/SphereShadowRealm/scripts/ShadowRealmScripts/Npc/
 C:/Dropbox/SphereShadowRealm/scripts/ShadowRealmScripts/Resources/
 C:/Dropbox/SphereShadowRealm/scripts/ShadowRealmScripts/Weapons/
-C:/Dropbox/SphereShadowRealm/scripts/ShadowRealmScripts/
+
+
+
+
+
 // -----------------------------------
 //          	Maps
 // -----------------------------------

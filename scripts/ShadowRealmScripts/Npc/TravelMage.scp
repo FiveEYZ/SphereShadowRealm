@@ -10,6 +10,7 @@ TEVENTS=e_Human_ConvInit
 TEVENTS=e_Human_Needs
 TEVENTS=e_Human_Greet
 TEVENTS=e_Human_Refuse
+CAN=MT_NONMOVER
 CATEGORY=Shadow Realm
 SUBSECTION=Npc
 DESCRIPTION=Travel Mage

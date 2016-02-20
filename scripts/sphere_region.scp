@@ -74,8 +74,8 @@ ON=@CLIPERIODIC
 
 [REGIONTYPE r_default_rock t_rock]
 // Random rocks
-//RESOURCES=100.0 mr_nothing
-RESOURCES=100.0 mr_iron
+RESOURCES=30.0 mr_nothing
+RESOURCES=50.0 mr_iron
 RESOURCES=6.0 mr_rusty
 RESOURCES=6.0 mr_old_copper
 RESOURCES=6.0 mr_dull_copper
@@ -185,9 +185,15 @@ RESOURCES=100.0 mr_nothing
 RESOURCES=30.0 mr_iron
 RESOURCES=5.0 mr_shadow
 
+on=@enter
+if (<src.findlayer.25>)
+  src.dismount
+  src.sysmessage You cannot ride in here.
+endif
+
 ON=@REGPERIODIC
 	src.SFX={021f,1,0243,1,0244,1,0245,1}
-
+	
 [REGIONTYPE r_plains]
 // Plains night and day.
 ON=@REGPERIODIC
