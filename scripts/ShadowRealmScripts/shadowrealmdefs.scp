@@ -9,7 +9,7 @@ if (<src.findlayer.layer_special.baseid> == i_memory_scroll_cooldown)
 endif
 if (<morex> == 57) // We are going to try to pull the spell from the # itself to make sure defname isn't being bypassed.
   serv.newitem i_memory_scroll_cooldown
-  new.bounce=<src.uid>
+  new.cont=<src.uid>
   new.timer = 30
   return 0
 endif

@@ -20,3 +20,1822 @@ DESCRIPTION=rusty dagger
 ON=@Create
 COLOR=color_o_rusty
 HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_rusty]
+DEFNAME=i_kryss_rusty
+NAME=rusty kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_rusty
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rusty kryss
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_rusty]
+DEFNAME=i_war_fork_rusty
+NAME=rusty war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_rusty
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rusty war fork
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_rusty]
+DEFNAME=i_spear_short_rusty
+NAME=rusty short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_rusty
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rusty short spear
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_rusty]
+DEFNAME=i_spear_rusty
+NAME=rusty spear
+ID=i_spear
+RESOURCES=12 i_ingot_rusty
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rusty spear
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_oldcopper]
+DEFNAME=i_dagger_oldcopper
+NAME=old copper dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_old_copper
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=old copper dagger
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_oldcopper]
+DEFNAME=i_kryss_oldcopper
+NAME=oldcopper kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_old_copper
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=old copper kryss
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_oldcopper]
+DEFNAME=i_war_fork_oldcopper
+NAME=old copper war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_old_copper
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=old copper war fork
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_oldcopper]
+DEFNAME=i_spear_short_oldcopper
+NAME=old copper short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_old_copper
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=old copper short spear
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_oldcopper]
+DEFNAME=i_spear_oldcopper
+NAME=old copper spear
+ID=i_spear
+RESOURCES=12 i_ingot_old_copper
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=old copper spear
+
+ON=@Create
+COLOR=color_o_oldcopper
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_dullcopper]
+DEFNAME=i_dagger_dullcopper
+NAME=dull copper dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_dull_copper
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=dull copper dagger
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_dullcopper]
+DEFNAME=i_kryss_dullcopper
+NAME=dullcopper kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_dull_copper
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=dull copper kryss
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_dullcopper]
+DEFNAME=i_war_fork_dullcopper
+NAME=dull copper war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_dull_dull_copper
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=dull copper war fork
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_dullcopper]
+DEFNAME=i_spear_short_dullcopper
+NAME=dull copper short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_dull_copper
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=dullcopper short spear
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_dullcopper]
+DEFNAME=i_spear_dullcopper
+NAME=dull copper spear
+ID=i_spear
+RESOURCES=12 i_ingot_dull_copper
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=dull copper spear
+
+ON=@Create
+COLOR=color_o_dullcopper
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_copper]
+DEFNAME=i_dagger_copper
+NAME=copper dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_copper
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=copper dagger
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_copper]
+DEFNAME=i_kryss_copper
+NAME=copper kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_copper
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=copper kryss
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_copper]
+DEFNAME=i_war_fork_copper
+NAME=copper war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_copper
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=copper war fork
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_copper]
+DEFNAME=i_spear_short_copper
+NAME=copper short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_copper
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=copper short spear
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_copper]
+DEFNAME=i_spear_copper
+NAME=copper spear
+ID=i_spear
+RESOURCES=12 i_ingot_copper
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=copper spear
+
+ON=@Create
+COLOR=color_o_copper
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_bronze]
+DEFNAME=i_dagger_bronze
+NAME=bronze dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_bronze
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bronze dagger
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_bronze]
+DEFNAME=i_kryss_bronze
+NAME=bronze kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_bronze
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bronze kryss
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_bronze]
+DEFNAME=i_war_fork_bronze
+NAME=bronze war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_bronze
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bronze war fork
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_bronze]
+DEFNAME=i_spear_short_bronze
+NAME=bronze short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_bronze
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bronze short spear
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_bronze]
+DEFNAME=i_spear_bronze
+NAME=bronze spear
+ID=i_spear
+RESOURCES=12 i_ingot_bronze
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bronze spear
+
+ON=@Create
+COLOR=color_o_bronze
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_silver]
+DEFNAME=i_dagger_silver
+NAME=silver dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_silver
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=silver dagger
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_silver]
+DEFNAME=i_kryss_silver
+NAME=silver kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_silver
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=silver kryss
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_silver]
+DEFNAME=i_war_fork_silver
+NAME=silver war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_silver
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=silver war fork
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_silver]
+DEFNAME=i_spear_short_silver
+NAME=silver short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_silver
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=silver short spear
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_silver]
+DEFNAME=i_spear_silver
+NAME=silver spear
+ID=i_spear
+RESOURCES=12 i_ingot_silver
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=silver spear
+
+ON=@Create
+COLOR=color_o_silver
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_gold]
+DEFNAME=i_dagger_gold
+NAME=gold dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_gold
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=gold dagger
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_gold]
+DEFNAME=i_kryss_gold
+NAME=gold kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_gold
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=gold kryss
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_gold]
+DEFNAME=i_war_fork_gold
+NAME=gold war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_gold
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=gold war fork
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_gold]
+DEFNAME=i_spear_short_gold
+NAME=gold short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_gold
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=gold short spear
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_gold]
+DEFNAME=i_spear_gold
+NAME=gold spear
+ID=i_spear
+RESOURCES=12 i_ingot_gold
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=gold spear
+
+ON=@Create
+COLOR=color_o_gold
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_rose]
+DEFNAME=i_dagger_rose
+NAME=rose dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_rose
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rose dagger
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_rose]
+DEFNAME=i_kryss_rose
+NAME=rose kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_rose
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rose kryss
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_rose]
+DEFNAME=i_war_fork_rose
+NAME=rose war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_rose
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rose war fork
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_rose]
+DEFNAME=i_spear_short_rose
+NAME=rose short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_rose
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rose short spear
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_rose]
+DEFNAME=i_spear_rose
+NAME=rose spear
+ID=i_spear
+RESOURCES=12 i_ingot_rose
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rose spear
+
+ON=@Create
+COLOR=color_o_rose
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_agapite]
+DEFNAME=i_dagger_agapite
+NAME=agapite dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_agapite
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=agapite dagger
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_agapite]
+DEFNAME=i_kryss_agapite
+NAME=agapite kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_agapite
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=agapite kryss
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_agapite]
+DEFNAME=i_war_fork_agapite
+NAME=agapite war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_agapite
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=agapite war fork
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_agapite]
+DEFNAME=i_spear_short_agapite
+NAME=agapite short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_agapite
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=agapite short spear
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_agapite]
+DEFNAME=i_spear_agapite
+NAME=agapite spear
+ID=i_spear
+RESOURCES=12 i_ingot_agapite
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=agapite spear
+
+ON=@Create
+COLOR=color_o_agapite
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_shadow]
+DEFNAME=i_dagger_shadow
+NAME=shadow dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_shadow
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=shadow dagger
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_shadow]
+DEFNAME=i_kryss_shadow
+NAME=shadow kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_shadow
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=shadow kryss
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_shadow]
+DEFNAME=i_war_fork_shadow
+NAME=shadow war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_shadow
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=shadow war fork
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_shadow]
+DEFNAME=i_spear_short_shadow
+NAME=shadow short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_shadow
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=shadow short spear
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_shadow]
+DEFNAME=i_spear_shadow
+NAME=shadow spear
+ID=i_spear
+RESOURCES=12 i_ingot_shadow
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=shadow spear
+
+ON=@Create
+COLOR=color_o_shadow
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_bloodrock]
+DEFNAME=i_dagger_bloodrock
+NAME=bloodrock dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_bloodrock
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bloodrock dagger
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_bloodrock]
+DEFNAME=i_kryss_bloodrock
+NAME=bloodrock kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_bloodrock
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bloodrock kryss
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_bloodrock]
+DEFNAME=i_war_fork_bloodrock
+NAME=bloodrock war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_bloodrock
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bloodrock war fork
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_bloodrock]
+DEFNAME=i_spear_short_bloodrock
+NAME=bloodrock short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_bloodrock
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bloodrock short spear
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_bloodrock]
+DEFNAME=i_spear_bloodrock
+NAME=bloodrock spear
+ID=i_spear
+RESOURCES=12 i_ingot_bloodrock
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=bloodrock spear
+
+ON=@Create
+COLOR=color_o_bloodrock
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_verite]
+DEFNAME=i_dagger_verite
+NAME=verite dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_verite
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=verite dagger
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_verite]
+DEFNAME=i_kryss_verite
+NAME=verite kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_verite
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=verite kryss
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_verite]
+DEFNAME=i_war_fork_verite
+NAME=verite war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_verite
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=verite war fork
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_verite]
+DEFNAME=i_spear_short_verite
+NAME=verite short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_verite
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=verite short spear
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_verite]
+DEFNAME=i_spear_verite
+NAME=verite spear
+ID=i_spear
+RESOURCES=12 i_ingot_verite
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=verite spear
+
+ON=@Create
+COLOR=color_o_verite
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_valorite]
+DEFNAME=i_dagger_valorite
+NAME=valorite dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_valorite
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=valorite dagger
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_valorite]
+DEFNAME=i_kryss_valorite
+NAME=valorite kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_valorite
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=valorite kryss
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_valorite]
+DEFNAME=i_war_fork_valorite
+NAME=valorite war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_valorite
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=valorite war fork
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_valorite]
+DEFNAME=i_spear_short_valorite
+NAME=valorite short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_valorite
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=valorite short spear
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_valorite]
+DEFNAME=i_spear_valorite
+NAME=valorite spear
+ID=i_spear
+RESOURCES=12 i_ingot_valorite
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=valorite spear
+
+ON=@Create
+COLOR=color_o_valorite
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_mytheril]
+DEFNAME=i_dagger_mytheril
+NAME=mytheril dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_mytheril
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=mytheril dagger
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_mytheril]
+DEFNAME=i_kryss_mytheril
+NAME=mytheril kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_mytheril
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=mytheril kryss
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_mytheril]
+DEFNAME=i_war_fork_mytheril
+NAME=mytheril war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_mytheril
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=mytheril war fork
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_mytheril]
+DEFNAME=i_spear_short_mytheril
+NAME=mytheril short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_mytheril
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=mytheril short spear
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_mytheril]
+DEFNAME=i_spear_mytheril
+NAME=mytheril spear
+ID=i_spear
+RESOURCES=12 i_ingot_mytheril
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=mytheril spear
+
+ON=@Create
+COLOR=color_o_mytheril
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_blackrock]
+DEFNAME=i_dagger_blackrock
+NAME=blackrock dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_blackrock
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=blackrock dagger
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_blackrock]
+DEFNAME=i_kryss_blackrock
+NAME=blackrock kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_blackrock
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=blackrock kryss
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_blackrock]
+DEFNAME=i_war_fork_blackrock
+NAME=blackrock war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_blackrock
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=blackrock war fork
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_blackrock]
+DEFNAME=i_spear_short_blackrock
+NAME=blackrock short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_blackrock
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=blackrock short spear
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_blackrock]
+DEFNAME=i_spear_blackrock
+NAME=blackrock spear
+ID=i_spear
+RESOURCES=12 i_ingot_blackrock
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=blackrock spear
+
+ON=@Create
+COLOR=color_o_blackrock
+HITPOINTS={31 80}
+
+[ITEMDEF i_dagger_invulnerability]
+DEFNAME=i_dagger_invulnerability
+NAME=invulnerability dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_invulnerability
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=invulnerability dagger
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 40}
+
+[ITEMDEF i_kryss_invulnerability]
+DEFNAME=i_kryss_invulnerability
+NAME=invulnerability kryss
+ID=i_kryss
+RESOURCES=8 i_ingot_invulnerability
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=24
+DAM=10,12
+SPEED=53
+SKILL=Fencing
+REQSTR=10
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 36.7
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=invulnerability kryss
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 90}
+
+[ITEMDEF i_war_fork_invulnerability]
+DEFNAME=i_war_fork_invulnerability
+NAME=invulnerability war fork
+ID=i_war_fork
+RESOURCES=12 i_ingot_invulnerability
+WEIGHT=8
+TYPE=T_WEAPON_FENCE
+FLIP=1
+TDATA3=25
+DAM=12,13
+SPEED=43
+SKILL=Fencing
+REQSTR=45
+TWOHANDS=N
+SKILLMAKE=BLACKSMITHING 42.9
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=invulnerability war fork
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 110}
+
+[ITEMDEF i_spear_short_invulnerability]
+DEFNAME=i_spear_short_invulnerability
+NAME=invulnerability short spear
+ID=i_spear_short
+RESOURCES=6 i_ingot_invulnerability
+WEIGHT=7
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,13
+TDATA3=26
+SPEED=55
+SKILL=Fencing
+REQSTR=40
+TWOHANDS=Y
+SKILLMAKE=BLACKSMITHING 45.3
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=invulnerability short spear
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 70}
+
+[ITEMDEF i_spear_invulnerability]
+DEFNAME=i_spear_invulnerability
+NAME=invulnerability spear
+ID=i_spear
+RESOURCES=12 i_ingot_invulnerability
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=13,15
+TDATA3=27
+SPEED=45
+SKILL=Fencing
+REQSTR=50
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=BLACKSMITHING 49.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=invulnerability spear
+
+ON=@Create
+COLOR=color_o_invulnerability
+HITPOINTS={31 80}
+
+[EOF]
