@@ -14,8 +14,8 @@ VERSION=0.56
 // sphere.ini and spheretable.scp are automatic.
 // All the other scripts we want to load.
 C:/Dropbox/SphereShadowRealm/scripts/sphere_defs.scp
-C:/Dropbox/SphereShadowRealm/scripts/ShadowRealmScripts/
 C:/Dropbox/SphereShadowRealm/scripts/sphere_types.scp
+C:/Dropbox/SphereShadowRealm/scripts/ShadowRealmScripts/
 C:/Dropbox/SphereShadowRealm/scripts/sphere_book.scp
 C:/Dropbox/SphereShadowRealm/scripts/sphere_backward_compatibility.scp
 C:/Dropbox/SphereShadowRealm/scripts/sphere_events_human.scp

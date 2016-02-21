@@ -589,147 +589,195 @@ ON=i_ringmail_tunic Ring Mail
 SKILLMENU=sm_ringmail_armor
 
 ON=i_platemail_chest_rusty @color_o_rusty, Plate Mail
+TEST 45.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_rusty
 
 ON=i_chainmail_tunic_rusty @color_o_rusty, Chain Mail
+TEST 45.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_rusty
 
 ON=i_ringmail_tunic_rusty @color_o_rusty, Ring Mail
+TEST 45.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_rusty
 
 ON=i_platemail_chest_copper @color_o_copper, Plate Mail
+TEST 65.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_copper
 
 ON=i_chainmail_tunic_copper @color_o_copper, Chain Mail
+TEST 65.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_copper
 
 ON=i_ringmail_tunic_copper @color_o_copper, Ring Mail
+TEST 65.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_copper
 
 ON=i_platemail_chest_oldcopper @color_o_oldcopper, Plate Mail
+TEST 55.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_oldcopper
 
 ON=i_chainmail_tunic_oldcopper @color_o_oldcopper, Chain Mail
+TEST 55.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_oldcopper
 
 ON=i_ringmail_tunic_oldcopper @color_o_oldcopper, Ring Mail
+TEST 55.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_oldcopper
 
 ON=i_platemail_chest_dullcopper @color_o_dullcopper, Plate Mail
+TEST 60.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_dullcopper
 
 ON=i_chainmail_tunic_dullcopper @color_o_dullcopper, Chain Mail
+TEST 60.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_dullcopper
 
 ON=i_ringmail_tunic_dullcopper @color_o_dullcopper, Ring Mail
+TEST 60.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_dullcopper
 
 ON=i_platemail_chest_bronze @color_o_bronze, Plate Mail
+TEST 70.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_bronze
 
 ON=i_chainmail_tunic_bronze @color_o_bronze, Chain Mail
+TEST 70.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_bronze
 
 ON=i_ringmail_tunic_bronze @color_o_bronze, Ring Mail
+TEST 70.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_bronze
 
 ON=i_platemail_chest_silver @color_o_silver, Plate Mail
+TEST 73.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_silver
 
 ON=i_chainmail_tunic_silver @color_o_silver, Chain Mail
+TEST 73.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_silver
 
 ON=i_ringmail_tunic_silver @color_o_silver, Ring Mail
+TEST 73.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_silver
 
 ON=i_platemail_chest_gold @color_o_gold, Plate Mail
+TEST 75.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_gold
 
 ON=i_chainmail_tunic_gold @color_o_gold, Chain Mail
+TEST 75.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_gold
 
 ON=i_ringmail_tunic_gold @color_o_gold, Ring Mail
+TEST 75.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_gold
 
 ON=i_platemail_chest_bloodrock @color_o_bloodrock, Plate Mail
+TEST 83.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_bloodrock
 
 ON=i_chainmail_tunic_bloodrock @color_o_bloodrock, Chain Mail
+TEST 83.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_bloodrock
 
 ON=i_ringmail_tunic_bloodrock @color_o_bloodrock, Ring Mail
+TEST 83.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_bloodrock
 
 ON=i_platemail_chest_blackrock @color_o_blackrock, Plate Mail
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_blackrock
 
 ON=i_chainmail_tunic_blackrock @color_o_blackrock, Chain Mail
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_blackrock
 
 ON=i_ringmail_tunic_blackrock @color_o_blackrock, Ring Mail
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_blackrock
 
 ON=i_platemail_chest_mytheril @color_o_mytheril, Plate Mail
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_mytheril
 
 ON=i_chainmail_tunic_mytheril @color_o_mytheril, Chain Mail
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_mytheril
 
 ON=i_ringmail_tunic_mytheril @color_o_mytheril, Ring Mail
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_mytheril
 
 ON=i_platemail_chest_rose @color_o_rose, Plate Mail
+TEST 77.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_rose
 
 ON=i_chainmail_tunic_rose @color_o_rose, Chain Mail
+TEST 77.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_rose
 
 ON=i_ringmail_tunic_rose @color_o_rose, Ring Mail
+TEST 77.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_rose
 
 ON=i_platemail_chest_verite @color_o_verite, Plate Mail
+TEST 85.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_verite
 
 ON=i_chainmail_tunic_verite @color_o_verite, Chain Mail
+TEST 85.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_verite
 
 ON=i_ringmail_tunic_verite @color_o_verite, Ring Mail
+TEST 85.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_verite
 
 ON=i_platemail_chest_agapite @color_o_agapite, Plate Mail
+TEST 80.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_agapite
 
 ON=i_chainmail_tunic_agapite @color_o_agapite, Chain Mail
+TEST 80.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_agapite
 
 ON=i_ringmail_tunic_agapite @color_o_agapite, Ring Mail
+TEST 80.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_agapite
 
 ON=i_platemail_chest_valorite @color_o_valorite, Plate Mail
+TEST 89.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_valorite
 
 ON=i_chainmail_tunic_valorite @color_o_valorite, Chain Mail
+TEST 89.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_valorite
 
 ON=i_ringmail_tunic_valorite @color_o_valorite, Ring Mail
+TEST 89.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_valorite
 
 ON=i_platemail_chest_shadow @color_o_shadow, Plate Mail
+TEST 82.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_shadow
 
 ON=i_chainmail_tunic_shadow @color_o_shadow, Chain Mail
+TEST 82.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_shadow
 
 ON=i_ringmail_tunic_shadow @color_o_shadow, Ring Mail
+TEST 82.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_shadow
 
 ON=i_platemail_chest_invulnerability @color_o_invulnerability, Plate Mail
+TEST 95.0 BLACKSMITHING
 SKILLMENU=sm_platemail_armor_invulnerability
 
 ON=i_chainmail_tunic_invulnerability @color_o_invulnerability, Chain Mail
+TEST 95.0 BLACKSMITHING
 SKILLMENU=sm_chainmail_armor_invulnerability
 
 ON=i_ringmail_tunic_invulnerability @color_o_invulnerability, Ring Mail
+TEST 95.0 BLACKSMITHING
 SKILLMENU=sm_ringmail_armor_invulnerability
 
 ON=i_bascinet Helmets
@@ -751,103 +799,144 @@ ON=i_axe_battle Axes
 SKILLMENU=sm_axes
 
 ON=i_axe_double_rusty @color_o_rusty, Axes (2h)
+TEST 45.0 BLACKSMITHING
 SKILLMENU=sm_axes_rusty
 
 ON=i_axe_double_copper @color_o_copper, Axes (2h)
+TEST 65.0 BLACKSMITHING
 SKILLMENU=sm_axes_copper
 
 ON=i_axe_double_oldcopper @color_o_oldcopper, Axes (2h)
+TEST 55.0 BLACKSMITHING
 SKILLMENU=sm_axes_oldcopper
 
 ON=i_axe_double_dullcopper @color_o_dullcopper, Axes (2h)
+TEST 60.0 BLACKSMITHING
 SKILLMENU=sm_axes_dullcopper
 
 ON=i_axe_double_bronze @color_o_bronze, Axes (2h)
+TEST 70.0 BLACKSMITHING
 SKILLMENU=sm_axes_bronze
 
 ON=i_axe_double_silver @color_o_silver, Axes (2h)
+TEST 73.0 BLACKSMITHING
 SKILLMENU=sm_axes_silver
 
 ON=i_axe_double_gold @color_o_gold, Axes (2h)
+TEST 75.0 BLACKSMITHING
 SKILLMENU=sm_axes_gold
 
 ON=i_axe_double_bloodrock @color_o_bloodrock, Axes (2h)
+TEST 83.0 BLACKSMITHING
 SKILLMENU=sm_axes_bloodrock
 
 ON=i_axe_double_blackrock @color_o_blackrock, Axes (2h)
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_axes_blackrock
 
 ON=i_axe_double_mytheril @color_o_mytheril, Axes (2h)
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_axes_mytheril
 
 ON=i_axe_double_rose @color_o_rose, Axes (2h)
+TEST 77.0 BLACKSMITHING
 SKILLMENU=sm_axes_rose
 
 ON=i_axe_double_verite @color_o_verite, Axes (2h)
+TEST 85.0 BLACKSMITHING
 SKILLMENU=sm_axes_verite
 
 ON=i_axe_double_agapite @color_o_agapite, Axes (2h)
+TEST 80.0 BLACKSMITHING
 SKILLMENU=sm_axes_agapite
 
 ON=i_axe_double_valorite @color_o_valorite, Axes (2h)
+TEST 89.0 BLACKSMITHING
 SKILLMENU=sm_axes_valorite
 
 ON=i_axe_double_shadow @color_o_shadow, Axes (2h)
+TEST 82.0 BLACKSMITHING
 SKILLMENU=sm_axes_shadow
 
 ON=i_axe_double_invulnerability @color_o_invulnerability, Axes (2h)
+TEST 95.0 BLACKSMITHING
 SKILLMENU=sm_axes_invulnerability
 
 ON=i_sword_viking Swords & Blades
 SKILLMENU=sm_swords_blades
 
 ON=i_sword_viking_rusty @color_o_rusty, Swords & Blades
+TEST 45.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_rusty
 
 ON=i_sword_viking_copper @color_o_copper, Swords & Blades
+TEST 65.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_copper
 
 ON=i_sword_viking_oldcopper @color_o_oldcopper, Swords & Blades
+TEST 55.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_oldcopper
 
 ON=i_sword_viking_dullcopper @color_o_dullcopper, Swords & Blades
+TEST 60.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_dullcopper
 
 ON=i_sword_viking_bronze @color_o_bronze, Swords & Blades
+TEST 70.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_bronze
 
 ON=i_sword_viking_silver @color_o_silver, Swords & Blades
+TEST 73.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_silver
 
 ON=i_sword_viking_gold @color_o_gold, Swords & Blades
+TEST 75.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_gold
 
 ON=i_sword_viking_bloodrock @color_o_bloodrock, Swords & Blades
+TEST 83.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_bloodrock
 
 ON=i_sword_viking_blackrock @color_o_blackrock, Swords & Blades
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_blackrock
 
 ON=i_sword_viking_mytheril @color_o_mytheril, Swords & Blades
+TEST 90.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_mytheril
 
 ON=i_sword_viking_rose @color_o_rose, Swords & Blades
+TEST 77.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_rose
 
 ON=i_sword_viking_verite @color_o_verite, Swords & Blades
+TEST 85.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_verite
 
 ON=i_sword_viking_agapite @color_o_agapite, Swords & Blades
+TEST 80.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_agapite
 
 ON=i_sword_viking_valorite @color_o_valorite, Swords & Blades
+TEST 89.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_valorite
 
 ON=i_sword_viking_shadow @color_o_shadow, Swords & Blades
+TEST 82.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_shadow
 
 ON=i_sword_viking_invulnerability @color_o_invulnerability, Swords & Blades
+TEST 95.0 BLACKSMITHING
 SKILLMENU=sm_swords_blades_invulnerability
+
+
+
+
+
+
+
+
+
 
 
 

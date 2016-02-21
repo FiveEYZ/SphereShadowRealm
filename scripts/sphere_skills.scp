@@ -13,9 +13,9 @@ VERSION=0.56b
 
 // Generic advance rates for stats
 [ADVANCE]
-STR=10000,4000,600
-INT=10000,4000,600
-DEX=10000,4000,600
+STR=200,100,50
+INT=200,100,50
+DEX=200,100,50
 
 
 [COMMENT SKILL x]
@@ -1680,21 +1680,21 @@ if (<src.region.flags>&region_flag_underground)
 	return 1
 endif
 
-on=@SpellCast
-if (<argo.type> == t_scroll)
-if (<findlayer.layer_special.baseid> == i_memory_scroll_cooldown)
-  src.smsg You cannot use a scroll again til <findlayer.layer_special.baseid.i_memory_scroll_cooldown.timer> seconds.
-  return 1
-endif
-if (<argn1> == s_flamestrike||s_fireball)
-  serv.newitem i_memory_scroll_cooldown,,<uid>
-  new.timer = 30
-endif
-if (<argn1> == s_poison)
-  serv.newitem i_memory_scroll_cooldown,,<uid>
-  new.timer = 30
-endif
-endif
+//on=@SpellCast
+//if (<argo.type> == t_scroll)
+//if (<findlayer.layer_special.baseid> == i_memory_scroll_cooldown)
+//  src.smsg You cannot use a scroll again til <findlayer.layer_special.baseid.i_memory_scroll_cooldown.timer> seconds.
+//  return 1
+//endif
+//if (<argn1> == s_flamestrike||s_fireball)
+//  serv.newitem i_memory_scroll_cooldown,,<uid>
+//  new.timer = 30
+//endif
+//if (<argn1> == s_poison)
+//  serv.newitem i_memory_scroll_cooldown,,<uid>
+//  new.timer = 30
+//endif
+//endif
 
 //////////////
 //Crafter's//

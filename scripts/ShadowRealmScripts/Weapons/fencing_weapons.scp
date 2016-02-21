@@ -1,0 +1,22 @@
+[ITEMDEF i_dagger_rusty]
+DEFNAME=i_dagger_rusty
+NAME=rusty dagger
+ID=i_dagger
+RESOURCES=3 i_ingot_rusty
+TYPE=T_WEAPON_FENCE
+FLIP=1
+DAM=10,11
+SPEED=56
+SKILL=Fencing
+TDATA3=23
+REQSTR=10
+TWOHANDS=N
+WEIGHT=1
+SKILLMAKE=BLACKSMITHING 0.0
+CATEGORY=Shadow Realm
+SUBSECTION=Fencing Weapons
+DESCRIPTION=rusty dagger
+
+ON=@Create
+COLOR=color_o_rusty
+HITPOINTS={31 40}
