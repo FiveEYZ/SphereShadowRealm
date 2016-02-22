@@ -14,13 +14,14 @@ if (<morex> == 57) // We are going to try to pull the spell from the # itself to
   return 0
 endif
 
-[ITEMDEF i_memory_scroll_cooldown]
-ID=i_memory
-TYPE=t_eq_script
-NAME=Memory scroll cooldown
+[itemdef I_memory_scroll_cooldown]
+id=I_memory
+type=t_eq_script
+name=Scroll Cool Down Memory
+layer=layer_special
 
-ON=@Timer
-consume <uid>
+on=@Timer
+consumer <uid>
 return 1
 
 [EOF]
