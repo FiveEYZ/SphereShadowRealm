@@ -1,5 +1,5 @@
 //****************************************************************************
-// SPHERE by : Menasoft ©1997-2007
+// SPHERE by : Menasoft ©1997-2016
 // www.sphereserver.net
 // All SPHERE script files and formats are copyright Menasoft & Partners.
 // This file may be freely edited for personal use, but may not be distributed
@@ -7,38 +7,47 @@
 // Menasoft & Partners.  All donations and contributions
 // become the property of Menasoft & Partners.
 //****************************************************************************
-// FILE LAST UPDATED: June 09, 2011
+// FILE LAST UPDATED: Sunday, Jan 3, 2016
+//
+VERSION=0.56c
 
-VERSION=0.56b
-
-[STARTS]	// new client
+[STARTS 2]	// new client (<ARGN> == 2 if new cliloc line is added)
 Yew
-The Sturdy Bow
-567,978,0,0
+The Empath Abbey
+633,858,0,0
+1075072
 Minoc
-The Barnacle Tavern
-2477,407,15,0
+The Barnacle
+2476,413,15,0
+1075073
 Britain
 Sweet Dreams Inn
-1496,1629,10,0
+1496,1628,10,0
+1075074
 Moonglow
 The Scholars Inn
-4404,1169,0,0
+4408,1168,0,0
+1075075
 Trinsic
 The Traveller's Inn
-1844,2745,0,0
+1845,2745,0,0
+1075076
 Magincia
 The Great Horns Tavern
-3738,2223,20,0
+3734,2222,20,0
+1075077
 Jhelom
-The Morning Star Inn
-1378,3817,0,0
+The Mercenary Inn
+1374,3826,0,0
+1075078
 Skara Brae
-The Falconers Inn
-594,2227,0,0
+The Falconer's Inn
+618,2234,0,0
+1075079
 Vesper
 The Ironwood Inn
-2771,977,0,0
+2771,976,0,0
+1075080
 
 [MoonGates]
 1336,1997,5,0=mg_britain
@@ -51,15 +60,18 @@ The Ironwood Inn
 4467,1283,5,0=mg_moonglow
 
 [Teleporters]
-5217,18,15,0=5204,74,17,0=tp_wind_e_w_x
 5490,19,-25,0=5514,10,5,0=tp_shame_1_2_x
 5514,10,5,0=5490,19,-25,0=tp_shame_2_1_x
 5875,19,-5,0=5507,162,5,0=tp_shame_5_4_x
-5904,16,61,0=4721,3815,-1,0=tp_hythloth_ent_out_x
-5905,16,61,0=4722,3815,-1,0=tp_hythloth_ent_out_x
-5906,16,61,0=4723,3815,-1,0=tp_hythloth_ent_out_x
+5904,16,64,0=4721,3813,0,0=tp_hythloth_ent_out_x
+5905,16,64,0=4722,3813,0,0=tp_hythloth_ent_out_x
+5906,16,64,0=4723,3813,0,0=tp_hythloth_ent_out_x
+4721,3813,10,0=5904,16,64,0=tp_hythloth_out_x_ent
+4722,3813,10,0=5905,16,64,0=tp_hythloth_out_x_ent
+4723,3813,10,0=5906,16,64,0=tp_hythloth_out_x_ent
 1997,81,7,0=5881,242,-1,0=tp_northcave_ice_1
 5200,71,17,0=5211,22,15,0=tp_wind_w_e_x
+5217,18,15,0=5204,74,17,0=tp_wind_e_w_x
 5394,127,0,0=512,1560,0,0=tp_shame_ent_out_x
 5395,127,0,0=513,1560,0,0=tp_shame_ent_out_x
 5396,127,0,0=514,1560,0,0=tp_shame_ent_out_x
@@ -81,9 +93,6 @@ The Ironwood Inn
 6082,144,-15,0=5919,168,22,0=tp_hythloth_3_2_x
 6082,145,-15,0=5919,169,22,0=tp_hythloth_3_2_x
 6082,146,-15,0=5919,170,22,0=tp_hythloth_3_2_x
-2041,215,14,0=5824,630,0,0=tp_wrong_out_x_ent
-2042,215,14,0=5825,630,0,0=tp_wrong_out_x_ent
-2043,215,14,0=5826,630,0,0=tp_wrong_out_x_ent
 2399,198,0,0=5753,436,80,0=tp_NMinoc_SwampPassage
 2400,198,0,0=5754,436,80,0=tp_NMinoc_SwampPassage
 5166,245,15,0=1361,883,1,0=tp_wind_ent_out_x
@@ -103,7 +112,8 @@ The Ironwood Inn
 5705,147,-45,0=5705,306,7,0=tp_ice_lair_1
 5706,305,12,0=5706,146,-45,0=tp_lair_ice_2
 5706,306,12,0=5706,147,-45,0=tp_lair_ice_1
-5753,324,21,0=5670,2391,40,0=tp_Passagetolighthouse_lighthouse_1
+5753,325,10,0=5670,2391,40,0=tp_Passagetolighthouse_lighthouse
+5670,2391,40,0=5753,325,10,0=tp_lighthouse_Passagetolighthouse
 5748,362,3,0=312,786,-24,0=tp_Passagetolighthouse_Yew
 5750,362,5,0=312,786,-24,0=tp_Passagetolighthouse_Yew
 5749,363,2,0=312,786,-24,0=tp_Passagetolighthouse_Yew
@@ -134,14 +144,19 @@ The Ironwood Inn
 5504,569,46,0=5574,628,37,0=tp_despise_1_ent_x
 5504,570,46,0=5574,629,37,0=tp_despise_1_ent_x
 5504,571,46,0=5574,630,37,0=tp_despise_1_ent_x
-5733,554,20,0=5825,593,0,0=tp_wrong_2_exit_to_1
-5863,525,15,0=5703,639,0,0=tp_wrong_3_to_maze_start_3
-5863,526,15,0=5703,639,0,0=tp_wrong_1_exit_to_3
-5862,527,15,0=5703,639,0,0=tp_wrong_1_exit_to_3
-5863,527,15,0=5703,639,0,0=tp_wrong_1_exit_to_3
-5868,537,15,0=5690,570,25,0=tp_wrong_1_exit_to_2
-5868,538,15,0=5690,570,25,0=tp_wrong_1_exit_to_2
-5869,538,15,0=5690,570,25,0=tp_wrong_1_exit_to_2
+2041,215,14,0=5824,630,0,0=tp_wrong_entrance
+2042,215,14,0=5825,630,0,0=tp_wrong_entrance
+2043,215,14,0=5826,630,0,0=tp_wrong_entrance
+5824,631,0,0=2041,216,14,0=tp_wrong_exit
+5825,631,0,0=2042,216,14,0=tp_wrong_exit
+5826,631,0,0=2043,216,14,0=tp_wrong_exit
+5871,531,15,0=5690,569,25,0=tp_wrong_level1_to_level2
+5827,593,0,0=5690,569,25,0=tp_wrong_level1_to_level2
+5829,593,0,0=5690,569,25,0=tp_wrong_level1_to_level2
+5867,528,15,0=5703,639,0,0=tp_wrong_level1_to_level3
+5690,569,25,0=5829,595,0,0=tp_wrong_level2_to_level1
+5732,554,20,0=5829,595,0,0=tp_wrong_level2_to_level1
+5698,662,0,0=5793,527,10,0=tp_wrong_level3_to_level1
 5216,586,-13,0=5304,533,2,0=tp_deceit_1_2_x
 5217,586,-13,0=5305,533,2,0=tp_deceit_1_2_x
 5218,586,-13,0=5306,533,2,0=tp_deceit_1_2_x
@@ -158,16 +173,12 @@ The Ironwood Inn
 5588,632,30,0=1297,1082,0,0=tp_despise_ent_out_x
 5572,633,17,0=5521,673,27,0=tp_despise_ent_2_x
 5572,634,17,0=5521,674,27,0=tp_despise_ent_2_x
-5824,631,0,0=2041,216,14,0=tp_wrong_ent_out_x
-5825,631,0,0=2042,216,14,0=tp_wrong_ent_out_x
-5826,631,0,0=2043,216,14,0=tp_wrong_ent_out_x
 5137,649,5,0=5346,578,5,0=tp_deceit_3_2_x
 5305,650,12,0=5218,760,-23,0=tp_deceit_4_3_x
 5306,650,12,0=5219,760,-23,0=tp_deceit_4_3_x
 5522,672,32,0=5573,632,22,0=tp_despise_2_ent_x
 5522,673,32,0=5573,633,22,0=tp_despise_2_ent_x
 5522,674,32,0=5573,634,22,0=tp_despise_2_ent_x
-5698,662,0,0=5793,527,10,0=tp_wrong_3_exit_to_wrong_1
 5218,761,-28,0=5305,651,7,0=tp_deceit_3_4_x
 5219,761,-28,0=5306,651,7,0=tp_deceit_3_4_x
 5386,755,-8,0=5408,858,47,0=tp_despise_2_3_x
@@ -231,9 +242,11 @@ The Ironwood Inn
 5786,1335,-13,0=5701,1319,13,0=tp_lava_1_2_1
 5787,1335,-13,0=5702,1319,13,0=tp_lava_1_2_2
 5788,1335,-13,0=5703,1319,13,0=tp_lava_1_2_3
-6005,1378,-4,0=5151,4062,37,0=tp_trinsicpassage2a_delucia
-6005,1379,0,0=5151,4062,37,0=tp_trinsicpassage2a_delucia
-6005,1380,3,0=5151,4063,37,0=tp_trinsicpassage2a_delucia
+6005,1378,0,0=5151,4062,37,0=tp_trinsicpassage_delucia1
+6005,1379,0,0=5151,4062,37,0=tp_trinsicpassage_delucia2
+6005,1380,0,0=5151,4063,37,0=tp_trinsicpassage_delucia3
+5150,4062,40,0=6005,1378,0,0=tp_delucia_trinsicpassage1
+5150,4063,40,0=6005,1379,0,0=tp_delucia_trinsicpassage2
 6025,1344,-26,0=5137,3664,30,0=tp_trinsicpassage2b_WCityofDead
 6025,1345,-26,0=5137,3664,30,0=tp_trinsicpassage2b_WCityofDead
 6025,1346,-24,0=5137,3665,28,0=tp_trinsicpassage2b_WCityofDead
@@ -248,20 +261,21 @@ The Ironwood Inn
 5918,1412,-28,0=5961,1409,60,0=tp_trinsicpassage2_trinsicpassage1
 5961,1408,60,0=5918,1411,-28,0=tp_trinsicpassage1_trinsicpassage2
 5961,1409,60,0=5918,1412,-28,0=tp_trinsicpassage1_trinsicpassage2
-6137,1409,2,0=6140,1432,4,0=tp_SewerPassage_Sewer
-6138,1409,2,0=6140,1432,4,0=tp_SewerPassage_Sewer
+1491,1640,24,0=6032,1499,31,0=tp_Britain_BritSewer
+1491,1642,24,0=6032,1501,31,0=tp_Britain_BritSewer
+6031,1499,42,0=1491,1640,24,0=tp_BritSewer_Britain
+6031,1501,42,0=1491,1642,24,0=tp_BritSewer_Britain
+6140,1431,4,0=6137,1408,3,0=tp_BritSewer_SewerPassage
+6141,1431,4,0=6138,1408,3,0=tp_BritSewer_SewerPassage
+6137,1409,2,0=6140,1432,4,0=tp_SewerPassage_BritSewer
+6138,1409,2,0=6141,1432,4,0=tp_SewerPassage_BritSewer
 6125,1411,15,0=6075,3332,2,0=tp_SewerPassage_Swamp
 6126,1411,15,0=6075,3332,2,0=tp_SewerPassage_Swamp
 6127,1411,15,0=6075,3332,2,0=tp_SewerPassage_Swamp
-6140,1431,4,0=6137,1408,3,0=tp_BritSewer_SewerPassage
 4496,1475,15,0=4442,1122,5,0=tp_moonglow_b_x
-6031,1499,42,0=1491,1640,24,0=tp_BritSewer_Britain_2
-6031,1501,42,0=1491,1642,24,0=tp_BritSewer_Britain_1
 512,1559,0,0=5394,126,0,0=tp_shame_out_x
 513,1559,0,0=5395,126,0,0=tp_shame_out_x
 514,1559,0,0=5396,126,0,0=tp_shame_out_x
-1491,1640,24,0=6032,1499,31,0=tp_Britain_BritSewer_2
-1491,1642,24,0=6032,1501,31,0=tp_Britain_BritSewer_1
 5341,1602,0,0=5426,3122,-68,0=tp_underkeep_terathankeep
 5468,1804,0,0=5592,1840,0,0=tp_covetous_6b_5_x_from_lake_to_3
 5468,1805,0,0=5592,1841,0,0=tp_covetous_6b_5_x_from_lake_to_3
@@ -318,7 +332,6 @@ The Ironwood Inn
 5207,2322,25,0=5877,147,25,0=tp_ice_north_3
 5207,2323,25,0=5876,147,25,0=tp_ice_north_2
 5203,2327,25,0=5876,147,25,0=tp_ice_north_1
-5670,2391,40,0=5753,325,3,0=tp_lighthouse_Passagetolighthouse_1
 1175,2635,0,0=5242,1006,0,0=tp_destard_out_x_ent
 1176,2635,0,0=5243,1006,0,0=tp_destard_out_x_ent
 1177,2635,0,0=5244,1006,0,0=tp_destard_out_x_ent
@@ -345,12 +358,7 @@ The Ironwood Inn
 6086,3676,15,0=5731,446,-20,0=tp_Swamp_SwampPassage
 1409,3824,5,0=1124,3623,5,0=tp_jhelom_m_n_x
 1419,3832,5,0=1466,4015,5,0=tp_jhelom_m_s_x
-4721,3813,0,0=5904,16,61,0=tp_hythloth_out_x_ent
-4722,3813,0,0=5905,16,61,0=tp_hythloth_out_x_ent
-4723,3813,0,0=5906,16,61,0=tp_hythloth_out_x_ent
 1406,3996,5,0=1414,3828,5,0=tp_jhelom_ns_m_x
-5150,4062,40,0=1629,3321,0,0=tp_delucia_trinsicsw_1
-5150,4063,40,0=1629,3321,0,0=tp_delucia_trinsicsw
 5906,4069,26,0=2494,3576,5,0=tp_EDeluciaTemple_TempleIsle
 6107,176,0,0=6115,176,0,0=tp_hythloth_passage_1_1x
 6115,176,0,0=6107,176,0,0=tp_hythloth_passage_1_2x
@@ -361,4 +369,26 @@ The Ironwood Inn
 5972,168,0,0=5905,96,0,0=tp_hythloth_passage_3_2x
 5973,168,0,0=5905,96,0,0=tp_hythloth_passage_3_3x
 5905,96,0,0=5976,168,0,0=tp_hythloth_passage_3_4x
+5682,1440,0,0=5606,802,60,0=tp_fire_dungeon_to_despise
+5682,1437,0,0=5164,1009,0,0=tp_fire_dungeon_to_destard
+1013,1433,0,0=5138,2016,0,0=tp_orccave_entrance
+1013,1434,0,0=5138,2016,0,0=tp_orccave_entrance
+5139,2015,0,0=1014,1434,0,0=tp_orccave_exit
+5139,2016,0,0=1014,1434,0,0=tp_orccave_exit
+5139,2017,0,0=1014,1434,0,0=tp_orccave_exit
+5132,1946,0,0=5332,1379,0,0=tp_orccave1_orccave2
+5133,1946,0,0=5332,1379,0,0=tp_orccave1_orccave2
+5134,1946,0,0=5332,1379,0,0=tp_orccave1_orccave2
+5135,1946,0,0=5332,1379,0,0=tp_orccave1_orccave2
+5329,1381,10,0=5134,1947,0,0=tp_orccave2_orccave1
+5330,1381,10,0=5134,1947,0,0=tp_orccave2_orccave1
+5331,1381,10,0=5134,1947,0,0=tp_orccave2_orccave1
+5332,1381,10,0=5134,1947,0,0=tp_orccave2_orccave1
+5333,1381,10,0=5134,1947,0,0=tp_orccave2_orccave1
+5334,1381,10,0=5134,1947,0,0=tp_orccave2_orccave1
+5363,1289,4,0=5272,2041,4,0=tp_orccave2_orccave3
+5364,1289,4,0=5272,2041,4,0=tp_orccave2_orccave3
+5272,2043,4,0=5363,1290,4,0=tp_orccave3_orccave2
+5273,2043,4,0=5363,1290,4,0=tp_orccave3_orccave2
+
 [EOF]

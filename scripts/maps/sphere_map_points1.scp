@@ -1,5 +1,5 @@
 //****************************************************************************
-// SPHERE by : Menasoft ©1997-2007
+// SPHERE by : Menasoft ©1997-2014
 // www.sphereserver.net
 // All SPHERE script files and formats are copyright Menasoft & Partners.
 // This file may be freely edited for personal use, but may not be distributed
@@ -7,9 +7,9 @@
 // Menasoft & Partners.  All donations and contributions
 // become the property of Menasoft & Partners.
 //****************************************************************************
-// FILE LAST UPDATED: Saturday, November 15, 2003
-
-VERSION=0.56b
+// FILE LAST UPDATED: Friday, October 17, 2014
+//
+VERSION=0.56c
 
 [MoonGates]
 1336,1997,5,1=mg_britain_map1
@@ -26,9 +26,12 @@ VERSION=0.56b
 5490,19,-25,1=5514,10,5,1=tp_shame_1_2_x_map1
 5514,10,5,1=5490,19,-25,1=tp_shame_2_1_x_map1
 5875,19,-5,1=5507,162,5,1=tp_shame_5_4_x_map1
-5904,16,61,1=4721,3815,-1,1=tp_hythloth_ent_out_x_map1
-5905,16,61,1=4722,3815,-1,1=tp_hythloth_ent_out_x_map1
-5906,16,61,1=4723,3815,-1,1=tp_hythloth_ent_out_x_map1
+5904,16,64,1=4721,3813,0,1=tp_hythloth_ent_out_x_map1
+5905,16,64,1=4722,3813,0,1=tp_hythloth_ent_out_x_map1
+5906,16,64,1=4723,3813,0,1=tp_hythloth_ent_out_x_map1
+4721,3813,10,1=5904,16,64,1=tp_hythloth_out_x_ent_map1
+4722,3813,10,1=5905,16,64,1=tp_hythloth_out_x_ent_map1
+4723,3813,10,1=5906,16,64,1=tp_hythloth_out_x_ent_map1
 1997,81,7,1=5881,242,-1,1=tp_northcave_ice_1_map1
 5200,71,17,1=5211,22,15,1=tp_wind_w_e_x_map1
 5394,127,0,1=512,1560,0,1=tp_shame_ent_out_x_map1
@@ -74,7 +77,8 @@ VERSION=0.56b
 5705,147,-45,1=5705,306,7,1=tp_ice_lair_1_map1
 5706,305,12,1=5706,146,-45,1=tp_lair_ice_2_map1
 5706,306,12,1=5706,147,-45,1=tp_lair_ice_1_map1
-5753,324,28,1=5670,2391,40,1=tp_Passagetolighthouse_lighthouse_1_map1
+5753,325,10,1=5670,2391,40,1=tp_Passagetolighthouse_lighthouse_map1
+5670,2391,40,1=5753,325,10,1=tp_lighthouse_Passagetolighthouse_map1
 5748,362,3,1=312,786,-24,1=tp_Passagetolighthouse_Yew_map1
 5750,362,5,1=312,786,-24,1=tp_Passagetolighthouse_Yew_map1
 5749,363,2,1=312,786,-24,1=tp_Passagetolighthouse_Yew_map1
@@ -202,9 +206,11 @@ VERSION=0.56b
 5786,1335,-13,1=5701,1319,13,1=tp_lava_1_2_1_map1
 5787,1335,-13,1=5702,1319,13,1=tp_lava_1_2_2_map1
 5788,1335,-13,1=5703,1319,13,1=tp_lava_1_2_3_map1
-6005,1378,-4,1=5151,4062,37,1=tp_trinsicpassage2a_delucia_map1
-6005,1379,0,1=5151,4062,37,1=tp_trinsicpassage2a_delucia_map1
-6005,1380,3,1=5151,4063,37,1=tp_trinsicpassage2a_delucia_map1
+6005,1378,0,1=5151,4062,37,1=tp_trinsicpassage_delucia1_map1
+6005,1379,0,1=5151,4062,37,1=tp_trinsicpassage_delucia2_map1
+6005,1380,0,1=5151,4063,37,1=tp_trinsicpassage_delucia3_map1
+5150,4062,40,1=6005,1378,0,1=tp_delucia_trinsicpassage1_map1
+5150,4063,40,1=6005,1379,0,1=tp_delucia_trinsicpassage2_map1
 6025,1344,-26,1=5137,3664,30,1=tp_trinsicpassage2b_WCityofDead_map1
 6025,1345,-26,1=5137,3664,30,1=tp_trinsicpassage2b_WCityofDead_map1
 6025,1346,-24,1=5137,3665,28,1=tp_trinsicpassage2b_WCityofDead_map1
@@ -219,20 +225,21 @@ VERSION=0.56b
 5918,1412,-28,1=5961,1409,60,1=tp_trinsicpassage2_trinsicpassage1_map1
 5961,1408,60,1=5918,1411,-28,1=tp_trinsicpassage1_trinsicpassage2_map1
 5961,1409,60,1=5918,1412,-28,1=tp_trinsicpassage1_trinsicpassage2_map1
-6137,1409,2,1=6140,1432,4,1=tp_SewerPassage_Sewer_map1
-6138,1409,2,1=6140,1432,4,1=tp_SewerPassage_Sewer_map1
+1491,1640,24,1=6032,1499,31,1=tp_Britain_BritSewer_map1
+1491,1642,24,1=6032,1501,31,1=tp_Britain_BritSewer_map1
+6031,1499,42,1=1491,1640,24,1=tp_BritSewer_Britain_map1
+6031,1501,42,1=1491,1642,24,1=tp_BritSewer_Britain_map1
+6140,1431,4,1=6137,1408,3,1=tp_BritSewer_SewerPassage_map1
+6141,1431,4,1=6138,1408,3,1=tp_BritSewer_SewerPassage_map1
+6137,1409,2,1=6140,1432,4,1=tp_SewerPassage_BritSewer_map1
+6138,1409,2,1=6141,1432,4,1=tp_SewerPassage_BritSewer_map1
 6125,1411,15,1=6075,3332,2,1=tp_SewerPassage_Swamp_map1
 6126,1411,15,1=6075,3332,2,1=tp_SewerPassage_Swamp_map1
 6127,1411,15,1=6075,3332,2,1=tp_SewerPassage_Swamp_map1
-6140,1431,4,1=6137,1408,3,1=tp_BritSewer_SewerPassage_map1
 4496,1475,15,1=4442,1122,5,1=tp_moonglow_b_x_map1
-6031,1499,42,1=1491,1640,24,1=tp_BritSewer_Britain_2_map1
-6031,1501,42,1=1491,1642,24,1=tp_BritSewer_Britain_1_map1
 512,1559,0,1=5394,126,0,1=tp_shame_out_x_map1
 513,1559,0,1=5395,126,0,1=tp_shame_out_x_map1
 514,1559,0,1=5396,126,0,1=tp_shame_out_x_map1
-1491,1640,24,1=6032,1499,31,1=tp_Britain_BritSewer_2_map1
-1491,1642,24,1=6032,1501,31,1=tp_Britain_BritSewer_1_map1
 5341,1602,0,1=5426,3122,-68,1=tp_underkeep_terathankeep_map1
 5468,1804,0,1=5592,1840,0,1=tp_covetous_6b_5_x_from_lake_to_3_map1
 5468,1805,0,1=5592,1841,0,1=tp_covetous_6b_5_x_from_lake_to_3_map1
@@ -289,7 +296,6 @@ VERSION=0.56b
 5207,2322,25,1=5877,147,25,1=tp_ice_north_3_map1
 5207,2323,25,1=5876,147,25,1=tp_ice_north_2_map1
 5203,2327,25,1=5876,147,25,1=tp_ice_north_1_map1
-5670,2391,40,1=5753,325,3,1=tp_lighthouse_Passagetolighthouse_1_map1
 1175,2635,0,1=5242,1006,0,1=tp_destard_out_x_ent_map1
 1176,2635,0,1=5243,1006,0,1=tp_destard_out_x_ent_map1
 1177,2635,0,1=5244,1006,0,1=tp_destard_out_x_ent_map1
@@ -316,14 +322,8 @@ VERSION=0.56b
 6086,3676,15,1=5731,446,-20,1=tp_Swamp_SwampPassage_map1
 1409,3824,5,1=1124,3623,5,1=tp_jhelom_m_n_x_map1
 1419,3832,5,1=1466,4015,5,1=tp_jhelom_m_s_x_map1
-4721,3813,0,1=5904,16,61,1=tp_hythloth_out_x_ent_map1
-4722,3813,0,1=5905,16,61,1=tp_hythloth_out_x_ent_map1
-4723,3813,0,1=5906,16,61,1=tp_hythloth_out_x_ent_map1
 1406,3996,5,1=1414,3828,5,1=tp_jhelom_ns_m_x_map1
-5150,4062,40,1=1629,3321,0,1=tp_delucia_trinsicsw_1_map1
-5150,4063,40,1=1629,3321,0,1=tp_delucia_trinsicsw_map1
 5906,4069,26,1=2494,3576,5,1=tp_EDeluciaTemple_TempleIsle_map1
-
 6107,176,0,1=6115,176,0,1=tp_hythloth_passage_1_1x_map1
 6115,176,0,1=6107,176,0,1=tp_hythloth_passage_1_2x_map1
 5919,170,22,1=6083,146,-17,1=tp_hythloth_passage_2_1x_map1
@@ -333,4 +333,26 @@ VERSION=0.56b
 5972,168,0,1=5905,96,0,1=tp_hythloth_passage_3_2x_map1
 5973,168,0,1=5905,96,0,1=tp_hythloth_passage_3_3x_map1
 5905,96,0,1=5976,168,0,1=tp_hythloth_passage_3_4x_map1
+5682,1440,0,1=5606,802,60,1=tp_fire_dungeon_to_despise_map1
+5682,1437,0,1=5164,1009,0,1=tp_fire_dungeon_to_destard_map1
+1013,1433,0,1=5138,2016,0,1=tp_orccave_entrance_map1
+1013,1434,0,1=5138,2016,0,1=tp_orccave_entrance_map1
+5139,2015,0,1=1014,1434,0,1=tp_orccave_exit_map1
+5139,2016,0,1=1014,1434,0,1=tp_orccave_exit_map1
+5139,2017,0,1=1014,1434,0,1=tp_orccave_exit_map1
+5132,1946,0,1=5332,1379,0,1=tp_orccave1_orccave2_map1
+5133,1946,0,1=5332,1379,0,1=tp_orccave1_orccave2_map1
+5134,1946,0,1=5332,1379,0,1=tp_orccave1_orccave2_map1
+5135,1946,0,1=5332,1379,0,1=tp_orccave1_orccave2_map1
+5329,1381,10,1=5134,1947,0,1=tp_orccave2_orccave1_map1
+5330,1381,10,1=5134,1947,0,1=tp_orccave2_orccave1_map1
+5331,1381,10,1=5134,1947,0,1=tp_orccave2_orccave1_map1
+5332,1381,10,1=5134,1947,0,1=tp_orccave2_orccave1_map1
+5333,1381,10,1=5134,1947,0,1=tp_orccave2_orccave1_map1
+5334,1381,10,1=5134,1947,0,1=tp_orccave2_orccave1_map1
+5363,1289,4,1=5272,2041,4,1=tp_orccave2_orccave3_map1
+5364,1289,4,1=5272,2041,4,1=tp_orccave2_orccave3_map1
+5272,2043,4,1=5363,1290,4,1=tp_orccave3_orccave2_map1
+5273,2043,4,1=5363,1290,4,1=tp_orccave3_orccave2_map1
+
 [EOF]

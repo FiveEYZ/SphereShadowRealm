@@ -1,0 +1,27 @@
+////////
+//test//
+////////
+[typedef t_scroll]
+on=@DClick
+if (<src.findlayer.layer_special.baseid> == i_memory_scroll_cooldown)
+  src.smsg You cannot use a scroll again til <src.findlayer.layer_special.baseid.i_memory_scroll_cooldown.timer> seconds.
+  return 1
+endif
+if (<morex> == 57) // We are going to try to pull the spell from the # itself to make sure defname isn't being bypassed.
+  serv.newitem i_memory_scroll_cooldown
+  new.cont=<src.uid>
+  new.timer = 200
+  return 0
+endif
+
+[itemdef I_memory_scroll_cooldown]
+id=I_memory
+type=t_eq_script
+name=Scroll Cool Down Memory
+layer=layer_special
+
+on=@Timer
+consumer <uid>
+return 1
+
+[EOF]

@@ -1,15 +1,16 @@
 //****************************************************************************
-//SPHERE by : Menasoft ©1997-2007
-//www.sphereserver.net
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
 // All SPHERE script files and formats are copyright Menasoft & Partners.
 // This file may be freely edited for personal use, but may not be distributed
 // in whole or in part, in any format without express written permission from
 // Menasoft & Partners.  All donations and contributions
 // become the property of Menasoft & Partners.
 //****************************************************************************
-// FILE LAST UPDATED: Saturday, November 15, 2003
+// FILE LAST UPDATED: Friday, April 25, 2014
 //
-VERSION=0.56b
+VERSION=0.56c
+
 
 [NAMES NAMES_RATMAN]
 205
@@ -220,7 +221,7 @@ Wikchichoki
 Wochickeki
 
 [NAMES NAMES_DAEMON]
-80
+83
 Aamon
 Agalierept
 Agares
@@ -247,10 +248,12 @@ Buer
 Clauneck
 Clitheret
 Cthulhu
+Druzil
 El Chupacabra
 Eleogap
 Eliezer
 Eligor
+Eracove
 Faraii
 Fleurety
 Frimost
@@ -266,12 +269,13 @@ Hiepacth
 Huictiigara
 Humots
 Khil
+Maleki
 Marbas
 Mephistopheles
 Mersilde
 Minoson
-Molech
 Moloch
+Molech
 Morail
 Musisin
 Naberrs
@@ -291,7 +295,6 @@ Sergulath
 Sergutthy
 Sidragrosam
 Sirchade
-Starr
 Surgat
 Sustugriel
 Tarchimache
@@ -300,7 +303,14 @@ Trimasel
 Vaelfar
 Wormius
 Yog-Sothoth
+Y'reif Eci
 Zoray
+
+[NAMES NAMES_BALRON]
+3
+The Lord of the Abyss
+The Collector of Souls
+The Slayer
 
 [NAMES NAMES_ORC]
 705
@@ -1431,11 +1441,11 @@ Chamdar
 Ciric
 Cruzado
 Cyphrak
+D'Harun
 Daelon
 Daktar
 Danaghir
 Darvain
-D'Harun
 Doraghir
 Dracus
 Dradar
@@ -2268,6 +2278,13 @@ Zurgha
 Zurghed
 Zurgug
 Zurpigig
+
+[NAMES NAMES_EVIL_MAGE_LORD]
+4
+Kwan Li, Lord of the Mists
+Bazerion, the Wizard-Lord
+Ylthallynon, the Insane
+Xarot the Black Archmage
 
 [NAMES NAMES_HUMANMALE]
 1499
@@ -5965,6 +5982,80 @@ Zulema
 Zuza
 Zuzanny
 
+[NAMES NAMES_HUMANMALE_TOKUNO]
+38
+Adai
+Akaba
+Akiosa
+Akisuke
+Arikoto
+Ashimaru
+Batsu
+Chihu
+Chihu
+Dosyaku
+Fuha
+Gakudai
+Gakudai
+Hikoza
+Kengi
+Kichizo
+Kirzahn
+Kongou
+Magosuke
+Nakai
+Naozumi
+Nasuno
+Numata
+Numata
+Numatta
+Ogino
+Riku
+Sanesue
+Sanesue
+Shinsirou
+Soutatsu
+Ukita
+Ukita
+Wajida
+Waricika
+Warimoto
+Yasuke
+Yose
+
+[NAMES NAMES_HUMANFEMALE_TOKUNO]
+30
+Aasin
+Agate
+Ahara
+Akala
+Akashi
+Akela
+Ayane
+Ayatsumi
+Chiwa
+Enji
+Haru
+Ikuha
+Iroha
+Nakai
+Niji
+Ruri
+Shino
+Suni
+Tama
+Toyoka
+Wakae
+Wakumi
+Wayo
+Wayu
+Wayu
+Yochika
+Yuki
+Yume
+Yumiha
+Zannia
+
 [NAMES NAMES_ELF_MALE]
 241
 Adaneborn
@@ -6427,60 +6518,27 @@ Unniel
 Unwing
 
 [NAMES NAMES_BIRDS]
-54
-Bittern
-Chaffinch
-Coot
-Corncrake
+21
+Chickadee
+Crossbill
 Cuckoo
-Curlen
-Dunlin
-Fieldfare
-Gannet
-Glossy Ibis
-Goshawk
-Grouse
-Hoopoe
-Jackdaw
-Jay
-Kestrel
+Finch
+Hawk
 Kingfisher
-KittiWake
 Lapwing
-Linnet
-Little Grebe
-Magpie
-Mourhen
 Nightingale
-Nighttar
-Partridge
-Peregine
-Pheasant
-Pied Wagtail
+Nuthatch
 Plover
-Quail
-Red Kite
-Redstart
-Reed Bunting
-Robin
-Rook
-Sandmartin
-Sandpiper
-Shag
 Skylark
-Snipe
-Song Thrush
 Sparrow
-Spoonbill
 Starling
 Swallow
+Swift
 Tern
-Turtle Dove
-Wheatear
-Whimbell
-Woodcock
+Thrush
+Towhee
+Warbler
 Woodpecker
-Woodpigeon
 Wren
 
 [NAMES NAMES_TROPICAL_BIRDS]
@@ -6489,6 +6547,21 @@ I'iwi
 Macaw
 Mynah
 Parrot
+
+[NAMES NAMES_EAGLES]
+12
+Bald Eagle
+Barred Hawk
+Black Eagle
+Black Hawk
+Crested Eagle
+Golden Eagle
+Harpy Eagle
+Nighthawk
+Savanna Hawk
+Solitary Eagle
+White-tailed Eagle
+White-tailed Hawk
 
 [NAMES NAMES_GOBLIN]
 500
@@ -7039,7 +7112,7 @@ Vile
 Viper
 Wrench
 
-[NAMES NAMES_GARGOYLE]
+[NAMES NAMES_GARGOYLEMALE]
 233
 Alegra
 Andrel
@@ -7274,6 +7347,11 @@ Zarnkis
 Zedmeni
 Zogstix
 Zughumi
+
+[NAMES NAMES_GARGOYLEFEMALE]
+2
+Aleonna
+Astri
 
 [NAMES NAMES_TROLL]
 243
@@ -7521,6 +7599,28 @@ Zarod
 Zlapdud
 Zloglin
 
+[NAMES NAMES_GARGOYLE_VENDOR]
+19
+Ansiraal
+Aurlem
+Betra
+Draxsom
+Fodus
+Forbrak
+ForLem
+Horffe
+Inforlem
+Invis
+Laplem
+Naxator
+Quaeven
+Sarpling
+Silamo
+Tereg
+Volesh
+Vraal
+WisSur
+
 [NAMES NAMES_Borg_Male]
 50
 Addranvan
@@ -7627,31 +7727,38 @@ Ysollyra
 Ysull
 Ysyssa
 
-[NAMES NAMES_pixie]
-Ciline
-Cynthe
+[NAMES NAMES_PIXIE]
+26
 Klian
 Klistra
 Laeri
+Ciline
+Shiale
+Ourie
+Piepe
 Liera
+Sili
+Sefi
+Cynthe
 Nedra
-Os
-Oune
-Pieppe
+Hali
+Jiki
 Piku
 Rael
-Sefi
-Shendin
-Shri
-Sili
+Zanne
+Zut
 Sini
+Os
 Wienne
 Xian
 Ybri
-Zanne
-Zut 
+Calee
+Shendri
+Shri
+
 
 [NAMES NAMES_SAVAGE_FEMALE]
+11
 Aicee
 Araka
 Arda
@@ -7665,6 +7772,7 @@ Rhunda
 Sinthe
 
 [NAMES NAMES_SAVAGE_MALE]
+11
 Adrok
 Atar
 Bishor
@@ -8183,6 +8291,8 @@ Merwll
 Rella
 
 [NAMES NAMES_Controller]
+[NAMES NAMES_GOLEM_CONTROLLER]
+25
 Chujil
 Daklon
 Drakan
@@ -8194,19 +8304,19 @@ Galzan
 Hygraph
 Kronos
 Makzok
-Malkovik
-Phoseph
+Malkavik
 Noxtrag
+Phoseph
 Tavurk
 Vakel
 Vazmog
 Velis
 Yyntrix
+Zakron
+Zamog
 Zarus
 Zazik
 Zelik
-Zerras
-Zeuras
-Zilor
+Zevras
 
 [EOF]

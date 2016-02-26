@@ -1,0 +1,47 @@
+
+[CHARDEF 04b]
+//FIXME: Should damage armor and bring down stamina
+DEFNAME=c_cyclops
+NAME=cyclopian warrior
+ICON=i_pet_cyclops
+SOUND=snd_monster_cyclops1
+CAN=MT_WALK|MT_USEHANDS|MT_EQUIP
+DAM=21,63
+ARMOR=45
+DESIRES=r_mountains,t_coin,t_gold,t_gem,t_potion,t_arock
+AVERSIONS=t_trap,r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=45
+RESOURCES=4 i_ribs_raw
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=73.2
+TAG.SlayerGroup=REPOND
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Giants
+DESCRIPTION=Cyclopian Warrior
+ON=@Create
+   NPC=brain_monster
+   FAME={2500 2999}
+   KARMA={-2500 -2999}
+   STR={336 385}
+   MAXHITS={202 231}
+   DEX={96 115}
+   MAXSTAM={96 115}
+   INT={31 55}
+   MAXMANA={31 55}
+   MAGICRESISTANCE={60.0 105.0}
+   PARRYING={80.0 100.0}
+   MACEFIGHTING={80.0 90.0}
+   TACTICS={80.0 100.0}
+   WRESTLING={80.0 90.0}
+   MODAR={0 5}
+   RESCOLD={25 35}
+   RESENERGY={30 40}
+   RESFIRE={30 40}
+   RESPOISON={30 40}
+ON=@NPCRestock
+   ITEM=loot_cyclops
+
+[EOF]

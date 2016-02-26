@@ -1,0 +1,5 @@
+[events e_sr_player_events]
+on=@Mount
+if (<isunderground>)
+return 1
+endif

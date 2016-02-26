@@ -1,0 +1,7 @@
+[events e_sr_region_events]
+on=@Enter
+ if (<src.isunderground> == 1)
+if (<src.flags> &statf_onhorse)
+  src.dismount <src>
+endif
+endif

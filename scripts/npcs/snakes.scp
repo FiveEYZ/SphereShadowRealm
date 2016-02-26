@@ -1,0 +1,452 @@
+
+[CHARDEF 015]
+DEFNAME=c_snake_giant
+NAME=giant serpent
+ICON=i_pet_snake_giant
+SOUND=snd_animals_snake1
+CAN=MT_WALK|MT_RUN|MT_NONHUM
+DAM=19,35
+ARMOR=30
+DESIRES=r_plains,r_jungle,t_coin,t_gold,t_gem
+AVERSIONS=t_trap,r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=35
+RESOURCES=4 i_ribs_raw,15 i_hide_spined
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=71.0
+DamPoison=60
+TAG.HitPoison=3//Greater
+TAG.SlayerGroup=SNAKE,REPTILE
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Reptiles
+DESCRIPTION=Giant Serpent
+ON=@Create
+   COLOR=colors_snake
+   NPC=brain_monster
+   FAME={2000 2499}
+   KARMA={-2000 -2499}
+   STR={185 215}
+   MAXHITS={110 130}
+   DEX={56 80}
+   MAXSTAM={56 80}
+   INT={66 85}
+   MAXMANA={66 85}
+   MAGICRESISTANCE={25.0 40.0}
+   //POISONING={50.0 75.0}
+   TACTICS={65.0 70.0}
+   WRESTLING={70.0 80.0}
+   MODAR={0 5}
+   RESCOLD={10 20}
+   RESENERGY={10 20}
+   RESFIRE={5 10}
+   RESPOISON={70 90}
+ON=@NPCRestock
+   ITEM=loot_snake_giant
+
+
+[CHARDEF 034]
+DEFNAME=c_snake
+NAME=snake
+ICON=i_pet_snake
+SOUND=snd_animals_snake1
+CAN=MT_WALK|MT_NONHUM
+DAM=1,5
+ARMOR=15
+DESIRES=r_jungle,r_forests,r_swamp
+AVERSIONS=r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=5
+RESOURCES=1 i_ribs_raw
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=30.3
+FollowerSlots=1
+TAG.HitPoison=1//Lesser
+TAG.SlayerGroup=SNAKE,REPTILE
+TEVENTS=e_carnivores
+CATEGORY=Animals
+SUBSECTION=Wild
+DESCRIPTION=Snake
+ON=@Create
+   COLOR=colors_snake
+   NPC=brain_animal
+   FAME={1 499}
+   KARMA={-500 -999}
+   STR={22 34}
+   MAXHITS={15 19}
+   DEX={16 25}
+   MAXSTAM={16 25}
+   INT={6 10}
+   MAXMANA={10 20}
+   MAGICRESISTANCE={15.0 20.0}
+   //POISONING={0.1 25.0}
+   TACTICS={19.0 34.0}
+   TAMING={55.0 60.0}
+   WRESTLING={19.0 34.0}
+   MODAR={0 5}
+   RESCOLD=0
+   RESENERGY=0
+   RESFIRE=0
+   RESPOISON={20 30}
+
+
+[CHARDEF 059]
+DEFNAME=c_serpent_ice
+NAME=ice serpent
+ICON=i_pet_serpent_ice
+SOUND=snd_animals_snake1
+CAN=MT_WALK|MT_RUN|MT_NONHUM
+DAM=17,41
+ARMOR=30
+DESIRES=r_snow,t_coin,t_gold,t_gem
+AVERSIONS=t_trap,r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=35
+RESOURCES=4 i_ribs_raw,15 i_hide_spined
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=53.1
+DamCold=90
+TAG.SlayerGroup=SNAKE,REPTILE
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Reptiles
+DESCRIPTION=Giant Serpent (ice)
+ON=@Create
+   NPC=brain_animal
+   FAME={2000 2499}
+   KARMA={-2000 -2499}
+   STR={216 245}
+   MAXHITS={130 147}
+   DEX={26 50}
+   MAXSTAM={26 50}
+   INT={66 85}
+   MAXMANA={66 85}
+   ANATOMY={27.0 50.0}
+   MAGICRESISTANCE={25.0 40.0}
+   TACTICS={75.0 80.0}
+   WRESTLING={60.0 80.0}
+   MODAR={0 5}
+   RESCOLD={80 90}
+   RESENERGY={10 20}
+   RESFIRE=0
+   RESPOISON={15 25}
+ON=@NPCRestock
+   ITEM=loot_serpent_ice
+
+[CHARDEF 05a]
+DEFNAME=c_serpent_lava
+NAME=lava serpent
+ICON=i_pet_serpent_lava
+SOUND=snd_animals_snake1
+CAN=MT_WALK|MT_RUN|MT_NONHUM
+DAM=33,56
+ARMOR=35
+DESIRES=r_mountains_volcanic,r_desert,t_coin,t_gold,t_gem
+AVERSIONS=t_trap,r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=35
+RESOURCES=4 i_ribs_raw,15 i_hide_spined
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=75.5
+DamFire=80
+TAG.SlayerGroup=SNAKE,REPTILE
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Reptiles
+DESCRIPTION=Giant Serpent (lava)
+ON=@Create
+   NPC=brain_animal
+   FAME={2500 2999}
+   KARMA={-2500 -2999}
+   STR={386 415}
+   MAXHITS={232 249}
+   DEX={56 80}
+   MAXSTAM={56 80}
+   INT={66 85}
+   MAXMANA={66 85}
+   MAGICRESISTANCE={25.0 70.0}
+   TACTICS={65.0 70.0}
+   WRESTLING={60.0 80.0}
+   MODAR={0 10}
+   RESCOLD=0
+   RESENERGY={10 20}
+   RESFIRE={70 80}
+   RESPOISON={30 40}
+ON=@NPCRestock
+   ITEM=loot_serpent_lava
+ON=@GetHit
+   //Fire Aura Attack
+   IF ( (<MANA> >= 20) && !(<R5>) )
+      MANA -= 20
+      REF11=<UID>
+      FORCHARS 3
+         IF (<ISPLAYER>) || (<FLAGS>&statf_pet)
+            LOCAL.DAM=<R10,20>
+            DAMAGE <LOCAL.DAM> <DEF.dam_fire> <REF11>
+            SYSMESSAGE Intense heat radiating from the serpent damages you
+         ENDIF
+      END
+   ENDIF
+
+[CHARDEF 05b]
+DEFNAME=c_serpent_silver
+NAME=silver serpent
+ICON=i_pet_serpent_silver
+SOUND=snd_animals_snake1
+CAN=MT_WALK|MT_RUN|MT_NONHUM
+DAM=11,53
+ARMOR=35
+DESIRES=r_jungle,t_coin,t_gold,t_gem
+AVERSIONS=t_trap,r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=35
+RESOURCES=1 i_ribs_raw
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=80.1
+DamPoison=50
+TAG.HitPoison=5//Lethal
+TAG.SlayerGroup=SNAKE,REPTILE
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Reptiles
+DESCRIPTION=Giant Serpent (silver)
+ON=@Create
+   NPC=brain_animal
+   FAME={2500 2999}
+   KARMA={-2500 -2999}
+   STR={261 360}
+   MAXHITS={197 216}
+   DEX={151 200}
+   MAXSTAM={151 200}
+   INT={21 40}
+   MAXMANA={21 40}
+   MAGICRESISTANCE={95.0 100.0}
+   //POISONING={100.0 125.0}
+   TACTICS={80.0 95.0}
+   WRESTLING={85.0 100.0}
+   MODAR={0 10}
+   RESCOLD={5 10}
+   RESENERGY={5 10}
+   RESFIRE={5 10}
+   RESPOISON=100
+ON=@NPCRestock
+   ITEM=loot_serpent_silver
+
+[CHARDEF 05c]
+//Coil is the named Silver Serpent from the Blighted Grove
+DEFNAME=c_serpent_coil
+NAME=Coil
+ICON=i_pet_snake_giant
+SOUND=snd_animals_snake1
+CAN=MT_WALK|MT_RUN|MT_NONHUM
+DAM=14,23
+ARMOR=50
+DESIRES=r_dungeon_blighted_grove,t_coin,t_gold,t_gem
+AVERSIONS=t_trap,r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=35
+RESOURCES=4 i_ribs_raw,15 i_hide_spined
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=136.7
+DamPoison=50
+TAG.HitPoison=5//Lethal
+TAG.SlayerGroup=SNAKE,REPTILE
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Reptiles
+DESCRIPTION=Serpent (Coil)
+ON=@Create
+   COLOR=colors_green
+   NPC=brain_monster
+   FAME={2000 2499}
+   KARMA={-2000 -2499}
+   STR={205 335}
+   MAXHITS={1075 1170}
+   DEX={215 365}
+   MAXSTAM={215 365}
+   INT={90 130}
+   MAXMANA={90 130}
+   ANATOMY={120.0 135.0}
+   MAGICRESISTANCE={110.0 120.0}
+   //POISONING={115.0 125.0}
+   TACTICS={130.0 140.0}
+   WRESTLING={125.0 135.0}
+   MODAR={0 10}
+   RESCOLD={25 30}
+   RESENERGY={25 30}
+   RESFIRE={20 30}
+   RESPOISON=100
+ON=@NPCRestock
+   ITEM=loot_serpent_coil
+
+[CHARDEF 05d]
+DEFNAME=c_serpent_arrow
+NAME=serpent arrow
+ICON=i_pet_snake_giant
+SOUND=snd_animals_snake1
+CAN=MT_WALK|MT_RUN|MT_NONHUM
+DAM=19,35
+ARMOR=30
+//DESIRES=
+//AVERSIONS=
+//FOODTYPE=
+//MAXFOOD=
+//RESOURCES=
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=71.0
+DamPoison=60
+TAG.HitPoison=3//Greater
+TAG.SlayerGroup=SNAKE,REPTILE
+TEVENTS=e_carnivores2
+CATEGORY=Spells
+SUBSECTION=Combat Skill
+DESCRIPTION=Serpent Arrow
+ON=@Create
+   NPC=brain_monster
+   FAME={2000 2499}
+   KARMA={-2000 -2499}
+   STR={185 215}
+   MAXHITS={110 130}
+   DEX={56 80}
+   MAXSTAM={56 80}
+   INT={66 85}
+   MAXMANA={66 85}
+   MAGICRESISTANCE={25.0 40.0}
+   //POISONING={50.0 75.0}
+   TACTICS={65.0 70.0}
+   WRESTLING={70.0 80.0}
+   MODAR={0 5}
+   RESCOLD={10 20}
+   RESENERGY={10 20}
+   RESFIRE={5 10}
+   RESPOISON={70 90}
+
+[CHARDEF 02d6]
+// A snake-like creature which can be sheared like a sheep to give fur.
+DEFNAME=c_kepetch
+NAME=kepetch
+ICON=i_pet_kepetch
+SOUND=snd_monster_kepetch
+CAN=MT_WALK|MT_RUN|MT_NONHUM
+DAM=7,17
+ARMOR=55
+DESIRES=r_jungle,t_coin,t_gold,t_gem
+AVERSIONS=t_trap,r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=35
+RESOURCES=5 i_ribs_raw,6 i_reag_dragon_blood,14 i_hide
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=86.6
+TAG.SlayerGroup=SNAKE,DRAGON
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Reptiles
+DESCRIPTION=Kepetch
+ON=@Create
+   NPC=brain_animal
+   FAME={2500 2999}
+   KARMA={-3000 -3499}
+   STR={335 355}
+   MAXHITS={300 370}
+   DEX={180 195}
+   MAXSTAM={180 195}
+   INT={30 40}
+   MAXMANA={30 40}
+   ANATOMY={115.0 125.0}
+   MAGICRESISTANCE={85.0 100.0}
+   TACTICS={115.0 125.0}
+   WRESTLING={105.0 115.0}
+   MODAR={0 10}
+   RESCOLD={45 55}
+   RESENERGY={65 75}
+   RESFIRE={40 45}
+   RESPOISON={55 65}
+ON=@NPCRestock
+   ITEM=i_gold,{150 200}
+   ITEM=random_magic_loot,1,R15
+ON=@Death
+   IF !(<FINDID.i_fur>)
+      SERV.NEWITEM=i_fur,{10 20},<UID>
+      NEW.MORE2=c_kepetch
+   ENDIF
+ON=@Hit
+   IF ( (<MANA> >= 10) && !(<R5>) && !(<SRC.FINDID.i_mem_vicious_bite>) )
+      MANA -= 10
+      SERV.NEWITEM=i_mem_vicious_bite,1,<SRC>
+      NEW.TIMER=20
+      NEW.LINK=<UID>
+      NEW.MORE1=5
+//      SRC.SYSMESSAGELOC color_text,1112472//"You suffered a vicious bite!"
+      SRC.SYSMESSAGELOC color_text,1113211//"The kepetch gives you a particularly vicious bite!"
+//      SRC.SYSMESSAGELOC color_text,1113210//"You have contracted rabies from the kepetch!"
+//FIXME: rabies
+   ENDIF
+
+[CHARDEF 02d7]
+// A snake-like creature which can be sheared like a sheep to give fur.
+DEFNAME=c_kepetch_shorn
+NAME=kepetch
+ICON=i_pet_kepetch
+SOUND=snd_monster_kepetch
+CAN=MT_WALK|MT_RUN|MT_NONHUM
+DAM=7,17
+ARMOR=55
+DESIRES=r_jungle,t_coin,t_gold,t_gem
+AVERSIONS=t_trap,r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=35
+RESOURCES=5 i_ribs_raw,6 i_reag_dragon_blood,14 i_hide
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=86.6
+TAG.SlayerGroup=SNAKE,DRAGON
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Reptiles
+DESCRIPTION=Kepetch (shorn)
+ON=@Create
+   NPC=brain_animal
+   FAME={2500 2999}
+   KARMA={-3000 -3499}
+   STR={335 355}
+   MAXHITS={300 370}
+   DEX={180 195}
+   MAXSTAM={180 195}
+   INT={30 40}
+   MAXMANA={30 40}
+   ANATOMY={115.0 125.0}
+   MAGICRESISTANCE={85.0 100.0}
+   TACTICS={115.0 125.0}
+   WRESTLING={105.0 115.0}
+   MODAR={0 10}
+   RESCOLD={45 55}
+   RESENERGY={65 75}
+   RESFIRE={40 45}
+   RESPOISON={55 65}
+ON=@NPCRestock
+   ITEM=i_gold,{150 200}
+   ITEM=random_magic_loot,1,R15
+ON=@Death
+   IF (<FINDID.i_fur>)
+      SERV.FINDID.i_fur.REMOVE
+   ENDIF
+ON=@Hit
+   IF ( (<MANA> >= 10) && !(<R5>) && !(<SRC.FINDID.i_mem_vicious_bite>) )
+      MANA -= 10
+      SERV.NEWITEM=i_mem_vicious_bite,1,<SRC>
+      NEW.TIMER=20
+      NEW.LINK=<UID>
+      NEW.MORE1=5
+      SRC.SYSMESSAGELOC color_text,1112472//"You suffered a vicious bite!"
+   ENDIF
+
+
+[EOF]

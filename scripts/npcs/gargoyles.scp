@@ -1,0 +1,171 @@
+
+
+[CHARDEF 04]
+DEFNAME=c_gargoyle
+NAME=gargoyle
+ICON=i_pet_garg
+SOUND=snd_monster_gargyl1
+CAN=MT_WALK|MT_FLY|MT_USEHANDS|MT_EQUIP
+DAM=14,27
+ARMOR=30
+DESIRES=r_ruins,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
+AVERSIONS=t_trap,r_civilization,e_carnivores3
+FOODTYPE=t_meat_raw
+MAXFOOD=45
+RESOURCES=1 i_ribs_raw
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=72.5
+TAG.SlayerGroup=GARGOYLE,DEMON
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Gargoyles
+DESCRIPTION=Gargoyle
+ON=@Create
+   NPC=brain_monster
+   FAME={1500 1999}
+   KARMA={-1500 -1999}
+   STR={145 175}
+   MAXHITS={85 105}
+   DEX={75 95}
+   MAXSTAM={75 95}
+   INT={80 105}
+   MAXMANA={80 105}
+   EVALUATINGINTEL={70.0 85.0}
+   MAGERY={70.0 85.0}
+   MAGICRESISTANCE={70.0 85.0}
+   MEDITATION={65.0 75.0}
+   PARRYING={50.0 70.0}
+   TACTICS={50.0 70.0}
+   WRESTLING={40.0 80.0}
+   MODAR={0 5}
+   RESCOLD={5 10}
+   RESENERGY=0
+   RESFIRE={25 35}
+   RESPOISON={15 25}
+ON=@NPCRestock
+   ITEM=loot_gargoyle
+
+
+[CHARDEF 043]
+DEFNAME=c_gargoyle_stone
+NAME=stone gargoyle
+ICON=i_pet_gargoyle_stone
+SOUND=snd_monster_gargyl1
+CAN=MT_WALK|MT_FLY|MT_USEHANDS|MT_EQUIP
+DAM=25,40
+ARMOR=45
+DESIRES=r_mountains,r_ruins,t_coin,t_gold,t_gem,t_potion
+AVERSIONS=t_trap,r_civilization
+RESOURCES=1 i_rock_plain
+FOODTYPE=t_meat_raw
+MAXFOOD=25
+BLOODCOLOR=-1
+MOVERATE=100
+TAG.Barding.Diff=71.4
+TAG.SlayerGroup=GARGOYLE,DEMON
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Gargoyles
+DESCRIPTION=Gargoyle (stone)
+ON=@Create
+   NPC=brain_monster
+   FAME={2500 2999}
+   KARMA={-3000 -3999}
+   STR={246 275}
+   MAXHITS={148 165}
+   DEX={76 95}
+   MAXSTAM={76 95}
+   INT={81 105}
+   MAXMANA={81 105}
+   MAGICRESISTANCE={85.0 100.0}
+   PARRYING={80.0 100.0}
+   TACTICS={80.0 100.0}
+   WRESTLING={60.0 80.0}
+   MODAR={0 10}
+   RESCOLD={10 20}
+   RESENERGY={30 40}
+   RESFIRE={20 30}
+   RESPOISON={30 40}
+ON=@NpcRestock
+   ITEM=loot_gargoyle_stone
+
+[CHARDEF 082]
+DEFNAME=c_gargoyle_fire
+NAME=fire gargoyle
+ICON=i_pet_gargoyle_fire
+SOUND=snd_monster_gargyl1
+CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
+DAM=22,45
+ARMOR=30
+DESIRES=r_desert,r_mountains_volcanic,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
+AVERSIONS=t_trap,r_civilization
+FOODTYPE=t_meat_raw
+MAXFOOD=45
+RESOURCES=1 i_ribs_raw
+BLOODCOLOR=colors_blood
+MOVERATE=100
+TAG.Barding.Diff=96.0
+DamFire=50
+TAG.SlayerGroup=GARGOYLE,DEMON
+TEVENTS=e_carnivores2
+CATEGORY=Monsters
+SUBSECTION=Gargoyles
+DESCRIPTION=Gargoyle (fire)
+ON=@Create
+   DORAND 9
+      NAME=Blistering <NAME>
+      NAME=Burning <NAME>
+      NAME=Fiery <NAME>
+      NAME=Flaming <NAME>
+      NAME=Scalding <NAME>
+      NAME=Scorching <NAME>
+      NAME=Searing <NAME>
+      NAME=Smoldering <NAME>
+      NAME=Sweltering <NAME>
+   ENDDO
+   NPC=brain_dragon
+   FAME={2500 2999}
+   KARMA={-2500 -2999}
+   STR={351 400}
+   MAXHITS={211 244}
+   DEX={126 145}
+   MAXSTAM={126 145}
+   INT={226 250}
+   MAXMANA={226 250}
+   ANATOMY={75.0 85.0}
+   ARCHERY={40.0 80.0}
+   EVALUATINGINTEL={90.0 105.0}
+   FENCING={40.0 80.0}
+   MACEFIGHTING={40.0 80.0}
+   MAGERY={90.0 105.0}
+   MAGICRESISTANCE={90.0 105.0}
+   MEDITATION={90.0 105.0}
+   PARRYING={80.0 100.0}
+   SWORDSMANSHIP={40.0 80.0}
+   TACTICS={80.0 100.0}
+   WRESTLING={40.0 80.0}
+   MODAR={0 5}
+   RESCOLD={-10 0}
+   RESENERGY={20 30}
+   RESFIRE={50 60}
+   RESPOISON={20 30}
+   //BREATH.ANIM=i_fx_explode		//explosion id
+   //BREATH.TYPE=3				// Follow target
+ON=@NpcRestock
+   ITEM=loot_gargoyle_fire
+   ITEM=loot_ai_hard
+ON=@GetHit
+   //Fire Aura Attack
+   IF !(<R3>)
+      REF11=<UID>
+      FORCHARS 3
+         IF (<ISPLAYER>) || (<FLAGS>&statf_pet)
+            LOCAL.DAM=<R10,20>
+            DAMAGE <LOCAL.DAM> <DEF.dam_fire> <REF11>
+            SYSMESSAGE Intense heat radiating from the gargoyle damages you
+         ENDIF
+      END
+   ENDIF
+
+[EOF]

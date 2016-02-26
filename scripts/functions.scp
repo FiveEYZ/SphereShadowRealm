@@ -1,0 +1,6 @@
+[function IsUnderground]
+if (<region.underground>)
+return 1
+else
+return 0
+endif
